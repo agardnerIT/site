@@ -85,7 +85,7 @@ We are therefore going to want to place the sensor on the `startBatch` method. I
 
 - Create a Java Method sensor group. Give it any name you desire.
 
-![](images/batch-monitoring-dynatrace-3.jpg)
+![](images/postimages/batch-monitoring-dynatrace-3.png)
 
 - Browse the class cache, highlight the BatchTier agent group and click the yellow arrow icon.
 
