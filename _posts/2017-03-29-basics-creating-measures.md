@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynatrace Basics: Creating Measures
+title: Dynatrace Basics - Creating Measures
 permalink: dynatrace-basics-creating-measures
 categories: [measures, dynatrace, appmon]
 ---
@@ -13,7 +13,7 @@ This tutorial will how to setup long term trending of your applications and key 
 
 Put simply, it’s a piece of your application that you wish to measure. Dynatrace will automatically create Purepaths for every transaction (Dynatrace does not sample data) but for long term trending, you’ll want to explicitly set up a measure on the transaction. Once done, the data will be stored forever in the Dynatrace database (performance warehouse).
 
-> Measures are the way to track long term trends in response times.
+> Measures are the way to track long term trends in metrics.
 
 ## The Business Requirement
 
