@@ -89,20 +89,20 @@ We are therefore going to want to place the sensor on the `startBatch` method. I
 
 - Browse the class cache, highlight the BatchTier agent group and click the yellow arrow icon.
 
-![](images/batch-monitoring-dynatrace-4.jpg)
+![](images/postimages/batch-monitoring-dynatrace-4.png)
 
 - Browse (or use `Ctrl+F` to search) until you find the `startBatch` method. Place a sensor on it. You will be warned that changed sensor rules will only take effect after you application is restarted, that’s OK. We’ll restart the JAR soon so you can OK this dialog.
 
-![](images/batch-monitoring-dynatrace-4.jpg)
+![](images/postimages/batch-monitoring-dynatrace-5.png)
 
 - The final step is to make sure you’ve placed the sensor group (mine was called *My BatchJob Sensor Group*) on the tier containing the agents (my tier was called *BatchTier*). Navigate to the Sensor Placement section of the relevant agent group and ensure it's placed and set to Active and Start Purepaths (sensor configuration settings).
 
-![](images/batch-monitoring-dynatrace-5.jpg)
+![](images/postimages/batch-monitoring-dynatrace-6.png)
 
 ## Restart App & See Your Batch Job
 
 Restart the JAR file then open the Purepaths dashlet to see your purepaths.
 
-![](images/batch-monitoring-dynatrace-6.jpg)
+![](images/postimages/batch-monitoring-dynatrace-7.png)
 
 In future tutorials we’ll expand this batch job to cover more complex batch processing scenarios.
