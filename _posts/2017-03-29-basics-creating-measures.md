@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynatrace Basics - Creating Measures
+title: "Dynatrace Basics: Creating Measures"
 permalink: dynatrace-basics-creating-measures
 categories: [measures, dynatrace, appmon]
 ---
@@ -65,4 +65,4 @@ First, let’s run the JAR without Dynatrace to prove it works: `java -jar DTBas
 
 Now instrument it with the `-agentpath` parameter you received when you setup your agent tier.
 
-No idea what I’m talking about? Read [this tutorial](https://agardner.net/batch-job-monitoring-dynatrace/) to understand how to instrument your JAR.
+No idea what I’m talking about? Read [this tutorial](batch-job-monitoring-dynatrace) to understand how to instrument your JAR.
