@@ -7,86 +7,106 @@ categories: [appmon, batch job, monitoring]
 
 aDynatrace ships with many out of the box sensor packs but for anything non-standard, you’ll need a little bit more configuration to get up and running. This post will show you how to monitor any custom batch jobs within Dynatrace AppMon and retrieve the full Purepath data for the job.
 
-*NOTE: THIS TUTORIAL REFERS TO THE LEGACY APPLICATION MONITORING PRODUCT FROM DYNATRACE NOT THE DYNATRACE PLATFORM.*
+**NOTE: THIS TUTORIAL REFERS TO THE LEGACY APPLICATION MONITORING PRODUCT FROM DYNATRACE NOT THE DYNATRACE PLATFORM.**
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a [Jekyll](https://jekyllrb.com/)-powered theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for my blog.
+This post will give a Java-based example, but the principles are identical for other technology types.
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+## Prerequisites
 
-![](/images/reverie-demo.png)
+Ensure you have a System profile and agent group created, ready for your agent to connect to.
 
-## Features overview
+## Code
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+Here is my batch job. The script is packaged as an executable JAR file which runs in an endless loop. Every 2 seconds the `startBatch` method is called. The `startBatch` method calls the `doThis` method which simply prints a message to the console. The batch then sleeps until the next loop execution.
 
-<div style="text-align: center;">
- <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6KJY&placement=wwwamitmerchantcom" id="_carbonads_js"></script>
-</div>
+To test: Download the executable JAR file or view the source code on Github.
 
-## Using Reverie on GitHub Pages
+To execute: java -jar SimpleBatchJob.jar
 
-### Step 1) Fork Reverie to your User Repository
+```java
+package com.adamgardner.code;
 
-Fork [this repository](https://github.com/amitmerchant1990/reverie), then rename the repository to `yourgithubusername.github.io`.
+public class EntryPoint {
 
-Alternatively, you can use [Use this template](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
+  public static void main(String[] args)
+  {
+    while (true)
+    {
+      try
+      {
+        startBatch();
+        Thread.sleep(2000);
+      }
+      catch (Exception e) {}
+    }
+  }
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+  private static void startBatch()
+  {
+    System.out.println(“Starting Batch Job”);
+    doThis();
+  }
 
-### Step 2) Customize and view your site
-
-Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
-
-Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
-
-### Step 3) Publish your first blog post
-
-Create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
-
-> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
-
-## Using Categories in Reverie
-
-You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
-
-For adding single category:
-
-```md
-categories: JavaScript
+  private static void doThis()
+  {
+    System.out.println(“Now doing this…”);
+    System.out.println(“——————“);
+  }
+}
 ```
 
-For adding multiple categories:
+## Instrument with AppMon
 
-```md
-categories: [PHP, Laravel]
+When you first created your tier, you AppMon will have given you a string that you need to include in the JVM startup parameters. It will begin with `-agentpath:...`
+
+Mine is:
+
+```
+-agentpath:"C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll"=name=BatchTier_Monitoring,collector=localhost:9998
 ```
 
-The contegorized content can be shown over this URL: <https://yourgithubusername.github.io/categories/>
+So rather than executing my JAR as a standard JAR (`java -jar SimpleBatchJob.jar`), I’ll use:
 
-## RSS
+```
+java -jar -agentpath:"C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll"=name=BatchTier_Monitoring,collector=localhost:9998 SimpleBatchJob.jar
+```
 
-The generated [RSS feed](https://en.wikipedia.org/wiki/RSS) of your blog can be found at <https://yourgithubusername.github.io/feed>. You can see the example RSS feed over [here](https://www.amitmerchant.com/reverie/feed).
+Note that the name portion on the above will be unique to your setup.
 
-## Sitemap
+In the agents overview dashlet, you should now see a happily connected agent (look for the green ring).
 
-The generated sitemap of your blog can be found at <https://yourgithubusername.github.io/sitemap>. You can see the example sitemap feed over [here](https://www.amitmerchant.com/reverie/sitemap).
+![](images/batch-monitoring-dynatrace-1.jpg)
 
-## License
+ADDING SENSORS & CREATING PUREPATHS
 
-MIT
+At this point, you won’t have any purepaths. Remember, I told you that we’d need to create some custom sensor rules? Time to do that. This will tell Dynatrace where to begin the purepath.
 
+We are therefore going to want to place the sensor on the `startBatch` method. In AppMon terms, this is called the Purepath Entry Point.
 
+1. Open the system profile > sensors > Add a sensor group
+
+![](images/batch-monitoring-dynatrace-2.jpg)
+
+1. Create a Java Method sensor group. Give it any name you desire.
+
+![](images/batch-monitoring-dynatrace-3.jpg)
+
+1. Browse the class cache, highlight the BatchTier agent group and click the yellow arrow icon.
+
+![](images/batch-monitoring-dynatrace-4.jpg)
+
+1. Browse (or use `Ctrl+F` to search) until you find the `startBatch` method. Place a sensor on it. You will be warned that changed sensor rules will only take effect after you application is restarted, that’s OK. We’ll restart the JAR soon so you can OK this dialog.
+
+![](images/batch-monitoring-dynatrace-4.jpg)
+
+1. The final step is to make sure you’ve placed the sensor group (mine was called *My BatchJob Sensor Group*) on the tier containing the agents (my tier was called *BatchTier*). Navigate to the Sensor Placement section of the relevant agent group and ensure it's placed and set to Active and Start Purepaths (sensor configuration settings).
+
+![](images/batch-monitoring-dynatrace-5.jpg)
+
+## Restart App & See Your Batch Job
+
+Restart the JAR file then open the Purepaths dashlet to see your purepaths.
+
+![](images/batch-monitoring-dynatrace-6.jpg)
+
+In future tutorials we’ll expand this batch job to cover more complex batch processing scenarios.
