@@ -35,12 +35,12 @@ The JAR file randomly calculates a boolean and if it’s true, the batch is said
 * Note: We use Strings to make it clearer to the reader.
 * Dynatrace AppMon works perfectly well with booleans or numbers or anything else.
 */
-String strBatchType = “”;
+String strBatchType = "";
 Random oRandom = new Random();
 boolean bSwitch = oRandom.nextBoolean();
 
-if (bSwitch) strBatchType = “Type A”;
-else strBatchType = “Type B”;
+if (bSwitch) strBatchType = "Type A";
+else strBatchType = "Type B";
 
 startBatch(strBatchType);
 Thread.sleep(2000);
@@ -48,7 +48,7 @@ Thread.sleep(2000);
 // Fake an issue when Batch Type is “Type B”, pause for 3s.
 private static void doThis(String strBatchType)
 {
-  System.out.println(“Now doing this….”);
+  System.out.println("Now doing this...");
   if (strBatchType.equals(“Type B”))
 
 try
