@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title and page.title != "" %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    {% seo %}
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+    <meta name="theme-color" content="#000000">
+  </head>
+
+  <body>
+    <div class="wrapper-container">
+      <div class="wrapper-masthead">
+        <ul class="social-bar">
+          <li class="social-link"><a href="https://linkedin.com/in{{ site.social_links.linkedin }}"><img class="social-icon" src="{{ site.baseurl }}/images/icon-linkedin-square.svg" /></a></li>
+          <li class="social-link"><a href="https://github.com{{ site.social_links.github }}"><img class="social-icon" src="{{ site.baseurl }}/images/icon-github-square.svg" /></a></li>
+        </ul>
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" /></a>
+
+            <h1>
+              <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+            </h1>
+
+            <nav>
+              {% for item in site.main_menu %}
+              <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+              {% endfor%}
+            </nav>
+          </header>
+        </div>
+      </div>
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+          {{ content }}
+        </div>
+      </div>
+
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            &copy; 2019 Adam Gardner {{ site.release_version }}
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
