@@ -71,7 +71,7 @@ Note that the name portion on the above will be unique to your setup.
 
 In the agents overview dashlet, you should now see a happily connected agent (look for the green ring).
 
-![](images/batch-monitoring-dynatrace-1.jpg)
+![](images/postimages/batch-monitoring-dynatrace-1.png)
 
 ADDING SENSORS & CREATING PUREPATHS
 
