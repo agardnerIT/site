@@ -79,23 +79,23 @@ At this point, you won’t have any purepaths. Remember, I told you that we’d 
 
 We are therefore going to want to place the sensor on the `startBatch` method. In AppMon terms, this is called the Purepath Entry Point.
 
-1. Open the system profile > sensors > Add a sensor group
+- Open the system profile > sensors > Add a sensor group
 
-![](images/batch-monitoring-dynatrace-2.jpg)
+![](images/postimages/batch-monitoring-dynatrace-2.png)
 
-2. Create a Java Method sensor group. Give it any name you desire.
+- Create a Java Method sensor group. Give it any name you desire.
 
 ![](images/batch-monitoring-dynatrace-3.jpg)
 
-3. Browse the class cache, highlight the BatchTier agent group and click the yellow arrow icon.
+- Browse the class cache, highlight the BatchTier agent group and click the yellow arrow icon.
 
 ![](images/batch-monitoring-dynatrace-4.jpg)
 
-4. Browse (or use `Ctrl+F` to search) until you find the `startBatch` method. Place a sensor on it. You will be warned that changed sensor rules will only take effect after you application is restarted, that’s OK. We’ll restart the JAR soon so you can OK this dialog.
+- Browse (or use `Ctrl+F` to search) until you find the `startBatch` method. Place a sensor on it. You will be warned that changed sensor rules will only take effect after you application is restarted, that’s OK. We’ll restart the JAR soon so you can OK this dialog.
 
 ![](images/batch-monitoring-dynatrace-4.jpg)
 
-5. The final step is to make sure you’ve placed the sensor group (mine was called *My BatchJob Sensor Group*) on the tier containing the agents (my tier was called *BatchTier*). Navigate to the Sensor Placement section of the relevant agent group and ensure it's placed and set to Active and Start Purepaths (sensor configuration settings).
+- The final step is to make sure you’ve placed the sensor group (mine was called *My BatchJob Sensor Group*) on the tier containing the agents (my tier was called *BatchTier*). Navigate to the Sensor Placement section of the relevant agent group and ensure it's placed and set to Active and Start Purepaths (sensor configuration settings).
 
 ![](images/batch-monitoring-dynatrace-5.jpg)
 
