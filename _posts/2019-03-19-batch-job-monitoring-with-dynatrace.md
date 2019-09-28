@@ -21,7 +21,7 @@ Here is my batch job. The script is packaged as an executable JAR file which run
 
 To test: Download the executable JAR file or view the source code on Github.
 
-To execute: java -jar SimpleBatchJob.jar
+To execute: `java -jar SimpleBatchJob.jar`
 
 ```java
 package com.adamgardner.code;
@@ -40,13 +40,13 @@ public class EntryPoint {
   }
 
   private static void startBatch() {
-    System.out.println(“Starting Batch Job”);
+    System.out.println("Starting Batch Job");
     doThis();
   }
 
   private static void doThis() {
-    System.out.println(“Now doing this…”);
-    System.out.println(“——————“);
+    System.out.println("Now doing this…");
+    System.out.println("——————");
   }
 }
 ```
@@ -83,19 +83,19 @@ We are therefore going to want to place the sensor on the `startBatch` method. I
 
 ![](images/batch-monitoring-dynatrace-2.jpg)
 
-1. Create a Java Method sensor group. Give it any name you desire.
+2. Create a Java Method sensor group. Give it any name you desire.
 
 ![](images/batch-monitoring-dynatrace-3.jpg)
 
-1. Browse the class cache, highlight the BatchTier agent group and click the yellow arrow icon.
+3. Browse the class cache, highlight the BatchTier agent group and click the yellow arrow icon.
 
 ![](images/batch-monitoring-dynatrace-4.jpg)
 
-1. Browse (or use `Ctrl+F` to search) until you find the `startBatch` method. Place a sensor on it. You will be warned that changed sensor rules will only take effect after you application is restarted, that’s OK. We’ll restart the JAR soon so you can OK this dialog.
+4. Browse (or use `Ctrl+F` to search) until you find the `startBatch` method. Place a sensor on it. You will be warned that changed sensor rules will only take effect after you application is restarted, that’s OK. We’ll restart the JAR soon so you can OK this dialog.
 
 ![](images/batch-monitoring-dynatrace-4.jpg)
 
-1. The final step is to make sure you’ve placed the sensor group (mine was called *My BatchJob Sensor Group*) on the tier containing the agents (my tier was called *BatchTier*). Navigate to the Sensor Placement section of the relevant agent group and ensure it's placed and set to Active and Start Purepaths (sensor configuration settings).
+5. The final step is to make sure you’ve placed the sensor group (mine was called *My BatchJob Sensor Group*) on the tier containing the agents (my tier was called *BatchTier*). Navigate to the Sensor Placement section of the relevant agent group and ensure it's placed and set to Active and Start Purepaths (sensor configuration settings).
 
 ![](images/batch-monitoring-dynatrace-5.jpg)
 
