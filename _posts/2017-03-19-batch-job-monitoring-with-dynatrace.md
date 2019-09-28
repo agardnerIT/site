@@ -19,7 +19,7 @@ Ensure you have a System profile and agent group created, ready for your agent t
 
 Here is my batch job. The script is packaged as an executable JAR file which runs in an endless loop. Every 2 seconds the `startBatch` method is called. The `startBatch` method calls the `doThis` method which simply prints a message to the console. The batch then sleeps until the next loop execution.
 
-To test: Download the executable JAR file or view the source code on Github.
+To test: Download the [executable JAR file](https://github.com/agardnerIT/DTSimpleBatchMonitoring/releases/download/1.0/SimpleBatchJob.jar) or [view the source code on Github](https://github.com/agardnerIT/DTSimpleBatchMonitoring/blob/master/EntryPoint.java).
 
 To execute: `java -jar SimpleBatchJob.jar`
 
