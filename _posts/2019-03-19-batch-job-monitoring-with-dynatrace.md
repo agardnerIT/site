@@ -5,7 +5,7 @@ permalink: batch-job-monitoring-dynatrace
 categories: [appmon, batch job, monitoring]
 ---
 
-Dynatrace ships with many out of the box sensor packs but for anything non-standard, you’ll need a little bit more configuration to get up and running. This post will show you how to monitor any custom batch jobs within Dynatrace AppMon and retrieve the full Purepath data for the job.
+aDynatrace ships with many out of the box sensor packs but for anything non-standard, you’ll need a little bit more configuration to get up and running. This post will show you how to monitor any custom batch jobs within Dynatrace AppMon and retrieve the full Purepath data for the job.
 
 *NOTE: THIS TUTORIAL REFERS TO THE LEGACY APPLICATION MONITORING PRODUCT FROM DYNATRACE NOT THE DYNATRACE PLATFORM.*
 
