@@ -27,9 +27,7 @@ To execute: java -jar SimpleBatchJob.jar
 package com.adamgardner.code;
 
 public class EntryPoint {
-
-  public static void main(String[] args)
-  {
+  public static void main(String[] args) {
     while (true)
     {
       try
@@ -41,14 +39,12 @@ public class EntryPoint {
     }
   }
 
-  private static void startBatch()
-  {
+  private static void startBatch() {
     System.out.println(“Starting Batch Job”);
     doThis();
   }
 
-  private static void doThis()
-  {
+  private static void doThis() {
     System.out.println(“Now doing this…”);
     System.out.println(“——————“);
   }
