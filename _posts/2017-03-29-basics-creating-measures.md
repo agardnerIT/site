@@ -49,7 +49,7 @@ Thread.sleep(2000);
 private static void doThis(String strBatchType)
 {
   System.out.println("Now doing this...");
-  if (strBatchType.equals(“Type B”))
+  if (strBatchType.equals("Type B"))
 
 try
 {
@@ -57,7 +57,7 @@ try
 }
 catch (Exception e){}
 
-System.out.println(“——————“);
+System.out.println("---");
 }
 ```
 
