@@ -66,3 +66,46 @@ First, let’s run the JAR without Dynatrace to prove it works: `java -jar DTBas
 Now instrument it with the `-agentpath` parameter you received when you setup your agent tier.
 
 No idea what I’m talking about? Read [this tutorial](batch-job-monitoring-dynatrace) to understand how to instrument your JAR.
+
+## Sensor Configuration
+
+You should now have your agent connected (view the Agent Overview dashlet to verify) but you won’t be getting any Purepaths yet. Let’s correct that now.
+
+1. Open the system profile > sensors and create a new sensor group. Called BatchStartPurepath (the name is arbitrary but it’ll help you understand what’s going on later).
+
+2. Make sure your sensor group is deployed to the relevant agent group. Next, in the sensor configuration, make sure you’ve set the sensor pack to Active and Start Purepaths.
+
+![](images/postimages/dynatrace-basics-creating-measures-1.png)
+
+3. Restart the JAR file and open the Purepaths dashlet. You should now see purepaths of varying lengths.
+
+![](images/postimages/dynatrace-basics-creating-measures-2.png)
+
+## Satisfy Business Requirement #1
+
+To track the overall response time, simply create a measure on the purepath as a whole.
+
+1. Right click the first purepath node (in the Purepath Tree view). Select Create Measure.
+2. Choose the Time measure and give it a good name.
+3. Click OK.
+
+![](images/postimages/dynatrace-basics-creating-measures-3.png)
+
+> Your batch job is now being monitored and the data is being saved into the Performance Warehouse Database for long term trending.
+
+## Viewing the Results - Charting
+
+1. Press Ctrl + N to create a new dashboard. Select Use for Analysis.
+2. Add a Chart dashlet.
+3. In the measure dashlet, search for (hint: `Ctrl + F`) the Batch Job Response Time measure.
+4. Chart it.
+
+![](images/postimages/dynatrace-basics-creating-measures-4.png)
+
+![](images/postimages/dynatrace-basics-creating-measures-5.png)
+
+5. Hit the refresh icon a few times (the circular arrow highlighted below) and you’ll see data start to flow into the system.
+
+![](images/postimages/dynatrace-basics-creating-measures-6.png)
+
+For business requirements #2 and #3 we’ll need to introduce a new concept called Business Transactions. Stay tuned for the Business Transactions tutorial.
