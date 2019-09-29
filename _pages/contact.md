@@ -19,7 +19,6 @@ permalink: /contact
 
 <!-- Hidden by default. Form submit unhides. Close button re-hides -->
 <div class="notification is-success hidden" id="submit-notification">
-  <button class="delete" id="submit-delete"></button>
   Thanks. Your message has been sent. I'll be in touch soon.
 </div>
 
