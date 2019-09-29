@@ -27,7 +27,7 @@ This script also presets the collector group (making OOTB resilience possible) a
 
 https://gist.github.com/agardnerIT/9ece2319d8c354fff02c03572077c002
 
-APACHE WITH WEBSERVER AGENT
+## Apache with Webserver Agent
 
 This script creates an Apache web server with the AppMon agent preinstalled. You’ll need to create an agent group for this agent and set the relevant name on line #16. You’ll also need to specify the collector IP / DNS on line #17.
 
