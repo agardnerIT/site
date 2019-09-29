@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dynatrace Basics: Business Transactions"
-header_image: images/headerimages/business-transactions-header.jpg
+header_image: images/headerimages/business-transactions-header.png
 permalink: dynatrace-business-transactions
 categories: [business transactions, dynatrace, appmon]
 ---
