@@ -47,7 +47,7 @@ So, let’s satisfy the two outstanding requirements from the [previous tutorial
 
 We can actually tackle both of these requirements with a single solution: Satisfy #2 and ignoring Type A results when those results are not needed.
 
-![](images/postimages/basics-business-transactions-1.png)
+![]({{ site.baseurl }}/images/postimages/basics-business-transactions-1.png)
 
 ## Implementing Solution – Capturing Batch Job Type
 
@@ -57,34 +57,34 @@ Edit the system profile > Sensors > BatchStartPP
 
 Double click the startBatch method and enable the method capture tickbox. Kill the JAR file and restart it. This will tell AppMon to grab the actual string value as the code is executing.
 
-![](images/postimages/basics-business-transactions-2.png)
+![]({{ site.baseurl }}/images/postimages/basics-business-transactions-2.png)
 
 Finally, let’s create a measure which will capture the String value and push the data into the Performance Warehouse. We’ll need this later – don’t worry, it’ll become clear!
 
 Open the purepaths view, right click the top node (line) in Purepath Tree and select Create Measure
 
-![](images/postimages/basics-business-transactions-3.png)
+![]({{ site.baseurl }}/images/postimages/basics-business-transactions-3.png)
 
 Choose the Methods – Argument Value method type and give it a good, memorable name (overwrite the default shown here).
 
-![](images/postimages/basics-business-transactions-4.png)
+![]({{ site.baseurl }}/images/postimages/basics-business-transactions-4.png)
 
 ## Building The Business Transaction
 
 Time to build the business transaction which will result in the statistics split by the batch type:
 
-![](images/postimages/basics-business-transactions-5.png)
+![]({{ site.baseurl }}/images/postimages/basics-business-transactions-5.png)
 
 Right click the Business Transactions cockpit item and choose New Business Transaction
 
-![](images/postimages/basics-business-transactions-6.png)
+![]({{ site.baseurl }}/images/postimages/basics-business-transactions-6.png)
 
 I’ll explain what each of these settings mean in a future post. For now, add the measure you’ve just created to the Splitting section.
 
-![](images/postimages/basics-business-transactions-7.png)
+![]({{ site.baseurl }}/images/postimages/basics-business-transactions-7.png)
 
 Now refresh the client (circular arrow at the top of the screen) and you’ll see your business transaction appear in the cockpit (left hand panel). Double click the BT and you’ll see something similar to this:
 
-![](images/postimages/basics-business-transactions-8.png)
+![]({{ site.baseurl }}/images/postimages/basics-business-transactions-8.png)
 
 Congratulations! You’ve done it. You can now use these results in charts and in a future post, I’ll explain how to enable alerting based on the separate Batch job types (nobody likes false positives, do they?)

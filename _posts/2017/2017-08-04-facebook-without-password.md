@@ -9,11 +9,11 @@ It turns out that Facebook want to maintain your ~~data~~ custom so badly that t
 
 ## Scenario
 
-You create a Facebook account which is attached to your email address. Let’s say john@johndoe.co.uk. For whatever reason you then decide you don’t want the FB account and domain anymore – so you deactivate the Facebook account and let the domain expire. Fine, right? All sorted!
+You create a Facebook account which is attached to your email address. Let’s say `john@johndoe.co.uk`. For whatever reason you then decide you don’t want the FB account and domain anymore – so you deactivate the Facebook account and let the domain expire. Fine, right? All sorted!
 
 ## The Problem
 
-Someone new comes along and registers your domain name doe.co.uk and because their name is also john, their email address is also john@johndoe.co.uk. They attempt to sign up Facebook with their email address but they can’t – because it’s already attached to the old person’s account.
+Someone new comes along and registers your domain name doe.co.uk and because their name is also john, their email address is also `john@johndoe.co.uk`. They attempt to sign up Facebook with their email address but they can’t – because it’s already attached to the old person’s account.
 
 So far, so good? That’s perfectly normal behaviour.
 
@@ -25,7 +25,7 @@ Facebook take it upon themselves to send an email which includes a **link to log
 
 Now, I’ve got full access to this user’s account, all their private messages, all their photo’s. In essence, I *am* them.
 
-![](images/postimages/facebook-without-password-2.jpg)
+![]({{ site.baseurl }}/images/postimages/facebook-without-password-2.jpg)
 
 ## Even Worse News...
 
