@@ -5,32 +5,17 @@ permalink: /contact
 ---
 
 
-<div class="field">
-  <label class="label">Name*</label>
-  <div class="control">
-    <input id="name" class="input" type="text" required value="adam">
-  </div>
-</div>
 
-<div class="field">
-  <label class="label">Email*</label>
-  <div class="control">
-    <input id="email" class="input" type="email" required value="bob@mysite.com">
-  </div>
-</div>
+<label class="label">Name*</label>
+<input id="name" class="input" type="text" required value="adam">
 
-<div class="field">
-  <label class="label">Message</label>
-  <div class="control">
-    <textarea id="message" class="textarea">My Message...</textarea>
-  </div>
-</div>
+<label class="label">Email*</label>
+<input id="email" class="input" type="email" required value="bob@mysite.com">
 
-<div class="field">
-  <div class="control">
-    <button id="submit" class="button is-link">Submit Message</button>
-  </div>
-</div>
+<label class="label">Message</label>
+<textarea id="message" class="textarea" rows="5">My Message...</textarea>
+
+<button id="submit" class="button is-link">Submit Message</button>
 
 <!-- Hidden by default. Form submit unhides. Close button re-hides -->
 <div class="notification is-success hidden" id="submit-notification">
@@ -79,10 +64,9 @@ width: 100%;
 }
 .button, .input, .textarea, select{
   align-items: center;
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  padding-left: 1em;
-  position: relative;
+  padding: 1em;
 }
 
 .hidden {
