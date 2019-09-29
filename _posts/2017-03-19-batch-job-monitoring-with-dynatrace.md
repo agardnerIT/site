@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Batch Job Monitoring with Dynatrace
-permalink: batch-job-monitoring-dynatrace
 categories: [appmon, batch job, monitoring]
 ---
 
