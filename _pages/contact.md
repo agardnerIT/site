@@ -71,13 +71,13 @@ box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
 max-width: 100%;
 width: 100%;
 }
-app.css:2647.input, .textarea, .select select {
+.input, .textarea, .select select {
 background-color: white;
 border-color: #dbdbdb;
 border-radius: 4px;
 color: #363636;
 }
-app.css:136.button, .input, .textarea, .select select, .file-cta, .file-name, .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis {
+.button, .input, .textarea, .select select, .file-cta, .file-name, .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis {
 -moz-appearance: none;
 -webkit-appearance: none;
 align-items: center;
