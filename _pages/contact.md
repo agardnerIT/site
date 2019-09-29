@@ -72,29 +72,17 @@ max-width: 100%;
 width: 100%;
 }
 .input, .textarea, .select select {
-background-color: white;
-border-color: #dbdbdb;
-border-radius: 4px;
-color: #363636;
+  background-color: white;
+  border-color: #dbdbdb;
+  border-radius: 4px;
+  color: #363636;
 }
-.button, .input, .textarea, .select select, .file-cta, .file-name, .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis {
--moz-appearance: none;
--webkit-appearance: none;
-align-items: center;
-border: 1px solid transparent;
-border-radius: 4px;
-box-shadow: none;
-display: inline-flex;
-font-size: 1rem;
-height: 2.25em;
-justify-content: flex-start;
-line-height: 1.5;
-padding-bottom: calc(0.375em - 1px);
-padding-left: calc(0.625em - 1px);
-padding-right: calc(0.625em - 1px);
-padding-top: calc(0.375em - 1px);
-position: relative;
-vertical-align: top;
+.button, .input, .textarea, select{
+  align-items: center;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding-left: 1em;
+  position: relative;
 }
 
 .hidden {
