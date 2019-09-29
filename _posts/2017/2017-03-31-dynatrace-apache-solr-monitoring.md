@@ -41,7 +41,7 @@ cd /opt
 sudo ./dynatrace-wsagent-6.5.0.1289-linux-x64.sh
 ```
 
-![](images/postimages/apache-solr-monitoring-1.png)
+![]({{ site.baseurl }}/images/postimages/apache-solr-monitoring-1.png)
 
 3. Add the Dynatrace master agent to the init.d startup scripts & add to automatic startup.
 
@@ -62,7 +62,7 @@ service dynaTraceWebServerAgent start
 
 If it worked, great! We’re halfway there! You should see this in the Agent Overview dashlet.
 
-![](images/postimages/apache-solr-monitoring-2.png)
+![]({{ site.baseurl }}/images/postimages/apache-solr-monitoring-2.png)
 
 ## Instrument SOLR
 
@@ -70,7 +70,7 @@ Good news – this bit is really easy!
 
 Open the `/opt/solr-6.5.0/bin/solr.in.sh` file (or `solr.in.cmd` on Windows) and add the following line (be sure to substitute your collector IP rather than my `192.168.1.1` address!)
 
-![](images/postimages/apache-solr-monitoring-3.png)
+![]({{ site.baseurl }}/images/postimages/apache-solr-monitoring-3.png)
 
 ```
 sudo nano /opt/solr-6.5.0/bin/solr.in.sh
@@ -82,4 +82,4 @@ SOLR_OPTS=”$SOLR_OPTS -agentpath:/opt/dynatrace-6.5/agent/lib64/libdtagent.so=
 
 Run `/opt/solr-6.5.0/bin/solr start` - You should see both agents in the Agents Overview, the preconfigured dashboards will work and you’ll have Purepaths flowing into the system.
 
-![](images/postimages/apache-solr-monitoring-4.png)
+![]({{ site.baseurl }}/images/postimages/apache-solr-monitoring-4.png)

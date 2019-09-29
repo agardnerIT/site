@@ -26,7 +26,7 @@ To follow this tutorial you’ll need:
 - An instrumented Apache server with my [wait.php file](https://github.com/agardnerIT/XAMPP-Pages/blob/master/wait.php).
 - Put the client into debug mode (`Ctrl + F9`) then set the `com.dynatrace.diagnostics.webui.tmtAllowJsAndCss` debug flag to `true` (server settings > general tab > debug options).
 
-![](images/postimages/appmon7-web-dashboards-1.jpg)
+![]({{ site.baseurl }}/images/postimages/appmon7-web-dashboards-1.jpg)
 
 ## Intelligent Dashboards
 
@@ -34,15 +34,15 @@ AppMon 7 allows markdown and measure substitution within that markdown (meaning 
 
 Let’s get the basics set up first. Verify that your Apache server is instrumented correctly, then fire some requests at the wait.php page to generate some purepaths.
 
-![](images/postimages/appmon7-web-dashboards-2.jpg)
+![]({{ site.baseurl }}/images/postimages/appmon7-web-dashboards-2.jpg)
 
 Create a response time measure on the wait.php page.
 
-![](images/postimages/appmon7-web-dashboards-3.jpg)
+![]({{ site.baseurl }}/images/postimages/appmon7-web-dashboards-3.jpg)
 
 Open the web dashboards (https://DT-SERVER:9911), create a new dashboard and chart the measure. You should have something resembling this:
 
-![](images/postimages/appmon7-web-dashboards-4.png)
+![]({{ site.baseurl }}/images/postimages/appmon7-web-dashboards-4.png)
 
 ## Text & Measurement Dashlet
 
@@ -55,7 +55,7 @@ Average response time of Wait Page: {1}
 Maximum response time of Wait page: {2}
 ```
 
-![](images/postimages/appmon7-web-dashboards-5.png)
+![]({{ site.baseurl }}/images/postimages/appmon7-web-dashboards-5.png)
 
 CUSTOM JAVASCRIPT
 
@@ -87,7 +87,7 @@ if (myVar > myThreshold)
 ```
 
 (click video for full resolution version)
-![](images/postimages/appmon7-web-dashboards-6.gif)
+![]({{ site.baseurl }}/images/postimages/appmon7-web-dashboards-6.gif)
 
 ## Bonus: CSS Animations
 
@@ -127,6 +127,6 @@ if (myVar > myThreshold)
 ```
 
 (click video for full resolution version)
-![](images/postimages/appmon7-web-dashboards-7.gif)
+![]({{ site.baseurl }}/images/postimages/appmon7-web-dashboards-7.gif)
 
 Has this sparked your curiosity or creativity? [Drop me a line](contact) and let me know what you’re thinking of building!

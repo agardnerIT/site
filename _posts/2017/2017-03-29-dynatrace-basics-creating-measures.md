@@ -74,11 +74,11 @@ You should now have your agent connected (view the Agent Overview dashlet to ver
 
 2. Make sure your sensor group is deployed to the relevant agent group. Next, in the sensor configuration, make sure you’ve set the sensor pack to Active and Start Purepaths.
 
-![](images/postimages/dynatrace-basics-creating-measures-1.png)
+![]({{ site.baseurl }}/images/postimages/dynatrace-basics-creating-measures-1.png)
 
 3. Restart the JAR file and open the Purepaths dashlet. You should now see purepaths of varying lengths.
 
-![](images/postimages/dynatrace-basics-creating-measures-2.png)
+![]({{ site.baseurl }}/images/postimages/dynatrace-basics-creating-measures-2.png)
 
 ## Satisfy Business Requirement #1
 
@@ -88,7 +88,7 @@ To track the overall response time, simply create a measure on the purepath as a
 2. Choose the Time measure and give it a good name.
 3. Click OK.
 
-![](images/postimages/dynatrace-basics-creating-measures-3.png)
+![]({{ site.baseurl }}/images/postimages/dynatrace-basics-creating-measures-3.png)
 
 > Your batch job is now being monitored and the data is being saved into the Performance Warehouse Database for long term trending.
 
@@ -99,12 +99,12 @@ To track the overall response time, simply create a measure on the purepath as a
 3. In the measure dashlet, search for (hint: `Ctrl + F`) the Batch Job Response Time measure.
 4. Chart it.
 
-![](images/postimages/dynatrace-basics-creating-measures-4.png)
+![]({{ site.baseurl }}/images/postimages/dynatrace-basics-creating-measures-4.png)
 
-![](images/postimages/dynatrace-basics-creating-measures-5.png)
+![]({{ site.baseurl }}/images/postimages/dynatrace-basics-creating-measures-5.png)
 
 5. Hit the refresh icon a few times (the circular arrow highlighted below) and you’ll see data start to flow into the system.
 
-![](images/postimages/dynatrace-basics-creating-measures-6.png)
+![]({{ site.baseurl }}/images/postimages/dynatrace-basics-creating-measures-6.png)
 
 For business requirements #2 and #3 we’ll need to introduce a new concept called Business Transactions. Stay tuned for the Business Transactions tutorial.
