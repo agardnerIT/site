@@ -2,7 +2,6 @@
 layout: post
 title: Dynatrace Apache SOLR Monitoring in Minutes
 header_image: images/headerimages/apache-solr-header.jpg
-permalink: dynatrace-apache-solr-monitoring
 categories: [apache solr, dynatrace, appmon]
 ---
 

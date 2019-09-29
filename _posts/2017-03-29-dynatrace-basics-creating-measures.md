@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Dynatrace Basics: Creating Measures"
-permalink: dynatrace-basics-creating-measures
 categories: [measures, dynatrace, appmon]
 ---
 

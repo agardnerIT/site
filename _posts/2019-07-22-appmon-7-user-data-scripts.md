@@ -2,7 +2,6 @@
 layout: post
 title: AppMon 7 – Automated User Data Scripts
 header_image: images/headerimages/user-data-header.jpg
-permalink: appmon-7-user-data-scripts
 categories: [appmon, automation, aws]
 ---
 
