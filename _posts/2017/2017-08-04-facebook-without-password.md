@@ -21,7 +21,7 @@ So far, so good? That’s perfectly normal behaviour.
 
 Facebook take it upon themselves to send an email which includes a **link to login without a password**.
 
-![](images/postimages/facebook-without-password-1.jpg)
+![]({{ site.baseurl }}/images/postimages/facebook-without-password-1.png)
 
 Now, I’ve got full access to this user’s account, all their private messages, all their photo’s. In essence, I *am* them.
 
