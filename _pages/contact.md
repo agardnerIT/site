@@ -69,6 +69,11 @@ width: 100%;
   padding: 1em;
 }
 
+.notification.is-success {
+  background-color: #23d160;
+  color: #fff;
+}
+
 .hidden {
   visibility: hidden;
 }
