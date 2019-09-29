@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Access Any Deactivated Facebook Account Without a Password
-header_image: images/headerimages/facebook-without-password-header.jpg
+header_image: /images/headerimages/facebook-without-password-header.jpg
 categories: [facebook, security]
 ---
 

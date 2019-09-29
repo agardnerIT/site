@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SLA Management - Keeping 3rd Parties Honest
-header_image: images/headerimages/sla-management-header.png
+header_image: /images/headerimages/sla-management-header.png
 categories: [service level agreement, dynatrace, appmon]
 ---
 
