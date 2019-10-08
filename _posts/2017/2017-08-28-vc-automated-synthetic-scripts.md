@@ -9,6 +9,8 @@ If only there was a way to version control and automate the creation and deploym
 
 I’ve recently been working with a large DevOps customer who, like many, want everything-as-code so that it can be audited, automated and version controlled. They love the [Dynatrace Synthetic](https://www.dynatrace.com/capabilities/synthetic-monitoring) robot and it’s capabilities but they needed a way to specify these scripts as code rather than relying on the Dynatrace GUI to record and edit these scripts.
 
+![](/images/headerimages/vc-synthetic-scripts-header.jpg)
+
 Luckily for them, the clever minds in the Dynatrace development team have already thought of this and so we can create, store and edit synthetic scripts as JSON files.
 
 ## What's a Synthetic Script, Anyway?
