@@ -3,7 +3,7 @@
 #
 
 # Release version of site
-release_version: v0.39
+release_version: v0.40
 
 # Name of your site (displayed in the header)
 name: Adam Gardner
@@ -46,8 +46,8 @@ google_analytics:
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://agardnerit.github.io/reverie
-enforce_ssl: https://agardnerit.github.io/reverie
+url: http://agardnerit.github.io
+enforce_ssl: https://agardnerit.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
