@@ -5,7 +5,7 @@ header_image: /images/headerimages/migrate-wordpress-header.png
 categories: [backup, restore, tutorial, wordpress, digitalocean]
 ---
 
-This tutorial will guide you through how to backup, rebuild a DigitalOcean droplet, setup SSL encryption and restore a WordPress site in under 5 minutes…
+This tutorial will guide you through how to backup, rebuild a DigitalOcean droplet, setup SSL encryption and restore a WordPress site in under 5 minutes...
 
 ## Prerequisites
 
