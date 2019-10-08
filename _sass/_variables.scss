@@ -26,3 +26,8 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+
+// Custom Style
+.masthead h1 {
+	margin: 0;
+}
