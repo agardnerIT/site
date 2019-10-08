@@ -72,7 +72,7 @@ In the agents overview dashlet, you should now see a happily connected agent (lo
 
 ![]({{ site.baseurl }}/images/postimages/batch-monitoring-dynatrace-1.png)
 
-ADDING SENSORS & CREATING PUREPATHS
+## Adding Sensors & Creating Purepaths
 
 At this point, you won’t have any purepaths. Remember, I told you that we’d need to create some custom sensor rules? Time to do that. This will tell Dynatrace where to begin the purepath.
 
