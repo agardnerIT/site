@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Version Controlled and Automated Syntheric Scripts
+title: Version Controlled and Automated Synthetic Scripts
 header_image: /images/headerimages/vc-synthetic-scripts-header.jpg
 categories: [automation, devops, synthetic]
 ---
