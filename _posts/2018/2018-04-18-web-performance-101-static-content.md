@@ -74,12 +74,14 @@ All values in milliseconds.
 ## Dynamic Summary
 
 | | Finish | DOMContentLoaded | Load |
+|-|-|-|-|
 | Average | 1252ms | 1002ms | 1255ms |
 | Standard Deviation | 59.78 | 50.11 | 57.59 |
 
 ## Static Summary
 
 | | Finish | DOMContentLoaded | Load |
+|-|-|-|-|
 | Average | 909ms | 706ms | 911ms |
 | Standard Deviation | 29.12 | 27.30 | 29.33 |
 
