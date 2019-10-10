@@ -35,7 +35,7 @@ I’ve created 3 indentical WordPress droplets using DigitalOcean.
 - Each page load is executed 10 times per location.
  
 
-### Raw London Values
+## Raw London Values
 
 All values in milliseconds.
 
@@ -52,14 +52,14 @@ All values in milliseconds.
 | 641    | 594	            | 704  |
 | 573    | 548	            | 653  |
  
-### London Summary
+## London Summary
 
 |                    | Finish | DOMContentLoaded | Load    |
 |--------------------|--------|------------------|---------|
 | Average            | 588ms  | 565.6ms          | 665.4ms |
 | Standard Deviation | 30.73  | 27.50            | 31.89   |
 
-### Raw New York Values
+## Raw New York Values
 
 All values in milliseconds.	
 
@@ -76,7 +76,7 @@ All values in milliseconds.
 | 947     | 860              | 949  |
 | 997     | 799              | 999  |
  
-### New York Summary
+## New York Summary
 
 |                    | Finish   | DOMContentLoaded | Load    |
 |--------------------|----------|------------------|---------|
