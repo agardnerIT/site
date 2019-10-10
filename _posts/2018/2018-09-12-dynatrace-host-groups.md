@@ -82,4 +82,4 @@ Start your apache processes on each box. You’ll see that you have 3 distinct p
 ![]({{ site.baseurl }}/images/postimages/dynatrace-host-groups-3.png)
 
 ## Conclusion
-As already mentioned, host groups are extremely powerful and this use case is just one example. Stay tuned for more use cases...
+As already mentioned, host groups are extremely powerful and this use case is just one example. Stay tuned for more use cases..
