@@ -83,7 +83,7 @@ All values in milliseconds.
 | Average | 909ms | 706ms | 911ms |
 | Standard Deviation | 29.12 | 27.30 | 29.33 |
 
-> By every metric, the static page is significantly faster. <br /><br />Static page response time 27% faster than the dynamic page.<br /><br />Static page = much lower standard deviation. It’s faster, more often and more reliably.
+> By every metric, the static page is significantly faster. <br /><br />Static page response time is 27% faster than the dynamic page.<br /><br />Static page = much lower standard deviation. It’s faster, more often and more reliably.
 
 As an added bonus, going "static" can open you up to possibility of serving sites via serverless infrastructure such as AWS S3.
 
