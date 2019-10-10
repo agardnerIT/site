@@ -98,7 +98,7 @@ This proves the minion has been able to attempt a connection to the master. Tell
 salt-key -a saltstack-minion -y
 ```
 
-_Note: You can also accept all minions with salt-key -A -y_
+_Note: You can also accept all minions with `salt-key -A -y`_
 
 ## You're Installed. Test It Out.
 
