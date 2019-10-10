@@ -101,3 +101,13 @@ All values in milliseconds.
 | 1540 | 1160 | 1540 |
 | 1480 | 1100 | 1480 |
 
+## San Francisco Summary
+
+| |	Finish | DOMContentLoaded | Load |
+| Average | 1521ms | 1103ms | 1522ms |
+Standard Deviation | 35.42 | 54.34 | 33.93 |
+
+> For a London-based user, serving exactly the same site from San Francisco takes nearly 159% longer than London.
+
+> The consistency of response time drops due to the unreliability of the internet – you’re more likely to get a bad response time, more often.
+
