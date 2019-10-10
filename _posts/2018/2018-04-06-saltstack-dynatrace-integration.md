@@ -7,8 +7,8 @@ categories: [automation, devops, salt, saltstack, tutorial]
 
 Auto-heal your infrastructure when problems occur with Dynatrace & SaltStack...
 
-- [Part 1](saltstack-101-setup-configuration) of this 3 part series showed how to setup and configure SaltStack
-- [Part 2](saltstack-101-webhooks) of this series showed how to use setup HTTPS endpoints with CherryPy in SaltStack
+- [Part 1](/saltstack-101-setup-configuration) of this 3 part series showed how to setup and configure SaltStack
+- [Part 2](/saltstack-101-webhooks) of this series showed how to use setup HTTPS endpoints with CherryPy in SaltStack
 
 This, the final part of the series will show you how to effortlessly monitor and create an auto-healing service with a combination of Dynatrace and SaltStack.
 
@@ -108,3 +108,7 @@ Request Body
 - SaltStack takes remediation action. In this case, restarting `apache2`
 
 > Notice that you can also see the impact _while_ the `apache2` process was offline. Dynatrace gives you the rate of TCP error connections too so you can see how many users were impacted during the downtime.
+
+![]({{ site.baseurl }}/images/postimages/saltstack-integration-4.png)
+
+![]({{ site.baseurl }}/images/postimages/saltstack-integration-5.png)
