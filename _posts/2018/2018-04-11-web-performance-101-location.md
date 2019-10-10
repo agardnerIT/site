@@ -53,6 +53,7 @@ Raw London Values
 London Summary
 
 |                    | Finish | DOMContentLoaded | Load    |
+|--------------------|--------|------------------|---------|
 | Average            | 588ms  | 565.6ms          | 665.4ms |
 | Standard Deviation | 30.73  | 27.50            | 31.89   |
 
