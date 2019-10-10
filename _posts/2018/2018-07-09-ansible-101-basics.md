@@ -22,9 +22,10 @@ The Ansible control machine communicates with the target machines via SSH. So sp
 
 My target IP is `192.168.43.237` and I can successfully ping it from my host:
 
-<a href="{{ site.baseurl }}/images/postimages/ansible-basics-1.png">
-![]({{ site.baseurl }}/images/postimages/ansible-basics-1.png)
-</a>
+```bash
+adam@ubuntu $ ifconfig
+    inet 192.168.43.237...
+```
 
 Note: My `control` machine username is `adamgardner`. My `target` machine username is `adam`.
 
@@ -39,14 +40,17 @@ ssh-copy-id TARGET-MACHINE-ID
 ```
 
 Now ensure you can SSH from the control to the target machine:
+
 ```bash
 ssh 192.168.43.237 -l adam
+...
+Adams-MBP: - adamgardner $ ssh 192.168.43.237 -l adam
+...
+Welcome to Ubuntu 18.04...
+adam@ubuntu $
 ```
 
-![]({{ site.baseurl }}/images/postimages/ansible-basics-2.png)
-
 ## Step 2: Install Ansible
-STEP 2: INSTALL ANSIBLE
 
 Now that we have the groundwork covered, it’s time to install Ansible and run our first command to let Ansible ping our node(s).
 
@@ -107,4 +111,4 @@ ansible -m file --args 'path=/tmp/test.txt state=touch'
 
 ## Conclusion
 
-Congratulations!! If you’ve made it this far, you’re should already be starting to see the potential Ansible gives for automation, repeatability and easy configuration management. Part two of the series will delve deeper into Ansible commands with some real-world demos and introduce the concept of Playbooks and Idempotence.
+Congratulations. If you’ve made it this far, you’re should already be starting to see the potential Ansible gives for automation, repeatability and easy configuration management. Part two of the series will delve deeper into Ansible commands with some real-world demos and introduce the concept of Playbooks and Idempotence.
