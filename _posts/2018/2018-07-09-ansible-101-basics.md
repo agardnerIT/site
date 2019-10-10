@@ -91,7 +91,7 @@ Let’s add our target machine (IP: `192.168.43.237`) to the hosts file.
 sudo nano /etc/ansible/hosts
 ```
 
-![]({{ site.baseurl }}/images/postimages/ansible-basics-3.png)
+![]({{ site.baseurl }}/images/postimages/ansible-basics-1.png)
 
 Note the two additional parameters: `ansible_user` denotes the username I wish to use when connecting to this target host (recall that the username of my VM was `adam`).
 
