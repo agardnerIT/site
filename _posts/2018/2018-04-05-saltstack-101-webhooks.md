@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Saltstack 101 - Setup and Configuration Guide
+title: Saltstack 101 - Webhooks
 header_image: /images/headerimages/saltstack-setup-configuration-header.png
 categories: [automation, devops, salt, saltstack, tutorial]
 ---
