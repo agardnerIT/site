@@ -51,7 +51,7 @@ This is the standard, default solution. Just include an `<img>` tag on your page
 I created a large (13.6MB) dummy page, loaded it & recorded the timings from Chrome DevTools:
 
 | Connections | Size | Finish | DOMContentLoaded | Load |
-|----|----| ----- | ------| ----- |
+|----|----|-----|------|-----|
 | 7 | 13.6MB | 4.18s | 356ms | 4.01s |
 
 > We used almost 14MB of data to load this page and it took over 4s.
