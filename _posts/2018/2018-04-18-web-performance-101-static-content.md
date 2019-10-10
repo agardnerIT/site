@@ -8,8 +8,6 @@ You may have heard of static content, but what difference does it really make to
 
 ## What Is Static Content?
 
-WHAT IS STATIC CONTENT?
-
 Simply put, it is content (words, text or more accurately HTML content) that doesn’t change.
 
 In reality, this means that all users (or most users) will receive that same content each time they load the page. Think about blog posts, news articles or tutorials – things that will rarely change once they’ve been published. It doesn’t mean it never changes – you can always edit the static pages and upload them again.
@@ -58,6 +56,8 @@ All values in milliseconds.
 
 ## Raw Values for Static Page
 
+All values in milliseconds.
+
 | Finish | DOMContentLoaded | Load |
 |--|--|--|
 | 915 | 721 | 916 |
@@ -83,11 +83,7 @@ All values in milliseconds.
 | Average | 909ms | 706ms | 911ms |
 | Standard Deviation | 29.12 | 27.30 | 29.33 |
 
-> By every metric, the static page is significantly faster.
-
-  Static page response time 27% faster than the dynamic page.
-
-  Static page = much lower standard deviation. It’s faster, more often and more reliably.
+> By every metric, the static page is significantly faster. <br /><br />Static page response time 27% faster than the dynamic page.<br /><br />Static page = much lower standard deviation. It’s faster, more often and more reliably.
 
 As an added bonus, going "static" can open you up to possibility of serving sites via serverless infrastructure such as AWS S3.
 
