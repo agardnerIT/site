@@ -35,7 +35,7 @@ I’ve created 3 indentical WordPress droplets using DigitalOcean.
 - Each page load is executed 10 times per location.
  
 
-Raw London Values
+### Raw London Values
 
 | Finish | DOMContentLoaded | Load |
 |--------|------------------|------|
@@ -50,7 +50,7 @@ Raw London Values
 | 641    | 594	            | 704  |
 | 573    | 548	            | 653  |
  
-London Summary
+### London Summary
 
 |                    | Finish | DOMContentLoaded | Load    |
 |--------------------|--------|------------------|---------|
