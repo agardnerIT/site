@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ansible 101 - The Basics
-categories: [ansible]
+categories: [ansible, automation, devops]
 ---
 
 Ansible is an automation and configuration management system. It is incredibly simple to get going and extremely powerful once mastered. The first part in the series aims to get you up and running with Ansible…
@@ -22,7 +22,9 @@ The Ansible control machine communicates with the target machines via SSH. So sp
 
 My target IP is `192.168.43.237` and I can successfully ping it from my host:
 
+<a href="{{ site.baseurl }}/images/postimages/ansible-basics-1.png">
 ![]({{ site.baseurl }}/images/postimages/ansible-basics-1.png)
+</a>
 
 Note: My `control` machine username is `adamgardner`. My `target` machine username is `adam`.
 
