@@ -50,6 +50,40 @@ This is the standard, default solution. Just include an `<img>` tag on your page
 
 I created a large (13.6MB) dummy page, loaded it & recorded the timings from Chrome DevTools:
 
-| Connections | Size (MB) | Finish | DOMContentLoaded (ms) | Load (ms) |
+| Connections | Size | Finish | DOMContentLoaded | Load |
 |----|----| ----- | ------| ----- |
 | 7 | 13.6MB | 4.18s | 356ms | 4.01s |
+
+> We used almost 14MB of data to load this page and it took over 4s.
+
+## Asynchronous Loading
+
+We load a default "loading icon" for each image. Then, in separate threads (without blocking the loading of the page text), we load the images.
+
+This improves loading time of the content (arguably the most important part) and delays your "lower value" assets (images).
+
+However, you still load all of the images, whether or not the user actually ever sees them.
+
+| Connections | Size | Finish | DOMContentLoaded | Load |
+|----|----| ----- | ------| ----- |
+| 8 | 13.6MB | 4.31s | 267ms | 443ms |
+
+> We’ve improved Load time by 89% but still loaded 14MB of data.
+
+## Lazy Loading
+
+This solution uses the new `IntersectionObserver` API which intelligently "knows" what the user can see (ie. what content is currently within the visible browser window).
+
+Only when the images are actually visible are they loaded. This saves a huge amount of bandwidth for you and your end users.
+
+| Connections | Size | Finish | DOMContentLoaded | Load |
+|----|----| ----- | ------| ----- |
+| 5 | 3.9MB | 1.52s | 229ms | 401ms |
+
+> Huge improvement here for page size. We’ve saved almost 10MB of data.
+
+## Conclusion
+
+There is no single "best practice" - each website is unique and will most likely demand a mixture of these techniques.
+
+The key here is that there are a range of techniques to choose from and you owe it to yourself (and your users) to investigate each one and use the most appropriate for you.
