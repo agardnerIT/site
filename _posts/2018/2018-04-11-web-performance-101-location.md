@@ -84,3 +84,20 @@ All values in milliseconds.
 | Standard Deviation | 87.52    | 97.23            | 117     |
 
 
+## Raw San Francisco Values
+
+All values in milliseconds.
+
+| Finish | DOMContentLoaded	| Load |
+|--|--|--|
+| 1570	| 1140	| 1570 |
+| 1520 | 1100 | 1520 |
+| 1510 | 1007 | 1510 |
+| 1500 | 1005 | 1500 |
+| 1580 | 1130 | 1580 |
+| 1470 | 1130 | 1480 |
+| 1510 | 1140 | 1510 |
+| 1530 | 1120 | 1530 |
+| 1540 | 1160 | 1540 |
+| 1480 | 1100 | 1480 |
+
