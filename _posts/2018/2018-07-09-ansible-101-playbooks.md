@@ -29,7 +29,7 @@ First, assume that our `/etc/ansible/hosts` file looks like this:
 10.0.0.7
 10.0.0.8
 ```
-See if you can guess what this playbook does and to which machines. Ansible really is that simple. Scroll down for the full explanation in case you’re stuck.
+See if you can guess what the following playbook does and to which machines. Ansible really is that simple. Scroll down for the full explanation in case you’re stuck.
 
 ```yaml
 ---
