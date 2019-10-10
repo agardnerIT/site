@@ -192,7 +192,7 @@ Request Body:
 }
 ```
 
-_fun meaning function, not fun and frivolity :) _
+_fun meaning function, not fun and frivolity :)_
 
 If successful, you should see this content returned:
 
