@@ -3,6 +3,7 @@ layout: post
 title: Tomcat 9 on AWS CentOS
 header_image: /images/headerimages/tomcat-aws-header.png
 categories: [aws, centos]
+excerpt: The Amazon Linux AMI 2018.03.0 image comes with Tomcat 7 and 8. Copy and paste this code into your SSH terminal to install Java 8 and Tomcat 9...
 ---
 
 The Amazon Linux AMI 2018.03.0 image comes with Tomcat 7 and 8. Copy and paste this code into your SSH terminal to install Java 8 and Tomcat 9.
