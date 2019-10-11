@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AWX on Amazon Ansible Playbook
+header_image: /images/headerimages/awx-header.jpg
 categories: [aws, ansible, awx]
 ---
 
