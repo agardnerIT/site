@@ -31,12 +31,14 @@ This is a JSON array of objects (hosts). Each host has a nested object called cu
 Let’s read this file into Ansible. Once done, it will be available as an Ansible variable called hostList (or whatever you define on line 6 of the playbook).
 
 ```
+{% raw %}
 ---
 - name: Write vars
   hosts: local
 
   vars:
     hostList: "{{ lookup('file', 'customProperties.json') }}"
+{% endraw %}
 ```
 
 ## Output Raw JSON
