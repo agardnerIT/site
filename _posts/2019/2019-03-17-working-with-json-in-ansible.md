@@ -36,7 +36,7 @@ Let’s read this file into Ansible. Once done, it will be available as an Ansib
   hosts: local
 
   vars:
-    hostList: "{{ lookup('file', 'customProperties.json') }}"
+    hostList: "\{\{ lookup('file', 'customProperties.json') \}\}"
 ```
 
 ## Output Raw JSON
