@@ -61,7 +61,7 @@ Here’s the playbook (latest version will always be on [GitHub](https://github.
 ```
 {% endraw %}
 
-AWX runs on port 80. The login is `admin / password`.
+AWX runs on port 80. The login is `admin` / `password`.
 
 ![]({{ site.baseurl }}/images/postimages/awx-playbook-1.png)
 
