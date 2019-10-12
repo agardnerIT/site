@@ -2,7 +2,7 @@
 layout: post
 title: Assured Host Groups - Autonomous Monitoring
 header_image: /images/headerimages/assured-host-groups-header.png
-categories: [host groups, dynatrace, autonomous monitoring, acm]
+categories: [host groups, dynatrace, autonomous monitoring, acm, automation]
 ---
 
 This is the first in a series of tutorials aimed at ensuring your Dynatrace deployment is (autonomous) cloud-ready. This tutorial will demonstrate how to set & keep, your `HOST_GROUP`s in sync.
