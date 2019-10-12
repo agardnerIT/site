@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assured Host Groups - Autonomous Monitoring
+title: Assured Host Metadata - Autonomous Monitoring
 header_image: /images/headerimages/assured-host-metadata-header.png
 categories: [host metadata, dynatrace, autonomous monitoring, acm, automation]
 ---
