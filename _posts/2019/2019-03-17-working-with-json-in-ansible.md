@@ -119,6 +119,7 @@ Now for something more complex. Let’s track down deeper into the JSON object t
   - name: "Print 'foo2' for each host. Should be 'second' and 'fourth'."
     debug:
       msg: "{{ item.customProperties.foo2 }}"
+    loop: "{{ hostList }}"
 ```
 {% endraw %}
 
