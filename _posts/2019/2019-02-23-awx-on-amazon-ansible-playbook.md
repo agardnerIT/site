@@ -11,6 +11,7 @@ However, I have put together a handy playbook which **does** work for Amazon AMI
 
 Here’s the playbook (latest version will always be on [GitHub](https://github.com/agardnerIT/ansible-playbook-awx)):
 
+{% raw %}
 ```yaml
 ---
 - name: Install AWX
@@ -58,6 +59,7 @@ Here’s the playbook (latest version will always be on [GitHub](https://github.
   - name: Install AWX
     command: /usr/local/bin/ansible-playbook -i {{ tmpdir }}/installer/inventory {{ tmpdir }}/installer/install.yml
 ```
+{% endraw %}
 
 AWX runs on port 80. The login is `admin / password`.
 
