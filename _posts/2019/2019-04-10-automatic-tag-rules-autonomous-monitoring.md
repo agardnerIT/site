@@ -69,7 +69,7 @@ vars:
 Now create one API call. I’ll define it, explain it below, then copy & paste 3 more times, modifying as we go:
 
 {% raw %}
-```json
+```yaml
 - name: Create ChargeCode Auto Tag Rule
   run_once: true
   uri:
@@ -147,7 +147,7 @@ Copy and paste the above Ansible tasks 3 more times. Change the UUID value for e
 Your final playbook (including previous tutorials) should look something like this:
 
 {% raw %}
-```
+```yaml
 ---
 - name: ACM Tutorial Playbook
   hosts: apache
