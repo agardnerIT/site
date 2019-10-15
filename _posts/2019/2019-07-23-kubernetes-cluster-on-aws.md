@@ -127,7 +127,7 @@ All that’s left now is to actually create the cluster. `eksctl` makes this eas
 eksctl create cluster -f ~/clusterDef.yaml
 ```
 {% endraw %}
-
+<br />
 {% raw %}
 ```
 $ eksctl create cluster -f /path/to/clusterDef.yaml
