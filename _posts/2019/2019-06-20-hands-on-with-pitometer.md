@@ -21,7 +21,7 @@ We’ll build a system which runs one of two versions of a web server. This web 
 
 - Web server version 1 has a wait time of zero seconds.
 - Web server version 2 has a wait time of 4 seconds.
-- Pitometer is installed onto the same EC2 instance and is configured to have a warning threshold of `3 seconds` and a `severe threshold` of `5 seconds`.
+- Pitometer is installed onto the same EC2 instance and is configured to have a `warning threshold` of `3 seconds` and a `severe threshold` of `5 seconds`.
 
 When Pitometer is run, it will read a `perfspec` file. This perfspec file contains our quality criteria and thresholds.
 
