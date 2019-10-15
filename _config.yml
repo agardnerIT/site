@@ -2,9 +2,6 @@
 # This file contains configuration flags to customize your site
 #
 
-# Release version of site
-release_version: v0.40
-
 # Name of your site (displayed in the header)
 name: Adam Gardner
 
@@ -36,9 +33,9 @@ main_menu:
 # Includes an icon in the footer for each username you enter
 # Items must contain leading slash.
 social_links:
-  email: amit.d.merchant@gmail.com
-  github: /thisGH
-  linkedin: /thisLI
+  email: adam@agardner.net
+  github: /agardnerit
+  linkedin: /agardner1
   rss: rss
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
