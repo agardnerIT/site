@@ -45,7 +45,7 @@ We’re expecting a `warning` decision for version 2 since response time is over
 - Add your EC2 instance to the `pitometer` group of your `/etc/ansible/hosts` file.
 - Ensure you can ping your node with: `ansible -m ping pitometer`
 - If you want to access the web server UI, ensure port 80 is open to your IP address.
-- Save this Ansible playbook to your control node.
+- Save [this Ansible playbook](https://gist.github.com/agardnerIT/2009295ae76856d832c2aaf34a4d2dca) to your control node.
 - Modify the `vars` section of the playbook to reflect your values.
 - Install the system with:
 {% raw %}
