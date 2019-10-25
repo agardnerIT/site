@@ -57,13 +57,13 @@ When you first created your tier, you AppMon will have given you a string that y
 Mine is:
 
 ```
--agentpath:"C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll"=name=BatchTier_Monitoring,collector=localhost:9998
+-agentpath:"C:/Program Files/Dynatrace/Dynatrace 7.0/agent/lib64/dtagent.dll"=name=BatchTier_Monitoring,collector=localhost:9998
 ```
 
 So rather than executing my JAR as a standard JAR (`java -jar SimpleBatchJob.jar`), I’ll use:
 
 ```
-java -jar -agentpath:"C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll"=name=BatchTier_Monitoring,collector=localhost:9998 SimpleBatchJob.jar
+java -jar -agentpath:"C:/Program Files/Dynatrace/Dynatrace 7.0/agent/lib64/dtagent.dll"=name=BatchTier_Monitoring,collector=localhost:9998 SimpleBatchJob.jar
 ```
 
 Note that the name portion on the above will be unique to your setup.
