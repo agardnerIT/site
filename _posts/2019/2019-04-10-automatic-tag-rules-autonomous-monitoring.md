@@ -9,13 +9,13 @@ Part four of my autonomous cloud management (ACM) tutorial series. In this artic
 
 This tutorial series builds from previous tutorials. I recommend you complete parts 1 through 3 first:
 
-- [Part one (Host Group Naming)](assured-host-groups-autonomous-monitoring)
-- [Part two (Host Metadata)](automated-host-metadata-autonomous-monitoring)
-- [Part three (Service & Process Group Naming)](service-process-group-naming-autonomous-monitoring)
+- [Part one (Host Group Naming)](/assured-host-groups-autonomous-monitoring)
+- [Part two (Host Metadata)](/assured-host-metadata-autonomous-monitoring)
+- [Part three (Service & Process Group Naming)](/service-process-group-naming-autonomous-monitoring)
 
 ## Tutorial Aim
 
-![]({{ site.baseurl }}/images/postimages/automatic-tag-rules-1.png)
+![](/images/postimages/automatic-tag-rules-1.png)
 
 This tutorial will leverage the custom metadata we’ve already applied, we’ll create automatic (dynamic) tag rules so that we can use these values as filters.
 
@@ -34,7 +34,7 @@ Recall that in the previous tutorials we added the following metadata tags to ea
 ```
 {% endraw %}
 
-![]({{ site.baseurl }}/images/postimages/automatic-tag-rules-2.png)
+![](/images/postimages/automatic-tag-rules-2.png)
 
 It would be extremely powerful to have the ability to use these values as filters:
 
@@ -50,7 +50,7 @@ The first thing we need is an API Token. Go to Settings > Integration > Dynatrac
 
 Make sure it has at least `Write configuration` permissions.
 
-![]({{ site.baseurl }}/images/postimages/automatic-tag-rules-3.png)
+![](/images/postimages/automatic-tag-rules-3.png)
 
 ## Call API Via Ansible
 
@@ -398,6 +398,6 @@ Your final playbook (including previous tutorials) should look something like th
 We now have hosts, processes, process groups and services all automatically tagged based on the content of the host metadata. The host metadata is, in itself, dynamic because it’s based on a JSON file.
 
 
-![]({{ site.baseurl }}/images/postimages/automatic-tag-rules-4.png)
+![](/images/postimages/automatic-tag-rules-4.png)
 
 As always, the latest version of the host list [JSON](https://github.com/agardnerIT/OddFiles/blob/master/consistentHostListMetadata.json) and playbook is available on [Github](https://github.com/agardnerIT/OddFiles/blob/master/acmTutorial.playbook.yml).

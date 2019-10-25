@@ -468,4 +468,4 @@ Drill into each applications to see the tags and URL rules.
 
 ## Result
 
-![]({{ site.baseurl }}/images/postimages/app-definitions-2.png)
+![](/images/postimages/app-definitions-2.png)

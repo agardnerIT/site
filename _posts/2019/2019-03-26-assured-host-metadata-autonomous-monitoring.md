@@ -9,7 +9,7 @@ Part two of my Dynatrace Autonomous Monitoring series demonstrates how to specif
 
 The series is intended to build upon the previous lessons, so I highly suggest you complete part one ([automated host groups](/assured-host-groups-autonomous-monitoring)) first.
 
-![]({{ site.baseurl }}/images/postimages/host-metadata-1.png)
+![](/images/postimages/host-metadata-1.png)
 
 ## Include Metadata in JSON
 

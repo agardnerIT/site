@@ -8,7 +8,7 @@ Reading JSON in Ansible is easy. Here are some examples...
 
 This is a JSON array of objects (hosts). Each host has a nested object called customProperties. Assume this is stored in a file called customProperties.json in the same directory as your playbook.
 
-![]({{ site.baseurl }}/images/postimages/json-ansible-1.png)
+![](/images/postimages/json-ansible-1.png)
 
 ```json
 [{

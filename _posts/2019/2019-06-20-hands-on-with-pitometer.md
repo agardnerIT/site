@@ -31,8 +31,8 @@ Pitometer will provide a `pass`, `warning` or `fail` decision based on the execu
 
 Your pipeline technology can then utilise this decision to stop or progress the build.
 
-![]({{ site.baseurl }}/images/postimages/hands-on-pitometer-1.png)
-![]({{ site.baseurl }}/images/postimages/hands-on-pitometer-2.png)
+![](/images/postimages/hands-on-pitometer-1.png)
+![](/images/postimages/hands-on-pitometer-2.png)
 
 ## Expected Output
 
@@ -60,7 +60,7 @@ ansible-playbook ~/pitometerDemo.playbook.yml --tags install
 
 The Ansible playbook has installed the system for us. It has spun up version 1 of the web server and started the load generator. You should now see statistics in Dynatrace:
 
-![]({{ site.baseurl }}/images/postimages/hands-on-pitometer-3.png)
+![](/images/postimages/hands-on-pitometer-3.png)
 
 ## Execute Pitometer
 
@@ -74,7 +74,7 @@ ansible-playbook ~/pitometerDemo.playbook.yml --tags runPitometer
 ```
 {% endraw %}
 
-![]({{ site.baseurl }}/images/postimages/hands-on-pitometer-4.png)
+![](/images/postimages/hands-on-pitometer-4.png)
 
 ## Switch To Version 2
 
@@ -88,7 +88,7 @@ ansible-playbook ~/pitometerDemo.playbook.yml --tags runWaiterV2
 
 Wait a minute or so until the new longer response time statistics are reflected in Dynatrace. Notice the increased response time and the drop in throughput.
 
-![]({{ site.baseurl }}/images/postimages/hands-on-pitometer-5.png)
+![](/images/postimages/hands-on-pitometer-5.png)
 
 ## Re-Run Pitometer
 
@@ -100,7 +100,7 @@ ansible-playbook ~/pitometerDemo.playbook.yml --tags runPitometer
 ```
 {% endraw %}
 
-![]({{ site.baseurl }}/images/postimages/hands-on-pitometer-6.png)
+![](/images/postimages/hands-on-pitometer-6.png)
 
 ## Toggle Between v1 & v2
 

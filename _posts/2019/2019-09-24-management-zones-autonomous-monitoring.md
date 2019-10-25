@@ -256,18 +256,18 @@ Now run the playbook: ansible-playbook createManagementZone.yaml
 
 Notice that you now have 3 management zones available in your enviroment:
 
-![]({{ site.baseurl }}/images/postimages/management-zones-1.png)
+![](/images/postimages/management-zones-1.png)
 
 Also notice that by default, dashboards show all management zones:
 
-![]({{ site.baseurl }}/images/postimages/management-zones-2.png)
+![](/images/postimages/management-zones-2.png)
 
 You can filter dashboards (and other views) via the filter icon on the top bar to show only a subset. I can see all management zones because I’m an admin in my environment. Users will only be able to see management zones that they have permission to see:
 
-![]({{ site.baseurl }}/images/postimages/management-zones-3.png)
+![](/images/postimages/management-zones-3.png)
 
 In the image above, Alice only sees one host CPU figure, one host status, one application and one service – because she only has access to the staging environment – not production.
 
 Here’s an example of a permission that only allows `Alice's Team` read-only access to the `Owner: Alice` management zone:
 
-![]({{ site.baseurl }}/images/postimages/management-zones-4.png)
+![](/images/postimages/management-zones-4.png)

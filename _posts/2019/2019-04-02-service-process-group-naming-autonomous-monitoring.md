@@ -15,9 +15,9 @@ We’re aiming for a situation whereby the process groups (PGs) & services are p
 
 > Note: The naming rules described in this article don’t actually split the groups. The splitting is due to the different host groups. The naming rule is just a visual aid – otherwise you’d have two Apache Web Server `httpd` process groups & services.
 
-![]({{ site.baseurl }}/images/postimages/service-pg-1.png)
+![](/images/postimages/service-pg-1.png)
 
-![]({{ site.baseurl }}/images/postimages/service-pg-2.png)
+![](/images/postimages/service-pg-2.png)
 
 ## How?
 
@@ -74,15 +74,15 @@ Create a new rule which has the following name format:
 
 Set the Condition to be where the `Host group name exists`.
 
-![]({{ site.baseurl }}/images/postimages/service-pg-3.png)
+![](/images/postimages/service-pg-3.png)
 
-![]({{ site.baseurl }}/images/postimages/service-pg-4.png)
+![](/images/postimages/service-pg-4.png)
 
 ## Validation
 
 Navigate to the **Technologies** menu (under ‘Monitor’) and click the Apache tile. You should see two Apache process groups:
 
-![]({{ site.baseurl }}/images/postimages/service-pg-5.png)
+![](/images/postimages/service-pg-5.png)
 
 Navigate to the **Transactions and Services** screen (under ‘Monitor’). You should see two Apache services:
 

@@ -63,6 +63,6 @@ Here’s the playbook (latest version will always be on [GitHub](https://github.
 
 AWX runs on port 80. The login is `admin` / `password`.
 
-![]({{ site.baseurl }}/images/postimages/awx-playbook-1.png)
+![](/images/postimages/awx-playbook-1.png)
 
 If you have any questions, comments or suggestions. Please [contact me](contact) or raise a [GitHub issue](https://github.com/agardnerIT/ansible-playbook-awx/issues).
