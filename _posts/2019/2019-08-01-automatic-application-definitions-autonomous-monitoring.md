@@ -9,10 +9,10 @@ Part five of my autonomous cloud management (ACM) tutorial series. In this post 
 
 This tutorial series builds from previous tutorials. I recommend you complete parts 1 through 4 first:
 
-- [Part one (Host Group Naming)](assured-host-groups-autonomous-monitoring)
-- [Part two (Host Metadata)](automated-host-metadata-autonomous-monitoring)
-- [Part three (Service & Process Group Naming)](service-process-group-naming-autonomous-monitoring)
-- [Part four (Automatic Tag Rules)](automatic-tag-rules-autonomous-monitoring)
+- [Part one (Host Group Naming)](/assured-host-groups-autonomous-monitoring)
+- [Part two (Host Metadata)](/automated-host-metadata-autonomous-monitoring)
+- [Part three (Service & Process Group Naming)](/service-process-group-naming-autonomous-monitoring)
+- [Part four (Automatic Tag Rules)](/automatic-tag-rules-autonomous-monitoring)
 
 ## Recap
 
