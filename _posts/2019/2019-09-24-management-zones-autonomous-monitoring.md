@@ -2,7 +2,7 @@
 layout: post
 title: Automatic Management Zones - Autonomous Monitoring
 header_image: /images/headerimages/management-zines-header.png
-categories: [management zones, dynatrace, autonomous monitoring, acm]
+categories: [management zone, dynatrace, autonomous monitoring, acm]
 ---
 
 Part 6 of my autonomous cloud tutorial series. This post will use the Dynatrace API to automatically create and update management zones.
