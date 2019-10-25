@@ -40,7 +40,7 @@ As a business owner, I want the following:
 
 {% raw %}
 ```
-java -jar -agentpath:"C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll"=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar
+java -jar -agentpath:"C:/Program Files/Dynatrace/Dynatrace 7.0/agent/lib64/dtagent.dll"=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar
 ```
 {% endraw %}
 
@@ -55,14 +55,14 @@ Using the JAR is easy, just pass the number of seconds you want the endpoint to 
 ### Wait 1 Second
 
 ```
-java -jar -agentpath:"C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll"=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar 1
+java -jar -agentpath:"C:/Program Files/Dynatrace/Dynatrace 7.0/agent/lib64/dtagent.dll"=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar 1
 ```
 
 ### Wait 4 Seconds
 
 {% raw %}
 ```
-java -jar -agentpath:"C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll"=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar 4
+java -jar -agentpath:"C:/Program Files/Dynatrace/Dynatrace 7.0/agent/lib64/dtagent.dll"=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar 4
 ```
 {% endraw %}
 
