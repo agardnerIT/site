@@ -5,7 +5,7 @@ header_image: /images/headerimages/sla-management-header.png
 categories: [service level agreement, dynatrace, appmon]
 ---
 
-Comprehensive SLA management and tracking is absolutely critical to the success of a project. In this post I'llx investigate how Dynatrace AppMon can keep all your third parties honest.
+Comprehensive SLA management and tracking is absolutely critical to the success of a project. In this post I'll investigate how Dynatrace AppMon can keep all your third parties honest.
 
 **NOTE: THIS TUTORIAL REFERS TO THE LEGACY APPLICATION MONITORING PRODUCT FROM DYNATRACE NOT THE DYNATRACE PLATFORM.**
 
