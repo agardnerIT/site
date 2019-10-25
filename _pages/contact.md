@@ -43,10 +43,6 @@ permalink: /contact
 
   });
 
-  // When notification delete button is clicked, hide notifiction.
-  document.getElementById('submit-delete').addEventListener('click', function(event) {
-    document.getElementById('submit-notification').classList.add("hidden");
-  });
 </script>
 
 <style>
