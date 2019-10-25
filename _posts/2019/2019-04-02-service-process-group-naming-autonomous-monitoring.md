@@ -7,7 +7,7 @@ categories: [service naming, process group naming, dynatrace, autonomous monitor
 
 Part three of my Dynatrace autonomous cloud management (ACM) series will focus on automatic service and process group naming.
 
-This tutorial series builds from one stage to the next. If you haven’t read [part one (host group naming)](assured-host-groups-autonomous-monitoring) and [part two (automated metadata)](automated-host-metadata-autonomous-monitoring)), I strongly suggest you start there.
+This tutorial series builds from one stage to the next. If you haven’t read [part one (host group naming)](/assured-host-groups-autonomous-monitoring) and [part two (automated metadata)](/automated-host-metadata-autonomous-monitoring)), I strongly suggest you start there.
 
 ## Aim of Tutorial
 
@@ -86,6 +86,6 @@ Navigate to the **Technologies** menu (under ‘Monitor’) and click the Apache
 
 Navigate to the **Transactions and Services** screen (under ‘Monitor’). You should see two Apache services:
 
-![]({{ site.baseurl }}/images/postimages/service-pg-6.png)
+![](/images/postimages/service-pg-6.png)
 
 This technique is entirely future proof. Whenever a new environment is onboarded (aka a new host group), Dynatrace will automatically split and rename your process groups and services accordingly.
