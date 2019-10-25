@@ -38,13 +38,15 @@ As a business owner, I want the following:
 3. Create a sensor group and attach it to the Java tier you’ve just created. Set this sensor group to Active & Start Purepaths.
 4. Instrument and run the `DTSLAManagement.jar` file.
 
+{% raw %}
 ```
-java -jar -agentpath:”C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll”=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar
+java -jar -agentpath:"C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll"=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar
 ```
+{% endraw %}
 
 It should execute and look something like this:
 
-![]({{ site.baseurl }}/images/postimages/sla-management-1.png)
+![](/images/postimages/sla-management-1.png)
 
 > If you see `Connection refused: connect`, make sure you’ve started XAMPP!
 
@@ -58,15 +60,17 @@ java -jar -agentpath:”C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dta
 
 ### Wait 4 Seconds
 
+{% raw %}
 ```
-java -jar -agentpath:”C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll”=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar 4
+java -jar -agentpath:"C:\Program Files\Dynatrace\Dynatrace 7.0\agent\lib64\dtagent.dll"=name=YOUR-AGENT-NAME,server=localhost:9998 DTSLAManagement.jar 4
 ```
+{% endraw %}
 
 ## Create Purepaths
 
 Add a sensor to the `main` method of the JAR file. You’ll find it in the `co.uk.adamgardner.code` package.
 
-![]({{ site.baseurl }}/images/postimages/sla-management-2.png)
+![](/images/postimages/sla-management-2.png)
 
 ## See The Purepaths
 
@@ -74,27 +78,27 @@ If you open the Purepaths dashlet, you should now be seeing a single Purepath cr
 
 I’ve ran the JAR file 3 times and crucially, I can see the main method and the call out to `http://localhost/endpoint.php`
 
-![]({{ site.baseurl }}/images/postimages/sla-management-3.png)
+![](/images/postimages/sla-management-3.png)
 
 ## Track It
 
 Tracking these calls is now easy. Right click the node in the Purepath tree with the call out to the `endpoint.php` > Create Measure > Time Measure (remove the query parameter and give it a good name).
 
-![]({{ site.baseurl }}/images/postimages/sla-management-4.png)
+![](/images/postimages/sla-management-4.png)
 
 Now let’s finalise the setup. Edit the system profile and go to the *Measures* section. Edit your measure and set your **Upper Warning** threshold to **2 seconds** and your **Upper Severe** threshold to **4 seconds**.
 
-![]({{ site.baseurl }}/images/postimages/sla-management-5.png)
+![](/images/postimages/sla-management-5.png)
 
 
 Create two new threshold violation measures. Both should have the source measure set to the your endpoint measure. One should have the threshold set to warning and the other should have the threshold set to severe.
 
-![]({{ site.baseurl }}/images/postimages/sla-management-6.png)
+![](/images/postimages/sla-management-6.png)
 
 ## Visualisation
 
 Let’s put it all together on a dashboard. You can see that I’ve had one warning alert and two severe alerts.
 
-![]({{ site.baseurl }}/images/postimages/sla-management-7.png)
+![](/images/postimages/sla-management-7.png)
 
 Save this dashboard to the server and create an automated report and start accurately tracking your third party calls.
