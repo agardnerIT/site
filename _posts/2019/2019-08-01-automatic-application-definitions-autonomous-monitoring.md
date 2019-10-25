@@ -5,7 +5,7 @@ header_image: /images/headerimages/app-definitions-header.png
 categories: [applications, dynatrace, autonomous monitoring, acm]
 ---
 
-Part five of my autonomous cloud management (ACM) tutorial series. In this post we’ll use the Dynatrace API to automatically define front-end applications, which are based on URL patterns.
+Part five of my autonomous cloud management (ACM) tutorial series. In this post we'll use the Dynatrace API to automatically define front-end applications, which are based on URL patterns.
 
 This tutorial series builds from previous tutorials. I recommend you complete parts 1 through 4 first:
 
@@ -16,7 +16,7 @@ This tutorial series builds from previous tutorials. I recommend you complete pa
 
 ## Recap
 
-Following previous tutorials has given us 2 EC2 instances, both with a single Apache HTTP server running. One is the `production` server and the other is the `staging` server. We have split the process groups and services accordingly so that the Davis AI engine will alert separately for production and staging. We’ve also applied various tags due to the metadata so that we can create flexible filters.
+Following previous tutorials has given us 2 EC2 instances, both with a single Apache HTTP server running. One is the `production` server and the other is the `staging` server. We have split the process groups and services accordingly so that the Davis AI engine will alert separately for production and staging. We've also applied various tags due to the metadata so that we can create flexible filters.
 
 ## Scenario
 
@@ -87,7 +87,7 @@ The application rules ID format is any valid `8-4-4-4-12` GUID.
 ```
 {% endraw %}
 
-If you’re following the previous parts of the tutorial, we obviously don’t have domain names setup for our instances. So if you want to see traffic assigned to these applications, use the public IPs of your EC2 instances rather than the domain names.
+If you're following the previous parts of the tutorial, we obviously don't have domain names setup for our instances. So if you want to see traffic assigned to these applications, use the public IPs of your EC2 instances rather than the domain names.
 
 For example, replace `staging.mysite.com` with the public IP of your `staging` instance and replace `mysite.com` with the public IP of your `production` instance.
 
@@ -114,13 +114,13 @@ To follow this tutorial, we need to give it one more permission: `Access problem
 
 Your `api_write_token` should have two permissions now.
 
-![]({{ site.baseurl }}/images/postimages/app-definitions-1.png)
+![](/images/postimages/app-definitions-1.png)
 
 ## Leverage Dynatrace APIs
 
 Now we need to call the Dynatrace APIs to create our application. As mentioned above, this is a two step process.
 
-First, let’s create our application defintion using the `/config/v1/applications/web` endpoint with a JSON payload:
+First, let's create our application defintion using the `/config/v1/applications/web` endpoint with a JSON payload:
 
 {% raw %}
 ```
@@ -267,7 +267,7 @@ Body Content:
 
 ## Tagging Applications
 
-Finally, we’ll tag our applications via the API, using the values held in `appTags.json`.
+Finally, we'll tag our applications via the API, using the values held in `appTags.json`.
 
 Use the `/api/v1/entity/applications/` endpoint. The `{APP-ID}` corresponds to our `APPLICATION-*` value and the tags array should be populate from the `appTags.json` file.
 
@@ -284,7 +284,7 @@ Body:
 
 ## Playbook
 
-Let’s add the above logic into our existing Ansible playbook (from the previous tutorial steps). Ensure all 4 files (`appList.json`, `appRules.json`, `appTags.json` and `yourPlaybook.yaml`) are all in the same folder.
+Let's add the above logic into our existing Ansible playbook (from the previous tutorial steps). Ensure all 4 files (`appList.json`, `appRules.json`, `appTags.json` and `yourPlaybook.yaml`) are all in the same folder.
 
 Add three new variables to the vars section near the top of the playlist:
 
