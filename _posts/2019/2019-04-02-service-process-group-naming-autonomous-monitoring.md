@@ -7,7 +7,7 @@ categories: [service naming, process group naming, dynatrace, autonomous monitor
 
 Part three of my Dynatrace autonomous cloud management (ACM) series will focus on automatic service and process group naming.
 
-This tutorial series builds from one stage to the next. If you haven’t read [part one (host group naming)](/assured-host-groups-autonomous-monitoring) and [part two (automated metadata)](/automated-host-metadata-autonomous-monitoring)), I strongly suggest you start there.
+This tutorial series builds from one stage to the next. If you haven’t read [part one (host group naming)](/assured-host-groups-autonomous-monitoring) and [part two (automated metadata)](/assured-host-metadata-autonomous-monitoring)), I strongly suggest you start there.
 
 ## Aim of Tutorial
 
