@@ -14,17 +14,17 @@ Here's the section where I describe my personal interests.
 
 ## Non IT Certifications
 
-- Item 1 (01/01/2018)
-- Item 2 (12/02/2017)
+- PADI Enriched Air (Nitrox) Diver (09/12/18)
+- PADI Rescue Diver (25/11/2018)
+- PADI Advanced Open Water (21/07/2013)
+- PADI Open Water (09/11/2005)
 
 ## IT Certifications
 
-- [Item 1](https://example.com)
+- [Puppet for the Absolute Beginner](files/AG-PuppetUC-F4YXPOFE.pdf)
 - [Item 2](https://example.com)
 - [Item 3](https://example.com)
 - [Item 4](https://example.com)
-
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
 
 ## Disclaimer
 
