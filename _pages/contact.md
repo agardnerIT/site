@@ -13,7 +13,7 @@ permalink: /contact
 <input id="email" class="input" type="email" required>
 
 <label class="label">Message</label>
-<textarea id="message" class="textarea" rows="5">My Message...</textarea>
+<textarea id="message" class="textarea" rows="5"></textarea>
 
 <button id="submit" class="button is-link">Submit Message</button>
 
