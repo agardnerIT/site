@@ -7,10 +7,10 @@ permalink: /contact
 
 
 <label class="label">Name*</label>
-<input id="name" class="input" type="text" required value="adam">
+<input id="name" class="input" type="text" required>
 
 <label class="label">Email*</label>
-<input id="email" class="input" type="email" required value="bob@mysite.com">
+<input id="email" class="input" type="email" required>
 
 <label class="label">Message</label>
 <textarea id="message" class="textarea" rows="5">My Message...</textarea>
@@ -39,7 +39,7 @@ permalink: /contact
     var xmlhttp = new XMLHttpRequest();
     var theUrl = "https://pkhlhwjn33.execute-api.ap-southeast-2.amazonaws.com/default/submitAGardnerNetContactForm";
     xmlhttp.open("POST", theUrl);
-    xmlhttp.send(JSON.stringify({ "name": name, "email": email, "message": message}));
+    xmlhttp.send(JSON.stringify({ "name": name, "email": email, "message": message }));
 
   });
 
