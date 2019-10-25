@@ -10,10 +10,10 @@ Part 6 of my autonomous cloud tutorial series. This post will use the Dynatrace 
 This tutorial series builds from previous tutorials. I recommend you complete parts 1 through 4 first:
 
 - [Part one (Host Group Naming)](/assured-host-groups-autonomous-monitoring)
-- [Part two (Host Metadata)](automated-host-metadata-autonomous-monitoring)
-- [Part three (Service & Process Group Naming)](service-process-group-naming-autonomous-monitoring)
-- [Part four (Automatic Tag Rules)](automatic-tag-rules-autonomous-monitoring)
-- [Part five (Automatic Application Definitions)](automatic-application-definitions)
+- [Part two (Host Metadata)](/automated-host-metadata-autonomous-monitoring)
+- [Part three (Service & Process Group Naming)](/service-process-group-naming-autonomous-monitoring)
+- [Part four (Automatic Tag Rules)](/automatic-tag-rules-autonomous-monitoring)
+- [Part five (Automatic Application Definitions)](/automatic-application-definitions)
 
 ## Recap
 
@@ -271,7 +271,3 @@ In the image above, Alice only sees one host CPU figure, one host status, one ap
 Here’s an example of a permission that only allows `Alice's Team` read-only access to the `Owner: Alice` management zone:
 
 ![]({{ site.baseurl }}/images/postimages/management-zones-4.png)
-
-
-v2
-
