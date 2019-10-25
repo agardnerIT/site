@@ -272,3 +272,6 @@ Here’s an example of a permission that only allows `Alice's Team` read-only ac
 
 ![]({{ site.baseurl }}/images/postimages/management-zones-4.png)
 
+
+v2
+
