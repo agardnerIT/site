@@ -258,9 +258,7 @@ Notice that you now have 3 management zones available in your enviroment:
 
 ![](/images/postimages/management-zones-1.png)
 
-Also notice that by default, dashboards show all management zones:
-
-![](/images/postimages/management-zones-2.png)
+Also notice that by default, dashboards show all management zones.
 
 You can filter dashboards (and other views) via the filter icon on the top bar to show only a subset. I can see all management zones because I’m an admin in my environment. Users will only be able to see management zones that they have permission to see:
 
