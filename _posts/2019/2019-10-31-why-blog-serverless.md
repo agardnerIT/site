@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why This Blog Went Serverless
-categories: [aws, serverless]
+categories: [github, serverless]
 ---
 
 I've recently moved this blog from Wordpress hosted on a DigitalOcean hosted virtual machine to GitHub Pages, a "serverless" hosting platform. In this post, I aim to explain my reasoning.
