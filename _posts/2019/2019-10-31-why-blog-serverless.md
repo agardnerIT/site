@@ -15,7 +15,7 @@ First though, some facts that are pertinent to consider when reading this post:
 - For practical purposes, most of the content can be considered static. It may change from time to time, but 99% of the content remains the same once published. There's very little need for a database as most content can be served perfectly well via static files.
 - Running this site is not my day job. I need it to "just work".
 
-> "Serverless" is one tool in your toolbox, Not a panacea.
+> "Serverless" is one tool in your toolbox, not a panacea.
 
 ## Considerations & Choices
 Like any major architectural shift, the benefits and costs need to be carefully weighed. Although this site is small by most standards, there was still a fair amount to consider:
