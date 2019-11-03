@@ -4,7 +4,7 @@ title: Implications of Going Serverless
 categories: [web performance, serverless]
 ---
 
-As I have [previously mentioned](/why-blog-serverless), I recently moved this site to GitHub Pages. Let's investigate the performance impacts of that decision.
+As I have [previously mentioned](/why-blog-serverless), I recently moved this site to GitHub Pages. The post will investigate the performance impacts of that decision.
 
 ## Reliability
 Using Wikipedia as a reference, reliability is defined as the "probability that a system will produce correct outputs".
