@@ -7,7 +7,7 @@ categories: [web performance, serverless]
 As I have [previously mentioned](/why-blog-serverless), I recently moved this site to GitHub Pages. The post will investigate the performance impacts of that decision.
 
 ## Reliability
-Using Wikipedia as a reference, reliability is defined as the "probability that a system will produce correct outputs".
+Reliability is defined as the "probability that a system will produce correct outputs" (source [Wikipedia](https://en.wikipedia.org/wiki/Reliability,_availability_and_serviceability)).
 
 Think about the old site vs. the new site, the old site consisted of a webserver (Apache), PHP engine and a MySQL database. The new site consists of a markdown file (and potentially a few images), committed to a Git repository.
 
