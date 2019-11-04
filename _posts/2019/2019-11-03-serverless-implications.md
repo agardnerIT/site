@@ -31,7 +31,7 @@ I've committed the markdown content to GitHub, which is of course, a version con
 
 I've also saved a copy of the files to my cloud storage: My redundant backup should GitHub decide to go offline.
 
-GitHub Pages powers [help.github.com](https://help.github.com) among many other websites. If GitHub Pagesvwere to have a problem, you can bet that GitHub would know about it *and* care enough to fix it.
+GitHub Pages powers [help.github.com](https://help.github.com) among many other websites. If GitHub Pages were to have a problem, you can bet that GitHub would know about it *and* care enough to fix it.
 
 Unfortunately Pages does not publish availability figures, although I would be willing to bet that they match or exceed anything I could achieve on my own.
 
@@ -47,7 +47,9 @@ As previously mentioned, the fewer components to go wrong, all else being equal,
 ## Maintenance
 In the old world, I had to periodically update each of the components. The webserver software, database, the Wordpress installation and the VM itself.
 
-What do I need to maintain in the new world? Nothing. Well, I need to ensure my GitHub account doesn't get hacked. Then again, there's nothing to hack - everything is public source!
+What do I need to maintain in the new world? Nothing. Well, I need to ensure my GitHub account doesn't get hacked. Then again, there's nothing to hack - [everything is publicly available](https://github.com/agardnerIT/site).
+
+Don't tell me you're relying on [security through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity)...
 
 ## Response Time
 Response time is a function of various factors but in simple terms:
@@ -72,7 +74,7 @@ Now the "after picture". The new site loads **12 resources**. The page size is a
 
 Moving to a "serverless" model simply means delegating responsibility of infrastructure to someone else. Whether or not that fits your operating model, usecases and level of trust depends entirely on you.
 
-The negative impacts of going serverless stem from the above - if something goes wrong with _their_ infrastructure, _you're_ affected but cannot necessarily do anything to rectify the situation. That's why great quality monitoring is essential in a serverless world.
+The negative impacts of going serverless stem from the above - if something goes wrong with _their_ infrastructure, _you're_ affected but cannot necessarily do anything to rectify the situation. That is why great quality monitoring is essential in a serverless world.
 
 That said, if you're running a small personal site or blog, I see few reasons _not_ to move to a serverless model.
 
