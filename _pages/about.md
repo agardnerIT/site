@@ -6,7 +6,7 @@ permalink: /about
 
 <img src="images/me.jpg" alt="Adam Gardner"/>
 
-Travelling and scuba diving are my passions. I'm also partial to the occassional Belgian beer.
+Travelling and scuba diving are my passions.
 
 I'm currently based in Sydney, Australia and work for [Dynatrace](https://dynatrace.com) as an Automation Architect.
 
