@@ -8,9 +8,7 @@ permalink: /about
 
 Travelling and scuba diving are my passions. I'm also partial to the occassional Belgian beer.
 
-I'm currently based in Sydney, Australia and work for [Dynatrace](https://dynatrace.com) as a Solution Consultant.
-
-Here's the section where I describe my personal interests.
+I'm currently based in Sydney, Australia and work for [Dynatrace](https://dynatrace.com) as an Automation Architect.
 
 ## Non IT Certifications
 
