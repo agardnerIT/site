@@ -238,21 +238,21 @@ Save the following playbook (substituting in your values) as `createManagementZo
 ```
 {% endraw %}
 
-PLAYBOOK EXPLANATION
+## Playbook Explanation
 
 This playbook is really simple & the logic can easily be ported to any other non-Ansible system.
 
 We tell ansible to run the playbook locally (from the control machine) – because we’re only doing API calls. We define some variables up front and use these variables any time you see the double curly braces (eg. `{{ my_variable }}`).
 
-The playbook consists of a single task which loops through each management zone. item is a special ansible keyword meaning the “thing” we’re looping through (ie. each management zone).
+The playbook consists of a single task which loops through each management zone. item is a special ansible keyword meaning the "thing" we’re looping through (ie. each management zone).
 
-For each iteration of the loop, we’ll do a PUT operation to Dynatrace and pass it the JSON exactly as it’s defined in managementZones.json. Dynatrace will return either a 201 or 204 status code for a successful PUT request, so we tell Ansible that those codes mean a success.
+For each iteration of the loop, we’ll do a `PUT` operation to Dynatrace and pass it the JSON exactly as it’s defined in `managementZones.json`. Dynatrace will return either a `201` or `204` status code for a successful `PUT` request, so we tell Ansible that those codes mean a success.
 
-RESULTS
+## Results
 
 If you’ve followed this blog post correctly, you should have two files in your directory. The JSON file called managementZones.json and the playbook (above) saved as createManagementZone.yaml.
 
-Now run the playbook: ansible-playbook createManagementZone.yaml
+Now run the playbook: `ansible-playbook createManagementZone.yaml`
 
 Notice that you now have 3 management zones available in your enviroment:
 
