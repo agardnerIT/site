@@ -6,7 +6,7 @@ categories: [github, serverless]
 
 I've recently moved this blog from Wordpress hosted on a DigitalOcean virtual machine to GitHub Pages, a "serverless" hosting platform. In this post, I aim to explain my reasoning.
 
-I'll share some tangible results in a future post.
+I've shared some tangible result in [this blog post](/serverless-implications).
 
 First though, some facts that are pertinent to consider when reading this post:
 
