@@ -13,7 +13,7 @@ Build an automated quality gate in under 5 minutes with this hands on demo of Pi
 - Ansible installed on a control machine.
 - Python `netaddr` installed on ansible control machine (`pip install netaddr`)
 
-> Need some background info? Need to know why you should use Pitometer?<br />Read this [overview post first](pitometer-open-source-autonomous-quality-gates).
+> Need some background info? Need to know why you should use Pitometer?<br />Read this [overview post first](/pitometer-open-source-autonomous-quality-gates).
 
 ## Scenario
 
