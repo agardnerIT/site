@@ -19,6 +19,8 @@ I'm currently based in Sydney, Australia and work for [Dynatrace](https://dynatr
 
 ## IT Certifications
 
+- [Dynatrace Professional Certification](https://www.youracclaim.com/badges/3ed92cfd-fdba-470b-8054-b650bd727492)
+- [Dynatrace Associate Certification](files/Dynatrace_Certificate_AG.pdf)
 - [Puppet for the Absolute Beginner](files/AG-PuppetUC-F4YXPOFE.pdf)
 - [Red Hat Accredited Professional – Delivery Specialist – Cloud Automation](files/red_hat_delivery_specialist_-_cloud_automation.pdf)
 - [Complete Python Masterclass](files/AG-Python-Masterclass-UC-CMPV5DMX.pdf)
@@ -30,7 +32,7 @@ I'm currently based in Sydney, Australia and work for [Dynatrace](https://dynatr
 - [Docker for DevOps and Developers](files/DockerForDevOpsCertificate.pdf)
 - [Dynatrace Application Monitoring Professional Certification](files/Dynatrace_Pro_Certificate.pdf)
 - [Dynatrace Application Monitoring Associate Certification](files/Dynatrace_Associate_Certificate.pdf)
-- [Dynatrace Associate Certification](files/Dynatrace_Certificate_AG.pdf)
+
 
 ## Disclaimer
 
