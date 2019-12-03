@@ -22,4 +22,4 @@ export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/opt/openssl@1.1/lib
 ```
 4. Open a new terminal window and retry your script. It should now work.
 
-As always, if you have any comments or suggestions, please do not hesitate to [contact me](contact).
+As always, if you have any comments or suggestions, please do not hesitate to [contact me](/contact).
