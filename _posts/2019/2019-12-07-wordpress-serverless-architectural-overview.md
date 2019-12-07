@@ -24,7 +24,7 @@ There are, of course, solutions for configuring Wordpress in a distributed and h
 
 ## The New
 
-In terms of what I know and control, the site architecture now looks like this.
+In terms of what I know and control, the site architecture (particularly the contact form) now looks like this.
 
 ![serverless-architecture-1](/images/postimages/serverless-architecture-3.png)
 
