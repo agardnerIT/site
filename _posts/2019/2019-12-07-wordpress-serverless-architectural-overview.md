@@ -32,6 +32,8 @@ I commit code to GitHub. They generate the content (HTML pages). The contact for
 
 These "notification targets" can be anything at all really: log files, email, Slack, MS Teams, Trello, the list is endless...
 
+If you want to try out the contact form, it is [here](/contact).
+
 ## Advantages of the New Approach
 
 Obviously I don't host any of this. GitHub handles the front end and AWS handles the Gateway and Lambda code.
