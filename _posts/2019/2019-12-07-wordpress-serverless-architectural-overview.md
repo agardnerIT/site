@@ -28,7 +28,7 @@ In terms of what I know and control, the site architecture (particularly the con
 
 ![serverless-architecture-1](/images/postimages/serverless-architecture-3.png)
 
-I commit code to GitHub. They generate the content (HTML pages). The contact form `POSTs` the data to AWS Lambda, via the AWS API Gateway. Lambda then processes the form and sends the notifications to one or more "targets".
+I commit code to GitHub. They generate the content (HTML pages). The contact form `POST`s the data to AWS Lambda, via the AWS API Gateway. Lambda then processes the form and sends the notifications to one or more "targets".
 
 These "notification targets" can be anything at all really: log files, email, Slack, MS Teams, Trello, the list is endless...
 
@@ -36,7 +36,7 @@ These "notification targets" can be anything at all really: log files, email, Sl
 
 Obviously I don't host any of this. GitHub handles the front end and AWS handles the Gateway and Lambda code.
 
-Another big advantage is that hosting is free. AWS Lambda provide 1 million requests and 400,000 GB seconds of compute time **per month**. Given that a contact form submission takes around 1 second, I'd need to exceed 400k contact form request per month to start getting charged. I'm nowhere near that!
+Another big advantage is that hosting is free. AWS Lambda provide 1 million requests and 400,000 GB seconds of compute time **per month**. Given that a contact form submission takes around 1 second, I'd need to exceed 400k contact form request per month to start getting charged. I am nowhere near that!
 
 ## Summary
 
@@ -44,6 +44,6 @@ There was a learning curve to understand how the API Gateway and Lambda fit toge
 
 There was also a learning curve to write the tiny piece of Python code that powers my Lambda function.
 
-That said, I'm really happy with the move to a serverless model. Everything is offloaded and I'm not responsible for any of the hosting, backups, redundancy, scaling - all topics I've covered in my other post.
+That said, I am really happy with the move to a serverless model. Everything is offloaded and I am not responsible for any of the hosting, backups, redundancy, scaling - all topics I have covered in my other post.
 
-As per my other post, I'm not advocating this for every site and situation, but it should definitely be on your shortlist to at least investigate.
+As per my other post, I am not advocating this for every site and situation, but it should definitely be on your shortlist to at least investigate.
