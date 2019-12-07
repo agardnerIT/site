@@ -117,7 +117,7 @@ The final block of code objectives evaluates both indicator results against a th
 
 ## Stay Tuned
 
-If you’d like to know more about keptn or Pitometer, contact me or [follow me on LinkedIn](https://www.linkedin.com/in/agardner1/).
+If you’d like to know more about keptn or Pitometer, [contact me](/contact) or [follow me on LinkedIn](https://www.linkedin.com/in/agardner1/).
 
 I’ll be releasing a full working demonstration system of Pitometer soon.
 

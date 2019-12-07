@@ -65,4 +65,4 @@ AWX runs on port 80. The login is `admin` / `password`.
 
 ![](/images/postimages/awx-playbook-1.png)
 
-If you have any questions, comments or suggestions. Please [contact me](contact) or raise a [GitHub issue](https://github.com/agardnerIT/ansible-playbook-awx/issues).
+If you have any questions, comments or suggestions. Please [contact me]((/contact)) or raise a [GitHub issue](https://github.com/agardnerIT/ansible-playbook-awx/issues).

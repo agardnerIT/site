@@ -106,4 +106,4 @@ When all is said and done, in my case, the benefits of the move have been worth 
 
 I hope this post has given you some pointers and thoughts about a potential move to serverless.
 
-As always, if you have any comments or suggestions, please do not hesitate to [contact me](contact).
+As always, if you have any comments or suggestions, please do not hesitate to [contact me](/contact).

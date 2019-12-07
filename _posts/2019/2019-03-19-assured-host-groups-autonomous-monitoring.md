@@ -100,6 +100,6 @@ This script is going to:
 ```
 {% endraw %}
 
-I hope this tutorial has given you some helpful hints and insight into how you can further automate your Dynatrace deployment. As always, questions, comments, suggestions or corrections are most welcome. Just [contact me](contact).
+I hope this tutorial has given you some helpful hints and insight into how you can further automate your Dynatrace deployment. As always, questions, comments, suggestions or corrections are most welcome. Just [contact me](/contact).
 
 The latest [playbook](https://github.com/agardnerIT/OddFiles/blob/master/consistentHostGroups.playbook.yml) and [JSON file](https://github.com/agardnerIT/OddFiles/blob/master/consistentHostGroup.json) for this tutorial can always be found on Github.
