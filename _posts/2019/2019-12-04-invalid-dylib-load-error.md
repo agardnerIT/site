@@ -22,4 +22,20 @@ export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/opt/openssl@1.1/lib
 ```
 4. Open a new terminal window and retry your script. It should now work.
 
+## Persisting The Parameter
+
+To persist this parameter, write it into `~/.bashrc` then run `source ~/.bashrc`
+
+```
+sudo nano ~/.bashrc
+```
+
+Paste this line into the file:
+
+```
+export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/opt/openssl@1.1/lib
+```
+
+Now run `source ~/.bashrc`
+
 As always, if you have any comments or suggestions, please do not hesitate to [contact me](/contact).
