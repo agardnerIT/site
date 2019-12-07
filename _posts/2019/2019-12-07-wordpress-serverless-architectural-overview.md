@@ -28,7 +28,7 @@ In terms of what I know and control, the site architecture (particularly the con
 
 ![serverless-architecture-1](/images/postimages/serverless-architecture-3.png)
 
-I commit code to GitHub. They generate the content (HTML pages). The contact form `POST`s the data to AWS Lambda, via the AWS API Gateway. Lambda then processes the form and sends the notifications to one or more "targets".
+I commit code to GitHub. They generate the content (HTML pages). The contact form `POSTs` the data to AWS Lambda, via the AWS API Gateway. Lambda then processes the form and sends the notifications to one or more "targets".
 
 These "notification targets" can be anything at all really: log files, email, Slack, MS Teams, Trello, the list is endless...
 
