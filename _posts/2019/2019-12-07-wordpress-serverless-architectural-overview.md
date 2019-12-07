@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wordpress to Serverless - An Architectural Overview
-categories: [worpress, serverless, aws, architecture]
+categories: [wordpress, serverless, aws, architecture]
 ---
 
 A post describing the architectural changes I had to make when moving from a Wordpress hosted blog to a Github Pages, serverless model.
