@@ -118,7 +118,7 @@ spec:
     app: web
     version: v1
 ```
-**web-v2-service**
+**web-v2-service.yaml**
 
 ```
 apiVersion: v1
