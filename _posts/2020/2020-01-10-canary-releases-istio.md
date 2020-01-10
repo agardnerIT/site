@@ -16,18 +16,18 @@ To follow along, you will need:
 ## Overview
 We will deploy two versions of a website to our k8s cluster as two seperate Services: `v1` and `v2`.
 
-We will then use Istio to control the traffic routing between these two version of our service.
+We will then use Istio to control the traffic routing between the two versions of our service.
 
 We start at 100% of traffic on `v1` and gradually switch over to `v2`.
 
-This is `v1`. It's blue.
+This is `v1`.
 ![canary v1 web page](/images/postimages/canary-v1.png)
 
-This is `v2`. It is green.
+This is `v2`.
 ![canary v2 web page](/images/postimages/canary-v2.png)
 
 ## Deployments
-Go ahead, save and apply the `v1` deployment YAML file:
+Save and apply the `v1` deployment YAML file:
 
 **web-v1-deployment.yaml**
 ```
@@ -60,7 +60,7 @@ kubectl apply -f web-v1-deployment.yaml
 
 Repeat for `v2`:
 
-**web-v1-deployment.yaml**
+**web-v2-deployment.yaml**
 ```
 apiVersion: extensions/v1beta1
 kind: Deployment
@@ -101,7 +101,7 @@ web-v2-***-***   2/2     Running   0          1m
 ## Services
 The pods are running and Istio has been injected (proven by the `2/2` shown above).
 
-Now we will create two services for each version. Save and apply these YAML files:
+Now we will create a service for each version. Save and apply these YAML files:
 
 **web-v1-service.yaml**
 
@@ -141,6 +141,7 @@ kubectl apply -f web-v1-service.yaml
 kubectl apply -f web-v2-service.yaml
 ```
 
+Verify the services have been created:
 ```
 % kubectl get services
 NAME             TYPE        CLUSTER-IP  EXTERNAL-IP   PORT(S)   AGE
@@ -163,7 +164,7 @@ istio-ingressgateway     localhost     80:32481/TCP,443:31558/TCP
 ### What's Missing?
 The workload is up, running, connected to a service. We have traffic allowed to enter the cluster. What is missing?
 
-In a nutshell, the internal routing which tells Istio: This traffic should be send to service X, Y or Z.
+In a nutshell, the internal routing which tells Istio: This traffic should be sent to service X, Y or Z.
 
 ## Istio Gateway and VirtualService
 To resolve this, we need two more components, a `Gateway` and a `VirtualService`.
@@ -227,10 +228,12 @@ kubectl apply -f web-gateway-virtualservice.yaml
 
 Now try to hit your website in a browser on `http://127.0.0.1`. You should see `v1`.
 
+![canary v1 web page](/images/postimages/canary-v1.png)
+
 ## Canary Releases: Introducing v2
 ![the original canary](/images/postimages/canary-istio-canary.jpg)
 
-The origin of the term Canary release refers to the Canaries that miners carried into the mines. These birds would be the early warning sign of dangerous gases for miners. The birds would become ill (or dead) and thus give the miners a chance to get out before they succumbed.
+The origin of the term "canary release" refers to the canaries that miners carried into the coalmines. These birds would be the early warning sign of dangerous gases for miners. The birds would become ill (or dead) and thus give the miners a chance to get out before they succumbed. This was still happening within my lifetime!
 
 In the same way, we can release software to a small portion of our users which, if problems occur, gives us time to rollback safely without affecting all users.
 
@@ -298,9 +301,16 @@ virtualservice.networking.istio.io/web-virtualservice configured
 
 Notice the new `- destination` section and the `weight` values.
 
-As you may have guessedv1, we're sending 90% traffic to `v1` and 10% to `v2`.
+As you may have guessed, we are sending 90% traffic to `v1` and 10% to `v2`.
 
-Keep refreshing your page and you'll eventually see `v2`.
+Keep refreshing your page and you'll eventually see `v2`:
+
+![canary v1 web page](/images/postimages/canary-v2.png)
 
 ## Adjust Weights
 Alter the weights and ultimately try setting `v1` weight to `0` and `v2` weight to `100`. At that point, you've fully migrated to version 2 of your application.
+
+## Conclusion
+This is powerful stuff. Link this into a delivery pipeline, automation workflow & throw in decent monitoring and you have a formidable capability.
+
+Imagine gradually adjusting the weighting, monitoring the results (failure rate & response time being just two metrics), then automatically increasing the weighting or automating the rollback to a previous version.
