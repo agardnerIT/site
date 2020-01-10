@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Canary Releases in Istio & Kubernetes
+header_image: /images/headerimages/canary-header.png
 categories: [canary, istio, kubernetes]
 ---
 
