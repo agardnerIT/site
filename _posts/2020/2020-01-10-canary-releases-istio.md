@@ -4,9 +4,7 @@ title: Canary Releases in Istio & Kubernetes
 categories: [canary, istio, kubernetes]
 ---
 
-Recently I have been playing with [Istio](https://istio.io) on Kubernetes & one of the things I wanted to achieve was seamless canary releases.
-
-It turns out it is **really easy** with Istio. Let's dive in.
+Recently I have been playing with [Istio](https://istio.io) on Kubernetes & one of the things I wanted to achieve was seamless canary releases. Turns out it is **really easy** with Istio. Let's dive in.
 
 ## Prerequisites
 To follow along, you will need:
