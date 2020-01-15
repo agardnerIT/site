@@ -27,6 +27,14 @@ layout: default
     {{ content }}
   </div>
 
+  <div id="youtube-cta">
+  <h2>YouTube Tutorial?</h2>
+  <p>Would you prefer this post as a live walkthrough on Youtube?</p>
+  <p>Let me know by giving a thumbs-up (no login / account required).</p>
+  <img id="votebtn" src="images/thumb-up.png" />
+  <p id="vote-confirmed">Thanks. Your vote has been recorded.</p>
+</div>
+
   <div class="post-tags">
       {% if post %}
         {% assign categories = post.categories %}
@@ -40,3 +48,5 @@ layout: default
   </div>
 
 </article>
+
+{% include footerscripts.html %}
