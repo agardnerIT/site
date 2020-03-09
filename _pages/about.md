@@ -8,7 +8,7 @@ permalink: /about
 
 Travelling and scuba diving are my passions.
 
-I'm currently based in Sydney, Australia and work for [Dynatrace](https://dynatrace.com) as an Automation Architect.
+I'm currently based in Brisbane, Australia and work for [Dynatrace](https://dynatrace.com) as an Automation Architect.
 
 ## Non IT Certifications
 
