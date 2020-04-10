@@ -6,6 +6,7 @@ categories: [dynatrace, host groups, tutorials]
 
 Host groups are a powerful concept in Dynatrace. This tutorial shows how to utilise host groupings to properly define and baseline a set of Apache services.
 
+
 ## Architecture / Deployment Reference
 First, let’s describe the basic architecture of what we’re deploying. Assume we have a set of hosts all running Apache HTTPD processes. These hosts serve 3 distinct functions within our estate:
 
