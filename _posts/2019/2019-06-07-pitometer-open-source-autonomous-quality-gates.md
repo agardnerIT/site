@@ -7,6 +7,8 @@ categories: [automation, devops, keptn, open source, pitometer]
 
 Imagine releasing software with zero upfront meetings. Imagine a release that was tested and promoted (or rejected) through your pipeline automatically. Imagine being able to mix and match the tools that provide those metrics. Imagine a world where you didn’t constantly argue over release acceptance / quality criteria. Imagine an open source tool that did all of that. Meet Pitometer...
 
+**NOTE: THIS TUTORIAL REFERS TO THE LEGACY PITOMETER SERVICE WHICH HAS NOW BEEN SUPERCEDED BY [KEPTN QUALITY GATES](https://keptn.sh). I RECOMMEND READING THIS [KEPTN + PROMETHEUS TUTORIAL](https://medium.com/keptn/implementing-sli-slo-based-continuous-delivery-quality-gates-using-prometheus-9e17ec18ca36) INSTEAD.**
+
 Pitometer is an open source tool which allows you to specify your definitions of software quality in code, pull metrics from **anywhere**, then automatically grade your software into pass, warning or fail states.
 
 Your pipeline can then leverage that decision to promote or reject the deployment.
