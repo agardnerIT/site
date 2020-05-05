@@ -278,7 +278,7 @@ I have the [JIRA Service](https://github.com/keptn-sandbox/jira-service) and the
 
 My developers now have an automatically created record of the problem and all remediation actions, right within their normal JIRA workflow. They can reply to the ticket from within Dynatrace or the ticket itself, everyone has all relevant details instantly, whichever tool they use.
 
-Don't use JIRA? Keptn is plug & play so just switch the service out for a different one such as Slack or ServiceNow (or write your own for any other tool).
+Don't use JIRA? Keptn is plug & play so just switch the service out for a different one such as Slack or ServiceNow (or write your own service for any other tool).
 
 # Conclusion
 
