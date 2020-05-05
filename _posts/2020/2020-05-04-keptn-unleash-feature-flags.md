@@ -270,9 +270,9 @@ $ ./loadGenErrors.sh
 
 ![jira ticket](/images/postimages/keptn-unleash-10.png)
 
-I have the [JIRA Service](https://github.com/keptn-sandbox/jira-service) and the [Dynatrace for JIRA Cloud plugin](https://marketplace.atlassian.com/apps/1217645/dynatrace-for-jira-cloud?hosting=cloud&tab=overview) installed into my Keptn cluster. Combined, these two do the following:
+I have the [JIRA Service](https://github.com/keptn-sandbox/jira-service) and the [Dynatrace for JIRA Cloud plugin](https://marketplace.atlassian.com/apps/1217645/dynatrace-for-jira-cloud?hosting=cloud&tab=overview) installed into the Keptn cluster. Combined, these two do the following:
 
-1. Create a JIRA ticket whenever a problem event occurs. This JIRA ticket contains all the details of my problem.
+1. Create a JIRA ticket whenever a problem event occurs. This JIRA ticket contains all the details of the problem.
 1. Sync comments bi-directionally between Dynatrace and JIRA.
 1. Link directly to the Keptn's bridge and the Dynatrace problem from the ticket.
 
