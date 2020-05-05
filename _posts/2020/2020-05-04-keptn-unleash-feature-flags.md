@@ -78,7 +78,7 @@ CONTAINER ID    IMAGE    COMMAND    CREATED    STATUS    PORTS    NAMES
 
 ```
 
-# Clone This Repo
+# Clone Repo
 ```
 git clone https://github.com/agardnerit/unleashtutorial
 cd unleashtutorial && chmod +x loadGenErrors.sh
@@ -222,7 +222,7 @@ keptn create service front-end --project=website
 keptn add-resource --project=website --service=front-end --stage=production --resource=remediations.yaml --resourceUri=remediation.yaml
 ```
 
-The values in the `remediations.yaml` file tell Keptn how to respond when it sees a failure rate increase problem for this project (`website`), service (`front-end`) and stage (`production`)
+The values in the `remediations.yaml` file tell Keptn how to respond when it sees a failure rate increase problem for this project (`website`), service (`front-end`) and stage (`production`).
 
 # Create Secret & Bounce Remediation Service
 Note that the `username` and `token` can be set to anything.
@@ -238,9 +238,9 @@ kubectl delete pod -n keptn -l "run=remediation-service"
 
 # Load Generator
 
-> Run this on the application VM hosting the website.
-
 Run the load generator which will create errors. In another tab, keep refreshing the page and in a few minutes (when DT raises a problem) you'll see the website failover to the green static hosted content.
+
+Run this on the application VM hosting the website:
 
 ```
 cd ~/unleashtutorial
@@ -265,6 +265,20 @@ $ ./loadGenErrors.sh
 ![unleash toggle enabled](/images/postimages/keptn-unleash-9.png)
 
 ![application CDN ui](/images/postimages/keptn-unleash-8.png)
+
+# Bonus: Synced JIRA Tickets
+
+![jira ticket](/images/postimages/keptn-unleash-10.png)
+
+I have the [JIRA Service](https://github.com/keptn-sandbox/jira-service) and the [Dynatrace for JIRA Cloud plugin](https://marketplace.atlassian.com/apps/1217645/dynatrace-for-jira-cloud?hosting=cloud&tab=overview) installed into my Keptn cluster. Combined, these two do the following:
+
+1. Create a JIRA ticket whenever a problem event occurs. This JIRA ticket contains all the details of my problem.
+1. Sync comments bi-directionally between Dynatrace and JIRA.
+1. Link directly to the Keptn's bridge and the Dynatrace problem from the ticket.
+
+My developers now have an automatically created record of the problem and all remediation actions, right within their normal JIRA workflow. They can reply to the ticket from within Dynatrace or the ticket itself, everyone has all relevant details instantly, whichever tool they use.
+
+Don't use JIRA? Keptn is plug & play so just switch the service out for a different one such as Slack or ServiceNow (or write your own for any other tool).
 
 # Conclusion
 
