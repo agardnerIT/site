@@ -9,7 +9,7 @@ categories: [unleash, keptn, feature flag, self healing, automation]
 
 # Overview
 
-> Self healing software is a key cornerstone in software automation maturity. Tooling comes second to the ability and willingness to change the way you create software.
+> Self healing software is a cornerstone in software automation maturity. Tooling comes second to the ability and willingness to change the way you create software.
 
 Keptn already has an [excellent tutorial](https://keptn.sh/docs/0.6.0/usecases/self-healing-with-keptn/dynatrace-unleash/) on running Keptn & Unleash in Kubernetes or OpenShift based environments. The focus of this post is how we can leverage these components in a **non-Kubernetes environment**.
 
