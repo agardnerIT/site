@@ -5,7 +5,7 @@ header_image: /images/headerimages/bamboo.svg
 categories: [atlassian, bamboo, cicd, automation, shell script]
 ---
 
-[Atlassian Bamboo](https://www.atlassian.com/software/bamboo) is an 2extremely popular CICD platform. Here's an automation script to spin up an instance on Ubuntu.
+[Atlassian Bamboo](https://www.atlassian.com/software/bamboo) is an extremely popular CICD platform. Here's an automation script to spin up an instance on Ubuntu.
 
 I tested this on an AWS Ubuntu 18.04 `t3.small` instance. 
 
