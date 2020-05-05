@@ -288,6 +288,6 @@ Although Keptn and Unleash are primarily designed for Kubernetes-based environme
 
 Tooling helps, but culture is much more important on your software automation journey. The three big ones are:
 
-1. A willingness (and ability) to rething the way you design and write software.
+1. A willingness (and ability) to rethink the way you design and write software.
 1. A willingness to empower your development teams to take responsibility for the code they produce.
 1. The ability to get relevant, actionable feedback to developers - quickly.
