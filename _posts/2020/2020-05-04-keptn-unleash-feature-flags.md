@@ -5,7 +5,7 @@ header_image: /images/headerimages/unleash_keptn.png
 categories: [unleash, keptn, feature flag, self healing, automation]
 ---
 
-[Keptn](https://keptn.sh) is an event-based control plane for continuous delivery and automated operations. [Unleash](https://unleash.github.io) is a feature toggling framework. It sounds like these two would play well together, even in non-cloud native environments...
+[Keptn](https://keptn.sh) is an event-based control plane for continuous delivery and automated operations. [Unleash](https://unleash.github.io) is a feature toggling framework. It sounds like these two would play well together, even in non cloud-native environments...
 
 # Overview
 
