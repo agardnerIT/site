@@ -39,7 +39,7 @@ The backend of our voting system looks like this:
 
 ![voting backend](/images/postimages/serverless-vote-system-3.png)
 
-The Lambda function will process the incoming data and log it to Cloudwatch. In this architecture, Lambda is our backend processing. Crucially though, Lambda functions only exist *while* they're executing.
+The Lambda function will process the incoming data and log it to CloudWatch. In this architecture, Lambda is our backend processing. Crucially though, Lambda functions only exist *while* they're executing.
 
 Log in to AWS and go to Lambda. Click "Create Function" and "Author from Scratch".
 
@@ -115,7 +115,7 @@ Two return headers are required by AWS and they add an extra layer of security: 
 
 `Access-Control-Allow-Origin` specifies that we will only allow traffic from the specified domain. This helps to ensure that someone else can't just copy and paste your HTML form and register fake votes from *their* domain.
 
-The `Access-Control-Allow-Headers` header specifies that the only header we allow is the `Content-Type` header. The HTML form sets a `Content-Type` header of `application/json`, the form will set this header.
+The `Access-Control-Allow-Headers` header specifies that the only header we allow is the `Content-Type` header. The HTML form sets a `Content-Type` header of `application/json`.
 
 ## POST Request
 
@@ -183,7 +183,7 @@ You should now see a blank dashboard.
 
 Click **Actions > View/Edit source**.
 
-Remove the current content and replace with the following. Change the `***` value to match your Lambda function name. Adjust the values to match the AWS region in which your executing.
+Remove the current content and replace with the following. Change the `***` value to match your Lambda function name. Adjust the values to match the AWS region in which you're executing.
 
 For example, if your Lambda function was called `blogWriteup` then it would be: `SOURCE '/aws/lambda/blogWriteup'`.
 
