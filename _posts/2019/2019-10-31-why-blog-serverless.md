@@ -99,8 +99,8 @@ When all is said and done, in my case, the benefits of the move have been worth 
 
 - The site structure is much more lightweight, cleaner and easier to maintain.
 - I have a ready made backup & restore solution via GitHub.
-- I have slashed my response times (more on that in a future post).
-- I have vastly reduced my risk of being hacked or attacked - all infrastructure and DDOS protection is managed by GitHub. All blog posts are open source - they're really nothing to hack.
+- I have slashed my response times (see: [implications of going serverless](/serverless-implications) blog post).
+- I have vastly reduced my risk of being hacked or attacked - all infrastructure and DDOS protection is managed by GitHub. All blog posts are open source - there is really nothing to hack.
 - I have embraced new tech so that I now get instant push notifications on my phone for contact form submissions.
 - I am not paying for infrastructure.
 
