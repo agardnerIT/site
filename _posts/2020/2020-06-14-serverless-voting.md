@@ -85,6 +85,10 @@ def lambda_handler(event, context):
     
       return {
           'statusCode': 200,
+          'headers': {
+              "Access-Control-Allow-Origin": "https://YOUR-DOMAIN-NAME-HERE",
+              "Access-Control-Allow-Headers": "Content-Type"
+            },
           'body': json.dumps('Vote recorded.')
       }
     # Else HTTP Method is not a post, return the default.
