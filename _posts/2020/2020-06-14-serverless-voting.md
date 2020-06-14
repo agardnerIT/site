@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Serverless, Zero Database Voting System"
+header_image: /images/headerimages/serverless-vote-system.png
 categories: [serverless, databaseless, voting, github pages, aws, lambda]
 ---
 
