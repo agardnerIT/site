@@ -56,7 +56,7 @@ This script is going to:
 {% raw %}
 ```yaml
 ---
-- name: Ensure Consistent HOST_GROUP
+- name: Ensure Consistent Host Groups
   hosts: all
 
   vars:
@@ -83,7 +83,7 @@ This script is going to:
     when: agent_installed.stat.exists == False
 
   - name: Install Agent
-    shell: "sh /tmp/dynatrace-oneagent.sh APP_LOG_CONTENT_ACCESS=1 --set-host-group={{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup)  }}"
+    shell: "sh /tmp/dynatrace-oneagent.sh --set-app-log-content-access=true --set-infra-only=false --set-host-group={{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup)  }}"
     become: yes
     when: agent_installed.stat.exists == False
 
