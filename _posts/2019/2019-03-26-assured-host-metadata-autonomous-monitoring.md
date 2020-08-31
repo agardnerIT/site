@@ -135,8 +135,8 @@ Your playbook should look like this:
     when: agent_installed.stat.exists == True
     register: currentHostGroup
 
-  - name: Update HOST_GROUP
-    shell: "/opt/dynatrace/oneagent/agent/tools/lib64/oneagentutil --set-host-group {{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup) }} --restart-service"
+  - name: Update Host Group
+    shell: "/opt/dynatrace/oneagent/agent/tools/lib64/oneagentutil --set-host-group={{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup) }} --restart-service"
     become: yes
     when: agent_installed.stat.exists == True and currentHostGroup.stdout != (hostvars[inventory_hostname].hostGroup | default(defaultHostGroup))
 
