@@ -9,7 +9,7 @@ This is the first in a series of tutorials aimed at ensuring your Dynatrace depl
 
 Dynatrace is already extremely automated. The out-of-the-box behaviour is almost install-and-forget. However, I consider it a best practice to configure host groups. They’ve saved me many times, especially as deployments grow larger and larger.
 
-Host Groups are simple to set, just append the `--set-host-group=something` parameter on to the install string.
+Host Groups are simple to set, just append the `--set-host-group=something` parameter to the install string.
 
 {% raw %}
 ```
