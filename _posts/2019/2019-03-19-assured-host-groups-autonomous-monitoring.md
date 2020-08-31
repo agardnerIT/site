@@ -5,15 +5,15 @@ header_image: /images/headerimages/assured-host-groups-header.png
 categories: [host groups, dynatrace, autonomous monitoring, acm, automation]
 ---
 
-This is the first in a series of tutorials aimed at ensuring your Dynatrace deployment is (autonomous) cloud-ready. This tutorial will demonstrate how to set & keep, your `HOST_GROUP`s in sync.
+This is the first in a series of tutorials aimed at ensuring your Dynatrace deployment is (autonomous) cloud-ready. This tutorial will demonstrate how to set & keep, your host groups in sync.
 
 Dynatrace is already extremely automated. The out-of-the-box behaviour is almost install-and-forget. However, I consider it a best practice to configure host groups. They’ve saved me many times, especially as deployments grow larger and larger.
 
-Host Groups are simple to set, just append the `HOST_GROUP=something` parameter on to the install string.
+Host Groups are simple to set, just append the `--set-host-group=something` parameter on to the install string.
 
 {% raw %}
 ```
-sudo /bin/sh/oneagent.sh ...other params... HOST_GROUP=something
+sudo /bin/sh/oneagent.sh ...other params... --set-host-group=something
 ```
 {% endraw %}
 
@@ -49,8 +49,8 @@ Once configured, I’d have my Ansible playbook running on a schedule (or if you
 This script is going to:
 
 - Check whether the OneAgent is installed.
-- If it isn’t installed, lookup the `HOST_GROUP` value from the JSON and install the agent. If the JSON does not contain a `HOST_GROUP` value, fallback to a default.
-- If it is installed, check the current `HOST_GROUP` value against the JSON definition. If the JSON is different, reconfigure the agent and restart the OneAgent.
+- If it isn’t installed, lookup the host group value from the JSON and install the agent. If the JSON does not contain a host group value, fallback to a default.
+- If it is installed, check the current host group value against the JSON definition. If the JSON is different, reconfigure the agent and restart the OneAgent.
 - Remember to replace `***` with your own tenant ID and API Key.
 
 {% raw %}
@@ -83,7 +83,7 @@ This script is going to:
     when: agent_installed.stat.exists == False
 
   - name: Install Agent
-    shell: "sh /tmp/dynatrace-oneagent.sh APP_LOG_CONTENT_ACCESS=1 HOST_GROUP={{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup)  }}"
+    shell: "sh /tmp/dynatrace-oneagent.sh APP_LOG_CONTENT_ACCESS=1 --set-host-group={{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup)  }}"
     become: yes
     when: agent_installed.stat.exists == False
 
@@ -94,7 +94,7 @@ This script is going to:
     register: currentHostGroup
 
   - name: Update HOST_GROUP
-    shell: "/opt/dynatrace/oneagent/agent/tools/lib64/oneagentutil --set-host-group {{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup) }} && sudo service oneagent restart"
+    shell: "/opt/dynatrace/oneagent/agent/tools/lib64/oneagentutil --set-host-group {{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup) }} --restart-service"
     become: yes
     when: agent_installed.stat.exists == True and currentHostGroup.stdout != (hostvars[inventory_hostname].hostGroup | default(defaultHostGroup))
 ```
