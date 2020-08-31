@@ -93,7 +93,7 @@ This script is going to:
     when: agent_installed.stat.exists == True
     register: currentHostGroup
 
-  - name: Update HOST_GROUP
+  - name: Update Host Group
     shell: "/opt/dynatrace/oneagent/agent/tools/lib64/oneagentutil --set-host-group {{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup) }} --restart-service"
     become: yes
     when: agent_installed.stat.exists == True and currentHostGroup.stdout != (hostvars[inventory_hostname].hostGroup | default(defaultHostGroup))
