@@ -43,25 +43,25 @@ sudo yum install httpd24 php72 -y
 > I’m assuming you have a Dynatrace environment. If not, get a [free 15 day trial here](https://www.dynatrace.com/trial/).
 
 ## Inbound Proxy Server
-Install the Dynatrace OneAgent but be sure to append the `HOST_GROUP=inbound-proxy` to your shell script installation.
+Install the Dynatrace OneAgent but be sure to append the `--set-host-group=inbound-proxy` to your shell script installation.
 
 ```bash
-sudo /bin/sh Dynatrace-OneAgent...sh APP_LOG_CONTENT_ACCESS=1 HOST_GROUP=inbound-proxy
+sudo /bin/sh Dynatrace-OneAgent...sh APP_LOG_CONTENT_ACCESS=1 --set-host-group=inbound-proxy
 ```
 
 ## Outbound Proxy Server
-Repeat for your outbound proxy server, appending `HOST_GROUP=outbound-proxy`
+Repeat for your outbound proxy server, appending `--set-host-group=outbound-proxy`
 
 ```bash
-sudo /bin/sh Dynatrace-OneAgent...sh APP_LOG_CONTENT_ACCESS=1 HOST_GROUP=outbound-proxy
+sudo /bin/sh Dynatrace-OneAgent...sh APP_LOG_CONTENT_ACCESS=1 --set-host-group=outbound-proxy
 ```
 
 ## Reverse Proxy Server
 
-Finally for your reverse proxy server, appending `HOST_GROUP=reverse-proxy`
+Finally for your reverse proxy server, appending `--set-host-group=reverse-proxy`
 
 ```bash
-sudo /bin/sh Dynatrace-OneAgent...sh APP_LOG_CONTENT_ACCESS=1 HOST_GROUP=reverse-proxy
+sudo /bin/sh Dynatrace-OneAgent...sh APP_LOG_CONTENT_ACCESS=1 --set-host-group=reverse-proxy
 ```
 
 ## Process Group & Host Group
