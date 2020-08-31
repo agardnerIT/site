@@ -11,7 +11,7 @@ This tutorial series builds from one stage to the next. If you haven’t read [p
 
 ## Aim of Tutorial
 
-We’re aiming for a situation whereby the process groups (PGs) & services are prepended with the `HOST_GROUP` tag. That is, the `staging` processes are split (and visually shown) as separate from the `production` PGs and services. This makes it easy to see which service belongs to which environment.
+We’re aiming for a situation whereby the process groups (PGs) & services are prepended with the host group tag. That is, the `staging` processes are split (and visually shown) as separate from the `production` PGs and services. This makes it easy to see which service belongs to which environment.
 
 > Note: The naming rules described in this article don’t actually split the groups. The splitting is due to the different host groups. The naming rule is just a visual aid – otherwise you’d have two Apache Web Server `httpd` process groups & services.
 
@@ -45,7 +45,7 @@ Open port 80 inbound to the instances and visit the public IP address for each i
 
 Services without traffic are hidden in the Dynatrace UI.
 
-As mentioned above, the Apache process groups and services are already split because the hosts belong to different host groups. We simply need to prepend the `HOST_GROUP` name to both the process group and service.
+As mentioned above, the Apache process groups and services are already split because the hosts belong to different host groups. We simply need to prepend the host group name to both the process group and service.
 
 ## Process Group Naming
 
