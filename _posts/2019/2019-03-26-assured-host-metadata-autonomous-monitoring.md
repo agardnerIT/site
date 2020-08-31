@@ -125,7 +125,7 @@ Your playbook should look like this:
     when: agent_installed.stat.exists == False
 
   - name: Install Agent
-    shell: "sh /tmp/dynatrace-oneagent.sh APP_LOG_CONTENT_ACCESS=1 HOST_GROUP={{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup)  }}"
+    shell: "sh /tmp/dynatrace-oneagent.sh --set-app-log-content-access=true --set-infra-only=false --set-host-group={{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup)  }}"
     become: yes
     when: agent_installed.stat.exists == False
 
@@ -136,7 +136,7 @@ Your playbook should look like this:
     register: currentHostGroup
 
   - name: Update HOST_GROUP
-    shell: "/opt/dynatrace/oneagent/agent/tools/lib64/oneagentutil --set-host-group {{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup) }} && sudo service oneagent restart"
+    shell: "/opt/dynatrace/oneagent/agent/tools/lib64/oneagentutil --set-host-group {{ hostvars[inventory_hostname].hostGroup | default(defaultHostGroup) }} --restart-service"
     become: yes
     when: agent_installed.stat.exists == True and currentHostGroup.stdout != (hostvars[inventory_hostname].hostGroup | default(defaultHostGroup))
 
