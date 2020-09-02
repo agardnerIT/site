@@ -233,7 +233,7 @@ Execute these commands on the Keptn cluster:
 
 ```
 kubectl create secret -n keptn generic unleash --from-literal="UNLEASH_SERVER_URL=http://<APP-VM-IP>/unleash/api" --from-literal="UNLEASH_USER=me" --from-literal="UNLEASH_TOKEN=whatever"
-kubectl delete pod -n keptn -l "run=remediation-service"
+kubectl scale deployment -n keptn remediation-service --replicas=0 && kubectl scale deployment -n keptn remediation-service --replicas=1
 ```
 
 # Load Generator
