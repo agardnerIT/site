@@ -15,7 +15,7 @@ I am not a security professional or hacker - ethical or otherwise. My security a
 
 Before you think I'm just being alarmist, check out this post from Hackernoon which describes a [**far more elaborate setup**](https://medium.com/hackernoon/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5) using npm modules.
 
-The message here should be loud and clear. Don't be scared, but do conduct regular reviews of **every** dependency and every piece of code, whether or not you wrote it. Ask whether you really understand what each third party library is doing, whether you need it and quantify the value that it provides weighed against the potential risk. Get business stakeholders onboard too as they need to understand and care about this because ultimately, should something go wrong, it won't be a technical problem. It'll be a board-level business problem.
+The message here should be loud and clear. Don't be scared, but do conduct regular reviews of **every** dependency and every piece of code, whether or not you wrote it. Ask whether you really understand what each third party library is doing, whether you need it and quantify the value that it provides, weighed against the potential risk. Get business stakeholders onboard too as they need to understand and care about this because ultimately, should something go wrong, it won't be a technical problem. It'll be a board-level business problem.
 
 Don't believe me? Here's how easy it is.
 
@@ -40,7 +40,7 @@ Install `apache` on both VMs. On VM one, create an index page which contains a f
 </html>
 ```
 
-On VM 2, create a new JavaScript file in the apache root directory. I've called mine `test.js`. Imagine this JavaScript is your shiny new feature or library. For now, it's perfectly valid and clean. Nothing nefarious going on here. The code simply waits for the page to load the prints a message to the console.
+On VM 2, create a new JavaScript file in the apache root directory. I've called mine `test.js`. Imagine this JavaScript is your shiny new feature or library. For now, it's perfectly valid and clean. Nothing nefarious going on here. The code simply waits for the page to load, then prints a message to the console.
 
 ```js
 document.addEventListener("DOMContentLoaded", function(){
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 ## Step 2: Include JavaScript on page
 
-Include the JavaScript in to the HTML page on VM one. To do this, modify the `head` section of the `index.html` page on VM one to include the new script tag:
+Include the JavaScript into the HTML page on VM one. To do this, modify the `head` section of the `index.html` page on VM one and include the new script tag:
 
 ```html
 <head>
@@ -62,7 +62,7 @@ Save the `index.html` file, open the DevTools console and refresh the page (hint
 
 ## Step 3: The Hack
 
-Imaging you're running in production quite happily, everything is fine, payments are being taken successfully and securely and everything is right with the world.
+Imagine it's some time later and you are running in production quite happily, everything is fine, payments are being taken successfully and securely and everything is right with the world.
 
 However, unknown to you, the CDN or website hosting that third party JavaScript code has just been compromised. A bad actor has gained access to their servers and has modified the Javascript code.
 
