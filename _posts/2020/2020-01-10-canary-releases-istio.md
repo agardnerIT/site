@@ -31,12 +31,19 @@ Save and apply the `v1` deployment YAML file:
 
 **web-v1-deployment.yaml**
 ```
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web-v1
+  labels:
+    app: web
+    version: v1
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: web
+      version: v1
   template:
     metadata:
       labels:
@@ -62,12 +69,19 @@ Repeat for `v2`:
 
 **web-v2-deployment.yaml**
 ```
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web-v2
+  labels:
+    app: web
+    version: v2
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: web
+      version: v2
   template:
     metadata:
       labels:
