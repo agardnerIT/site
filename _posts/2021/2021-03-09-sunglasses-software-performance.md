@@ -45,7 +45,7 @@ The software your company produces really is no different from my sunglasses. Yo
 1. If and when things go wrong (and they will) how fast you remediate those issues and return customers to their happy state
 
 ### Final Thoughts
-As I said at the beginning, this isn't rocket science but companies I deal with still regularly either struggle to achieve this or (worse) seem to ignore these basic principles.
+As I said at the beginning, this isn't rocket science but companies with which I deal, still regularly struggle to achieve this or (worse) seem to ignore these basic principles.
 
 To me, the worse the two above things are, the more money you have to spend on marketing to "paper over the cracks", so to me, this just makes sense! Then again, I'm not in marketing so maybe I'm missing something!?
 
