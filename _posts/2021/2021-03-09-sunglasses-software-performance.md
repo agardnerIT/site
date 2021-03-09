@@ -20,12 +20,12 @@ This really isn't rocket science but it amazes me how many companies **still** (
 If my company is in the business of manufacturing sunglasses, it has two opportunities to improve the quality of the glasses and the perception of my company:
 
 1. During the design & manufacture cycle
-1. During post sales cycle
+1. During the post sales cycle
 
 ### Quality During Design and Manufacture
 How does my company differentiate our sunglasses from every other market player? Perhaps we invest in better R&D so our **shapes** are better, different or more suited to our customer profile than our competitors. We invest in **style**.
 
-Perhaps we invest in **better materials**? Clearer lenses, scratch resistant coatings, UV protections, polarisation technology and so forth. Maybe the materials from which make the frames are lighterweight or more durable so the glasses don't break as easily as the competitors glasses. We invest in **quality**.
+Perhaps we invest in **better materials**? Clearer lenses, scratch resistant coatings, UV protections, polarisation technology and so forth. Maybe the materials from which make the frames are lighter weight or more durable so the glasses don't break as easily as the competitors glasses. We invest in **quality**.
 
 > In short, we improve the quality of the product that goes out the door.
 
