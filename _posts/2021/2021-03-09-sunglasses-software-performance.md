@@ -19,7 +19,7 @@ This really isn't rocket science but it amazes me how many companies **still** (
 ## Two Opportunities
 If my company is in the business of manufacturing sunglasses, it has two opportunities to improve the quality of the glasses and the perception of my company:
 
-1. During design & manufacture cycle
+1. During the design & manufacture cycle
 1. During post sales cycle
 
 ### Quality During Design and Manufacture
