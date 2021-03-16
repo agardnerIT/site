@@ -40,6 +40,29 @@ You'll also see `<script>` tags, one of which looks like this:
 
 In this scenario, I want to extract the content of the `<title>` tag and then extract the content of the `datePublished` field from this JSON snippet.
 
+## Install both libraries
+
+```
+pip install jq
+```
+
+Depending on your platform, `pup` can be installed in different ways. Easiest is to use `go get` or 
+
+```
+go get github.com/ericchiang/pup
+OR
+brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
+```
+
+Alternatively, see instructions on the [releases page](https://github.com/ericchiang/pup/releases).
+
+If all is successful, these two commands should provide output:
+
+```
+jq --version
+pup --version
+```
+
 ## Extracting Title
 Remember that I want to do this via a command line script, so create a new file in `/tmp` called `scraper.sh`. 
 
