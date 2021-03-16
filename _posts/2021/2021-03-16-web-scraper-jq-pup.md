@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Build a Web Scraper with jq and pup
-header_image: /images/headerimages/sunglasses-software-performance.jpg
 categories: [webpage scraper, webpage parser, linux, jq, pup]
 ---
 
