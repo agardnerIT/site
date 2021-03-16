@@ -8,7 +8,7 @@ Recently I wanted to build a rudimentary webpage scraper which would run from th
 
 As I progressed I noticed myself having to extensively `grep`, `cut` and stitch bits and pieces of logic together.
 
-One of my rules is that if the activity you're attempting seems like a fairly standard, someone has probably already done it or at least made utilities to make the activity easier. Don't reinvent the wheel.
+One of my rules is that if the activity you're attempting seems like a fairly standard, someone has probably already done it or at least made utilities to make the activity easier. They've probably put more time and effort into it than you have & thus it's better than your effort would be. Don't reinvent the wheel.
 
 This led me to two linux libraries: `pup` and `jq`.
 
