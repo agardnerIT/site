@@ -120,9 +120,7 @@ The output should look like this:
 <title> Serverless, Zero Database Voting System | Adam Gardner </title>
 ```
 
-Let's clean that up a bit.
-
-Modify the `/tmp/scraper.sh` file as such that we add the silent (`-s`) flag to the curl command. Adding this flags means we don't see the download stats bar.
+Let's clean that up a bit. Modify the `/tmp/scraper.sh` file as such that we add the silent (`-s`) flag to the curl command. Adding this flags means we don't see the download stats bar.
 
 Then add the `text{}` modifier to the `pup` command. This tells `pup` that we only want to see the text of the tag, not the actual start and end tags themselves.
 
