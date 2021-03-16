@@ -280,3 +280,4 @@ URL=https://agardner.net/serverless-voting/ /tmp/scraper.sh
 Serverless, Zero Database Voting System | Adam Gardner
 2020-06-14T00:00:00+00:00
 ```
+
