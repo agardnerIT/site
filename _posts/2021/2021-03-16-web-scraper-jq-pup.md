@@ -34,7 +34,24 @@ Say I want to extract some information from this page: `https://agardner.net/ser
 You'll also see `<script>` tags, one of which looks like this:
 ```javascript
 <script type="application/ld+json">
-    {"@type":"BlogPosting","headline":"Serverless, Zero Database Voting System","dateModified":"2020-06-14T00:00:00+00:00","datePublished":"2020-06-14T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://agardner.net/serverless-voting/"},"author":{"@type":"Person","name":"Adam Gardner"},"url":"https://agardner.net/serverless-voting/","description":"I needed a voting system for this website which was compatible with serverless pages. I also wanted it to be zero-login which ruled out using a third-party plugin. The result was a serverless, zero database &amp; zero login voting system using AWS. Here is how…","@context":"https://schema.org"}</script>
+    {
+      "@type":"BlogPosting",
+      "@context":"https://schema.org"
+      "headline":"Serverless, Zero Database Voting System",
+      "dateModified":"2020-06-14T00:00:00+00:00",
+      "datePublished":"2020-06-14T00:00:00+00:00",
+      "mainEntityOfPage":{
+        "@type":"WebPage",
+        "@id":"https://agardner.net/serverless-voting/"
+      },
+      "author":{
+        "@type":"Person",
+        "name":"Adam Gardner"
+      },
+      "url":"https://agardner.net/serverless-voting/",
+      "description":"I needed a voting system for this website which was compatible with serverless pages. I also wanted it to be zero-login which ruled out using a third-party plugin. The result was a serverless, zero database &amp; zero login voting system using AWS. Here is how…"
+    }
+</script>
 ```
 
 In this scenario, I want to extract the content of the `<title>` tag and then extract the content of the `datePublished` field from this JSON snippet.
