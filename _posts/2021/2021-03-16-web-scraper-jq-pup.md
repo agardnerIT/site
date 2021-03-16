@@ -182,7 +182,7 @@ echo $title
 
 All we've done here is store the output of the `curl` command into a variable called `page_html` so we can manipulate and query the HTML without repeated `curl` calls to the website.
 
-Now use pup to extract the `<script type="application/ld+json">` tag. Modify your `scraper.sh` again:
+Use `pup` to extract the `<script type="application/ld+json">` tag. Modify your `scraper.sh` again:
 
 ```bash
 #!/bin/bash
