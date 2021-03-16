@@ -62,12 +62,12 @@ In this scenario, I want to extract the content of the `<title>` tag and then ex
 pip install jq
 ```
 
-Depending on your platform, `pup` can be installed in different ways. Easiest is to use `go get` or 
+Depending on your platform, `pup` can be installed in different ways. Easiest is to use `go get` or `brew`.
 
 ```
 go get github.com/ericchiang/pup
 OR
-brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
+brew install pup
 ```
 
 Alternatively, see instructions on the [releases page](https://github.com/ericchiang/pup/releases).
