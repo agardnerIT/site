@@ -105,13 +105,13 @@ Imagine the pipeline wishes to evaluate an SLO. There is actually a "sub" workfl
 1. Just the retrieved SLIs against the SLO
 1. Output a result: pass, warning or fail
 
-It would be really nice if our tool could encapsulate and understand that "sub"-sequence so our pipeline only has to ask for an SLO evaluation and the tooling does the rest automatically.
+It would be really nice if our tool could encapsulate and understand that sub-sequence so our pipeline only has to ask for an SLO evaluation and the tooling does the rest automatically.
 
 Good news, it does!
 
 ## Just an Event Bus?
 
-See above - Keptn is not just an event bus. It's much more and exactly what depends on the usecase that you bring to Keptn.
+See above - Keptn is not just an event bus. It is much more and exactly what depends on the usecase that you bring to Keptn or your role within an organisation.
 
 This post is focused on your first steps of migrating away from an existing pipeline, piece by piece, to Keptn. However you could use Keptn to define your complete end-to-end delivery pipeline.
 
