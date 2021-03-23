@@ -16,7 +16,7 @@ If someone asked you to describe your pipeline, I bet you would **want** to desc
 
 ![desired_pipeline](/images/postimages/desired_pipeline.png)
 
-However, I bet what you'd actually describe is something like this:
+However, I bet what you'd **actually** describe is something like this:
 
 ![actual_pipeline](/images/postimages/actual_pipeline.png)
 
@@ -48,7 +48,7 @@ How about decoupling the pipeline logic (the what) from the tooling (the how). W
 1. This event is sent to some co-ordination component
 1. The component distributes the event to all listening
 1. Someone listening says "I have the capability to respond to that event. I'll do it"
-1. That individual (or service) responds with: I'm starting and I'm finished and here's your status.
+1. That individual (or service) responds with: I'm starting. Then, I'm finished and here's your status.
 1. The middleware coordinates the status and and extra information back to the pipeline via an event.
 
 ![pipeline-solution](/images/postimages/pipeline_solution.png)
@@ -73,7 +73,7 @@ How about replacing this logic with a "send alert" sequence of tasks? Your pipel
 
 ![pipeline_alerting_standard](/images/postimages/pipeline_alerting_standard.png)
 
-No longer want email alerts? Fine. Just uninstall the email service (or tell it to stop listening for "send alert" events) from the coordination component and your emails stops.
+No longer want email alerts? Fine. Just uninstall the email service (or tell it to stop listening for "send alert" events) from the coordination component and your emails stop.
 
 ![pipeline_alerting_standard_only_slack](/images/postimages/pipeline_alerting_standard_only_slack.png)
 
@@ -102,8 +102,8 @@ Imagine the pipeline wishes to evaluate an SLO. There is actually a "sub" workfl
 1. Define the SLIs
 1. Define a source (or sources) for the SLI data
 1. Retrieve the metrics from the above data source(s)
-1. Just the retrieved SLIs against the SLO
-1. Output a result: pass, warning or fail
+1. Judge the retrieved SLIs against the SLO
+1. Output a result: `pass`, `warning` or `fail`
 
 It would be really nice if our tool could encapsulate and understand that sub-sequence so our pipeline only has to ask for an SLO evaluation and the tooling does the rest automatically.
 
@@ -115,7 +115,7 @@ See above - Keptn is not just an event bus. It is much more and exactly what dep
 
 This post is focused on your first steps of migrating away from an existing pipeline, piece by piece, to Keptn. However you could use Keptn to define your complete end-to-end delivery pipeline.
 
-Here's an example of a working Keptn pipeline definition. It has 3 stages: `dev`, `hardening` and `production`.
+Here is an example of a working Keptn pipeline definition. It has 3 stages: `dev`, `hardening` and `production`.
 
 The `dev` stage contains two tasks: `deployment` and `release` (remember that the tooling which actually **does** these tasks is defined elsewhere). `hardening` is only triggered when a the `delivery finished in dev` message is broadcast. Similar is true for production stage but it listens for the `delivery sequence in hardening is finished` message.
 
