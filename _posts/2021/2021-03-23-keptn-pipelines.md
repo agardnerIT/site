@@ -86,7 +86,7 @@ At this point you probably think two things:
 1. "This sounds like an event bus. I'll use that." - Bear with me, I'll explain why this "coordination component" is more than an event bus later in the article.
 1. "What's the catch?"
 
-So, my concerns here would be:
+My concerns here would be:
 
 1. I hope the event descriptions, payloads and schemas are not proprietary. I hope that using this workflow doesn't lock me into a particular vendor or methodology.
 1. Ideally I hope that there is an open source version of this "co-ordination component" available otherwise I'm again locked into a particular vendor.
