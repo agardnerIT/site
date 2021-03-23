@@ -73,7 +73,7 @@ How about replacing this logic with a "send alert" sequence of tasks? Your pipel
 
 ![pipeline_alerting_standard](/images/postimages/pipeline_alerting_standard.png)
 
-Don't want Email alerts anymore? Fine. Just uninstall the email service (or tell it to stop listening for "send alert" events) from the coordination component and your emails stops.
+No longer want email alerts? Fine. Just uninstall the email service (or tell it to stop listening for "send alert" events) from the coordination component and your emails stops.
 
 ![pipeline_alerting_standard_only_slack](/images/postimages/pipeline_alerting_standard_only_slack.png)
 
