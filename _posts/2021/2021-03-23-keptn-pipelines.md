@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We've Been Building Pipelines Wrong. Here's How to Fix It!
+title: We've Been Building Pipelines Wrong. Here's How to Fix Them!
 categories: [pipelines, open source, keptn]
 ---
 
