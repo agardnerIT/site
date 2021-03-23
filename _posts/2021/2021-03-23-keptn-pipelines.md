@@ -83,7 +83,7 @@ No longer want email alerts? Fine. Just uninstall the email service (or tell it 
 
 At this point you probably think two things:
 
-1. "This sounds like an event bus. I'll use that." - Bear with me, I'll explain why this "coordination component" isn't just an event bus later in the article.
+1. "This sounds like an event bus. I'll use that." - Bear with me, I'll explain why this "coordination component" is more than an event bus later in the article.
 1. "What's the catch?"
 
 So, my concerns here would be:
