@@ -63,7 +63,7 @@ Again, you will have built specific integrations into that step to tightly coupl
 
 What happens if you want to replace email with a JIRA ticket or a Slack message or a problem notification into a monitoring tool? That's right - rip and replace.
 
-What happens if you want to send alerts to two places? Two integrations, two sets of APIs to integrate with. Two sets of potential bugs. All code managed and updated by you.
+What happens if you want to send alerts to two places? Two integrations, two sets of APIs with which to integrate. Two sets of potential bugs. All code managed and updated by you.
 
 ![pipeline_email_slack_alert](/images/postimages/pipeline_email_slack_alert.png)
 
