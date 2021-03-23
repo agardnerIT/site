@@ -4,7 +4,7 @@ title: We've Been Building Pipelines Wrong. Here's How to Fix Them!
 categories: [pipelines, open source, keptn]
 ---
 
-We've been building code pipelines wrong for years. Here's how to fix it...
+We've been building code pipelines wrong for years. Here's how to fix them...
 
 ## Quick Note
 When reading this post, take the terminology as generically as possible. Treat the technologies / products mentioned as exemplars only.
