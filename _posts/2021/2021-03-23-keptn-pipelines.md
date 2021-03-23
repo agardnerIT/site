@@ -93,7 +93,7 @@ My concerns here would be:
 
 Both of these concerns are valid, but both can be answered in the negative:
 
-1. The events that your pipeline will send are HTTP based requests based on the open source [CloudEvents](https://cloudevents.io) specification. No vendor lock-in and tool interoperability guaranteed.
+1. The events that your pipeline send are HTTP based requests in the open source [CloudEvents](https://cloudevents.io) format. No vendor lock-in and tool interoperability guaranteed.
 1. The "co-ordination component" is also a **CNCF Sandbox project** called [Keptn](https://keptn.sh), so no vendor (or lock-in) there either.
 
 ## One More Usecase: Evaluating an SLO
