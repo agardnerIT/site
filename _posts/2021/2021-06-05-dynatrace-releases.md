@@ -55,7 +55,7 @@ echo 'export DT_RELEASE_PRODUCT=frontend' | sudo tee -a /etc/apache2/envvars
 sudo service apache2 restart
 ```
 
-![apache_release](/images/postimages/dt_apache_release_tracking.png)
+![apache_release](/images/postimages/dt_release_tracking_apache.jpg)
 
 
 ## Summary
