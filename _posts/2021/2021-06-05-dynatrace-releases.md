@@ -39,7 +39,7 @@ That's all there is to it & you'll see releases begin to appear when new deploym
 
 Assuming you have a process on a VM, make the following environment variables available to the process during startup.
 
-```
+```bash
 export DT_RELEASE_PRODUCT=<PRODUCT-NAME>
 export DT_RELEASE_STAGE=<STAGE-NAME>
 export DT_RELEASE_VERSION=<VERSION-NUMBER>
@@ -48,7 +48,7 @@ export DT_RELEASE_VERSION=<VERSION-NUMBER>
 
 For example, to track `apache httpd` releases we add these variables to `/etc/apache2/envvars` and restart `apache2`:
 
-```
+```bash
 echo 'export DT_RELEASE_VERSION=v0.1' | sudo tee -a /etc/apache2/envvars
 echo 'export DT_RELEASE_STAGE=dev' | sudo tee -a /etc/apache2/envvars
 echo 'export DT_RELEASE_PRODUCT=frontend' | sudo tee -a /etc/apache2/envvars
