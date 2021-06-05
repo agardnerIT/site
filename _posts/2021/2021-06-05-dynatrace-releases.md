@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Dynatrace Releases
-header_image: /images/headerimages/apache_release_tracking.jpg
+header_image: /images/headerimages/dt_release_tracking_apache.jpg
 categories: [dynatrace, release management]
 ---
 
