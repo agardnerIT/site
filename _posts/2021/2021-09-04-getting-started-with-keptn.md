@@ -123,7 +123,7 @@ You may decide that:
 - `notify` best handled by `slack-service`
 - `report` best handled by `jira-service`
 
-Tooling in Keptn listens for and reacts to `sh.keptn.event.{taskname}.*` events. Usually the `taskname.triggered` event. The exactWhich events your service listens for is easily set via an environment variable when installing the service.
+Tooling in Keptn listens for and reacts to `sh.keptn.event.{taskname}.*` events. Usually the `taskname.triggered` event. The exact events your service listens for is easily set via an environment variable when installing the service.
 
 In the above example:
 
@@ -136,22 +136,20 @@ In the above example:
 
 ## Step 4: Trigger Sequence
 
-Your system is set up and ready to go! Just trigger the sequence and Keptn will handle the lifecycle of the tasks for you. Your tooling will respond and your tasks will be achieved.
+Your system is set up and ready to go! Trigger the sequence and Keptn will handle the lifecycle of the tasks for you. Your tooling will respond and your tasks will be achieved.
 
 ```
 curl -X POST https://keptn/...
 {
-	...
-	"type": "sh.keptn.event.main.createdemosystem.triggered"
-	...
+  ...
+  "type": "sh.keptn.event.main.createdemosystem.triggered"
+  ...
 }
 ```
 
-Check the Keptn's bridge for a full report on how your sequence progressed.
-
 ## Summary
 
-It's **very** easy to get started with Keptn. Keptn is designed so that you can provide your own tooling. You decide the best tool for the job and Keptn handles the rest.
+It is **very** easy to get started with Keptn. Keptn is designed so that you can provide your own tooling. You decide the best tool for the job and Keptn handles the rest.
 
 Check out the [Keptn public demo system](https://keptn.public.demo.keptn.sh/bridge/project/sockshop/sequence) to see how sequences are executed.
 
