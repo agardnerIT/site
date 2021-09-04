@@ -10,17 +10,17 @@ Keptn is a flexible workflow and automation engine. It is extremely easy to get 
 
 ## Keptn 101: Getting Started in 3 Steps
 
-1. Define **what** you want to achieve
+1. Define what you want to achieve
 2. Model that intention in a Shipyard file
 3. Define the tooling that you want to use to achieve those tasks
 
 ## 1. Define Tasks
 
-Start by deciding what you want to achieve. Split this work into two "levels": sequences and tasks.
+Start by deciding what you want to achieve. In Keptn's world, the high level requirement is a sequence and the individual tasks are, ummm tasks.
 
 The most simple example would be a desire to create a report. Most likely this is a very simple workflow consisting of a single "create report" task.
 
-A more complex example may be that you wish to create a fully fledged sequence of tasks that build an entire demo system. In which case, the tasks you must run are:
+A more complex example may be that you wish to build an entire demo system including infrastructure, user onboarding and notifications when completed. In which case, the tasks you must run are:
 
 1. Create infrastructure
 2. Install application
@@ -116,14 +116,14 @@ It is now time to define the tooling you wish to execute each task. This tooling
 
 You may decide that:
 
-- `buildreport` task is best handled by running a Python file
+- `createreport` task is best handled by running a Python file
 - `createinfra` task is best handled by the `aws-service`
 - `installapp` task is best handled by running a shell script
 - `onboarduser` task is best handled by running the `example/someimage:1.0.2` container
 - `notify` best handled by `slack-service`
 - `report` best handled by `jira-service`
 
-Tooling in Keptn listens for and reacts to `sh.keptn.event.{taskname}.triggered` event. Which events your service listens for is easily set via an environment variable when installing the service.
+Tooling in Keptn listens for and reacts to `sh.keptn.event.{taskname}.*` events. Usually the `taskname.triggered` event. The exactWhich events your service listens for is easily set via an environment variable when installing the service.
 
 In the above example:
 
@@ -138,10 +138,21 @@ In the above example:
 
 Your system is set up and ready to go! Just trigger the sequence and Keptn will handle the lifecycle of the tasks for you. Your tooling will respond and your tasks will be achieved.
 
+```
+curl -X POST https://keptn/...
+{
+	...
+	"type": "sh.keptn.event.main.createdemosystem.triggered"
+	...
+}
+```
+
 Check the Keptn's bridge for a full report on how your sequence progressed.
 
 ## Summary
 
 It's **very** easy to get started with Keptn. Keptn is designed so that you can provide your own tooling. You decide the best tool for the job and Keptn handles the rest.
 
-Is there a service you'd like to use with Keptn? Join the [Keptn community on Slack](https://slack.keptn.sh) and suggest an integration. I'm on there too - tag me and I'll help out.b
+Check out the [Keptn public demo system](https://keptn.public.demo.keptn.sh/bridge/project/sockshop/sequence) to see how sequences are executed.
+
+Is there a service you'd like to use with Keptn? Join the [Keptn community on Slack](https://slack.keptn.sh) and suggest an integration.
