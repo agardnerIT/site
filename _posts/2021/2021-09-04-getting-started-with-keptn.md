@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Getting Started with Keptn
-header_image: /images/headerimages/TODO.jpg
+header_image: /images/headerimages/keptn-logo.jpg
 categories: [keptn]
 ---
 
 
-Keptn is a flexible workflow and automation engine. With that flexibility comes perceived complexity. However it is extremely easy to get started with Keptn. You can be up and running in under 10 minutes...
+Keptn is a flexible workflow and automation engine. It is extremely easy to get started with Keptn, you can be up, running and modelling your own workflows in under 10 minutes...
 
 ## Keptn 101: Getting Started in 3 Steps
 
@@ -144,4 +144,4 @@ Check the Keptn's bridge for a full report on how your sequence progressed.
 
 It's **very** easy to get started with Keptn. Keptn is designed so that you can provide your own tooling. You decide the best tool for the job and Keptn handles the rest.
 
-Is there a service you'd like to use with Keptn? Join the [Keptn community on Slack](https://slack.keptn.sh) and suggest an integration. I'm on there too - tag me and I'll help out.
+Is there a service you'd like to use with Keptn? Join the [Keptn community on Slack](https://slack.keptn.sh) and suggest an integration. I'm on there too - tag me and I'll help out.b
