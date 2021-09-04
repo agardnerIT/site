@@ -30,13 +30,12 @@ A more complex example may be that you wish to build an entire demo system inclu
 
 ## 2. Model Your World
 
-Keptn models the world in a file called a Shipyard YAML file. The values given below are examples only and things can be named however you wish.
-
-We must now translate our requirements into a shipyard.yaml file:
+Keptn models the world in a file called a Shipyard YAML file.
 
 Some quick FYIs:
 
 1. Sequences (by default) are standalone
+2. Sequences and tasks can be named anything you want
 2. When a sequence is triggered to run, Keptn will automatically execute each task sequentially
 3. Sequences can be linked together to build complex workflows
 4. Metadata can be provided to each task either in the Shipyard or via the Keptn API when triggering a sequence
