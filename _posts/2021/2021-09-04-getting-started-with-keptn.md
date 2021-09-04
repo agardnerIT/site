@@ -64,7 +64,7 @@ spec:
     - name: "main"
 ```
 
-Define your sequences and tasks. Modelling the simple `createreport` sequence might look like this, where we have a single sequence and a matching single task.
+Define your sequences and tasks. Modelling the simple "create report" sequence might look like this, where we have a single sequence and a matching single task.
 
 Remember that the name values can be any string you want, so you're free to make up your own sequence and task names.
 
