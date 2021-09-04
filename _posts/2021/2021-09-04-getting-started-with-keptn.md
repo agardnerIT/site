@@ -148,7 +148,7 @@ curl -X POST https://keptn/...
 
 ## Summary
 
-It is **very** easy to get started with Keptn. Keptn is designed so that you can provide your own tooling. You decide the best tool for the job and Keptn handles the rest.
+Modelling workflows and tasks in Keptn is relatively painless. Keptn is designed to split the workflow from tooling. You decide the best tool for the job and Keptn handles the rest.
 
 Check out the [Keptn public demo system](https://keptn.public.demo.keptn.sh/bridge/project/sockshop/sequence) to see how sequences are executed.
 
