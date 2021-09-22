@@ -2,7 +2,7 @@
 layout: post
 title: Security Quality Gates with Aquasec Trivy and Keptn
 header_image: /images/headerimages/keptn_trivy.jpg
-categories: [security,keptn,quality gates]
+categories: [aquasec trivy, security, keptn, quality gates]
 ---
 
 Building an automated security quality gate with Aquasec Trivy and Keptn...
