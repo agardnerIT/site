@@ -54,7 +54,7 @@ Generate a new Dynatrace API token (Settings > Integration > Dynatrace API) with
 
 ![dynatrace token permissions](/images/postimages/dt_read_ingest_metrics_token_permissions.jpg)
 
-Execute the iamge again, this time also specifying your backend details:
+Execute the image again, this time also specifying your backend details:
 
 ```
 $ docker run --rm \
