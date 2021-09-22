@@ -254,7 +254,7 @@ actions:
       - name: "sh.keptn.event.securityscan.triggered"
     tasks:
       - name: "Run Trivy Evaluation"
-        image: "gardnera/trivy:v1.0"
+        image: "gardnera/trivy:v1"
         env:
           - name: TRIVY_SECURITY
             valueFrom: event
@@ -273,7 +273,7 @@ actions:
             value: "$.data.scan.metrics_token"
 ```
 
-This file stipulates that the job executor service will listen for `sh.keptn.event.securityscan.triggered` events and run the `gardnera/trivy:v1.0` image which setting some environment variables that will be pulled from the incoming cloudevent (we'll set these later).
+This file stipulates that the job executor service will listen for `sh.keptn.event.securityscan.triggered` events and run the `gardnera/trivy:v1` image which setting some environment variables that will be pulled from the incoming cloudevent (we'll set these later).
 
 ![job exector config.yaml file](/images/postimages/job_config_yaml.jpg)
 
