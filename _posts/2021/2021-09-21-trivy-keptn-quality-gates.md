@@ -52,7 +52,7 @@ For example, you'll receive a metric called `trivy.vulnerabilities.CRITICAL` whi
 
 Generate a new Dynatrace API token (Settings > Integration > Dynatrace API) with `ingest metrics` and `read metrics` permissions.
 
-!!!!!! IMAGE HERE !!!!!!!
+![dynatrace token permissions](/images/postimages/dt_read_ingest_metrics_token_permissions.jpg)
 
 Execute the iamge again, this time also specifying your backend details:
 
@@ -67,7 +67,7 @@ gardnera/trivy:v1
 ```
 Go to `Explore data` and chart the `trivy.vulnerabilities.CRITICAL` metric.
 
-!!!!! IMAGE HERE !!!!!
+![trivy vulnerabilities data explorer](/images/postimages/trivy_vulns_data_explorer.jpg)
 
 ## Create GitHub Repo
 
@@ -273,9 +273,9 @@ actions:
             value: "$.data.scan.metrics_token"
 ```
 
-This file stipulates that the job executor service will listen for `sh.keptn.event.securityscan.triggered` events and run the `gardnera/trivy:v1.0` image which setting some environment variables that will be pulled from teh incoming cloudevent (we'll set these later).
+This file stipulates that the job executor service will listen for `sh.keptn.event.securityscan.triggered` events and run the `gardnera/trivy:v1.0` image which setting some environment variables that will be pulled from the incoming cloudevent (we'll set these later).
 
-!!!!!!!!! IMAGE HERE !!!!!!!!
+![job exector config.yaml file](/images/postimages/job_config_yaml.jpg)
 
 ## Use dynatrace-api-token Secret
 
@@ -299,7 +299,7 @@ indicators:
   trivy_vulns: "metricSelector=trivy.vulnerabilities.CRITICAL"
 ```
 
-!!!!!!! IMAGE HERE !!!!!!!!!!!!
+![trivy sli.yaml](/images/postimages/trivy_sli.jpg)
 
 Now tell Keptn what our Service Level Objectives should be. This is where we add a threshold to our metric.
 
@@ -325,6 +325,8 @@ total_score:
 ```
 
 This file tells Keptn to use the `trivy_vulns` SLI we defined in `sli.yaml` and that if the number of vulnerabilities is less than 10, the quality gate is a `pass`. If the critical vulnerability count is 10 or higher, the gate will `fail`.
+
+![trivy slo.yaml](/images/postimages/trivy_slo.jpg)
 
 ## Ask Keptn to Execute Sequence
 
@@ -371,7 +373,7 @@ curl -X POST $KEPTN_API_URL/v1/event \
 }'
 ```
 
-!!!!!! IMAGE HERE !!!!
+![quality gate result](/images/postimages/quality_gate_result.jpg)
 
 ## Summary
 
