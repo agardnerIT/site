@@ -5,6 +5,8 @@ header_image: /images/headerimages/keptn_trivy.jpg
 categories: [aquasec trivy, security, keptn, quality gates]
 ---
 
+![header image](/images/headerimages/keptn_trivy.jpg)
+
 Building an automated security quality gate with Aquasec Trivy and Keptn...
 
 ## Prerequisites
