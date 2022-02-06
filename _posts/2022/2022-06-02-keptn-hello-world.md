@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Keptn Hello World
-header_image: /images/headerimages/sunglasses-software-performance.jpg
 categories: [keptn]
 ---
 
@@ -9,7 +8,7 @@ The Keptn "Hello World" example in under 10 minutes.
 
 ## Introduction
 
-There a lots of excellent tutorials on teh Keptn website but this post aims to get you up and running with Keptn and a "Hello World" example in under 10 minutes.
+There a lots of excellent tutorials on the Keptn website but this post aims to get you up and running with Keptn and a "Hello World" example in under 10 minutes.
 
 ## What You Will Need
 
