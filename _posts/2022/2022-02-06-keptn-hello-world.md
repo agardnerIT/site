@@ -16,7 +16,7 @@ To follow along, you will need:
 
 1. A GitHub account
 1. A Kubernetes Cluster
-1. 10 minutes
+1. Helm installed
 
 ## Create GitHub Stuff
 
@@ -34,8 +34,44 @@ export GIT_TOKEN=ghp_****
 ```
 curl -sL https://get.keptn.sh | KEPTN_VERSION=0.12.0 bash
 helm install keptn https://github.com/keptn/keptn/releases/download/0.12.0/keptn-0.12.0.tgz -n keptn --create-namespace
+```
+
+Wait until all pods are up and running: `watch kubectl get pods -n keptn`
+
+```
+NAME                         READY   STATUS
+bridge-*                     1/1     Running
+approval-service-*           2/2     Running
+api-gateway-nginx-*          1/1     Running
+webhook-service-*            2/2     Running
+lighthouse-service-*         2/2     Running
+keptn-mongo-*                1/1     Running
+remediation-service-*        2/2     Running
+configuration-service-*      1/1     Running
+secret-service-*             1/1     Running
+keptn-nats-cluster-0         2/2     Running
+api-service-*                2/2     Running
+mongodb-datastore-*          2/2     Running
+shipyard-controller-*        2/2     Running
+statistics-service-*         2/2     Running
+```
+
+Continue:
+```
 curl -SL https://raw.githubusercontent.com/keptn/examples/master/quickstart/expose-keptn.sh | bash
 helm install -n keptn job-executor-service https://github.com/keptn-contrib/job-executor-service/releases/download/0.1.6/job-executor-service-0.1.6.tgz
+```
+
+This will add one extra pod:
+
+```
+NAME                      READY   STATUS
+job-executor-service-*    2/2     Running
+```
+
+Expose Keptn:
+```
+curl -SL https://raw.githubusercontent.com/keptn/examples/master/quickstart/expose-keptn.sh | bash
 ```
 
 ## Configure Keptn
