@@ -58,7 +58,6 @@ statistics-service-*         2/2     Running
 
 Continue:
 ```
-curl -SL https://raw.githubusercontent.com/keptn/examples/master/quickstart/expose-keptn.sh | bash
 helm install -n keptn job-executor-service https://github.com/keptn-contrib/job-executor-service/releases/download/0.1.6/job-executor-service-0.1.6.tgz
 ```
 
