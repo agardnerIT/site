@@ -125,6 +125,8 @@ Due to the shipyard file, Keptn knows that the first task in your sequence is ca
 
 ## What's the big deal?
 
+> Keptn handles the orchestration and timing, you bring the tools you already use.
+
 You've successfully split the process from the tooling. You've hidden the complexities of tooling API interaction. There are thousands of tool integrations already written for Keptn or write your own. Keptn comes out-of-the-box with microservices dedicated to self-healing and code quality gate workflows.
 
 With Keptn it is incredibly easy to build complex task sequences whilst no longer worrying about the tooling that will implement those tasks.
