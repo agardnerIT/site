@@ -33,10 +33,10 @@ export GIT_TOKEN=ghp_****
 ## Install and Expose Keptn
 ```
 curl -sL https://get.keptn.sh | KEPTN_VERSION=0.12.0 bash
-helm install keptn https://github.com/keptn/keptn/releases/download/0.12.0/keptn-0.12.0.tgz -n keptn --create-namespace
+helm install keptn https://github.com/keptn/keptn/releases/download/0.12.0/keptn-0.12.0.tgz -n keptn --create-namespace --wait
 ```
 
-Wait until all pods are up and running: `watch kubectl get pods -n keptn`
+All pods should now be up and running: `kubectl get pods -n keptn`
 
 ```
 NAME                         READY   STATUS
@@ -58,7 +58,7 @@ statistics-service-*         2/2     Running
 
 Continue:
 ```
-helm install -n keptn job-executor-service https://github.com/keptn-contrib/job-executor-service/releases/download/0.1.6/job-executor-service-0.1.6.tgz
+helm install -n keptn job-executor-service https://github.com/keptn-contrib/job-executor-service/releases/download/0.1.6/job-executor-service-0.1.6.tgz --wait
 ```
 
 This will add one extra pod:
