@@ -73,6 +73,16 @@ Expose Keptn:
 curl -SL https://raw.githubusercontent.com/keptn/examples/master/quickstart/expose-keptn.sh | bash
 ```
 
+Temporary Note: If running on localhost, that script will work perfectly. If running on a cloud provider with Load Balancers available, the script above will point to `http://127.0.0.1` which obviously isn't correct. To fix, run the following to expose the bridge (UI) on a loadBalancer. We're working on a fixed script and I will remove this step once merged.
+
+```
+helm upgrade keptn https://github.com/keptn/keptn/releases/download/0.12.0/keptn-0.12.0.tgz -n keptn --set=control-plane.apiGatewayNginx.type=LoadBalancer --wait
+export KEPTN_ENDPOINT=$(kubectl get services -n keptn api-gateway-nginx -o=jsonpath='{.status.loadBalancer.ingress[0].ip}')
+echo "Keptn Available at: $KEPTN_ENDPOINT"
+keptn auth --endpoint=$KEPTN_ENDPOINT
+```
+
+
 ## Configure Keptn
 ```
 wget https://gist.githubusercontent.com/agardnerIT/8046b8a81bab90a37aef83219a8e8078/raw/341b6d3c8b8dfab30742320402706e903e5bb4ab/shipyard.yaml
