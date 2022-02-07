@@ -78,7 +78,7 @@ Temporary Note: If running on localhost, that script will work perfectly. If run
 ```
 helm upgrade keptn https://github.com/keptn/keptn/releases/download/0.12.0/keptn-0.12.0.tgz -n keptn --set=control-plane.apiGatewayNginx.type=LoadBalancer --wait
 export KEPTN_ENDPOINT=$(kubectl get services -n keptn api-gateway-nginx -o=jsonpath='{.status.loadBalancer.ingress[0].ip}')
-echo "Keptn Available at: $KEPTN_ENDPOINT"
+echo "Keptn Available at: http://$KEPTN_ENDPOINT"
 keptn auth --endpoint=$KEPTN_ENDPOINT
 ```
 
