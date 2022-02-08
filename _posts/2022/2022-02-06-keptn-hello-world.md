@@ -8,7 +8,7 @@ The Keptn "Hello World" example in under 10 minutes.
 
 ## Introduction
 
-There a lots of excellent tutorials on the Keptn website but this post aims to get you up and running with Keptn and a "Hello World" example in under 10 minutes.
+There are lots of excellent tutorials on the Keptn website but this post aims to get you up and running with Keptn and a "Hello World" example in under 10 minutes.
 
 ## What You Will Need
 
