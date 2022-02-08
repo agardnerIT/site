@@ -107,7 +107,7 @@ Go to the Keptn bridge, into the sequence view of the `hello-world` project and 
 
 ## What Happened?
 
-Keptn core components were installed along with the `job-executor-service` microservice. The `keptn` CLI was also downloaded. The Keptn bridge was exposed and (if running on localhost), all authentication was removed (to make this demo easier).
+Keptn core components were installed along with the `job-executor-service` microservice. The `keptn` CLI was also downloaded. The Keptn bridge was exposed and, to make this demo easier, all authentication was removed.
 
 A Keptn project was created called `hello-world` and a shipyard file was provided. A shipyard file is the "blueprint" of a Keptn project.  Inspect this file. Notice it has one stage (`dev`), one sequence (`hello`) and this sequence has one task associated to it (`hello-world`). A Keptn service was created called `demo`.
 
