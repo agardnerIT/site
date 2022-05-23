@@ -7,10 +7,11 @@ header_image: https://cloudevents.io/img/logos/cloudevents-icon-color.png
 
 YAML and JSON have won the war for data exchange formats, but we still haven't standardised on *what* we say to each other. [CloudEvents](https://cloudevents.io) solve that problem.
 
-# What Is Said not How It Is Said
+# What Is Said, Not How It Is Said
 
-Sending messages between tools using JSON is almost standard practice by now. But that is only one half of the equation. Take these two JSON documents. Each document contains the same information, they *say* the same thing, but in entirely different ways.
+Sending messages between tools using JSON is almost standard practice by now. But that is only half the equation. Take these two JSON documents. Each document contains the same information, they **say** the same thing, but in entirely different ways.
 
+Document 1:
 ```
 {
   "generator": "vendor A",
@@ -27,6 +28,7 @@ Sending messages between tools using JSON is almost standard practice by now. Bu
 }
 ```
 
+Document 2:
 ```
 {
   "issue_id": "1",
