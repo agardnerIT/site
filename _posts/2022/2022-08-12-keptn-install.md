@@ -2,7 +2,7 @@
 layout: post
 title: Install Keptn with Helm
 categories: [keptn]
-header_image: https://cloudevents.io/img/logos/cloudevents-icon-color.png
+header_image: https://raw.githubusercontent.com/keptn/community/main/branding/logos/keptn-logo-square.svg
 ---
 
 Install [Keptn](https://keptn.sh) with Helm in under 2 minutes.
