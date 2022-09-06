@@ -7,4 +7,4 @@ header_image: https://raw.githubusercontent.com/keptn/community/main/branding/lo
 
 What is a SLI Provider in Keptn? How do I define Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Keptn? How do I build a Keptn quality gate that pushes metrics to Prometheus (or other metric backends)?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sF4B5ADL5sl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sF4B5ADL5sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
