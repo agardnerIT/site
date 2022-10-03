@@ -69,6 +69,8 @@ Hooks can fire on one or more of these lifecycle stages:
 - [Error](https://docs.openfeature.dev/docs/reference/concepts/hooks/#after)
 - [Finally](https://docs.openfeature.dev/docs/reference/concepts/hooks/#after)
 
+Integrate feature flag information into OpenTelemetry traces? [Sure](https://github.com/open-feature/js-sdk-contrib/tree/main/libs/hooks/open-telemetry).
+
 Need to notify that a flag has been toggled? Use the `After` hook.
 
 Want to potentially prevent a hook unless it has been approved? The `Before` hook might be what you're looking for.
