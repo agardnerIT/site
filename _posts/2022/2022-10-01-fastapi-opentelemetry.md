@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "What is OpenFeature?"
-categories: [openfeature]
-header_image: https://raw.githubusercontent.com/open-feature/community/main/assets/logo/horizontal/white/openfeature-horizontal-white.png
+title: "OpenTelemetry Instrumented Python FastAPI"
+categories: [opentelemetry, fastapi, python]
+header_image: /images/headerimages/instrumented-flaskapi.jpg
 ---
 
 I expand a [previous tutorial](https://agardner.net/python-fastapi), adding OpenTelemetry tracing both automatically and manually.

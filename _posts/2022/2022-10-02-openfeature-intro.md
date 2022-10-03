@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "OpenTelemetry Instrumented Python FastAPI"
-categories: [opentelemetry, instrumentation, tracing, python, fastapi]
-header_image: /images/headerimages/instrumented-flaskapi.jpg
+title: "OpenFeature: A Primer"
+categories: [openfeature, feature flags]
+header_image: https://raw.githubusercontent.com/open-feature/community/main/assets/logo/horizontal/white/openfeature-horizontal-white.png
 ---
 
 What is OpenFeature and why might you need it?
@@ -78,6 +78,7 @@ Need to fix something if a FF toggle errors? trigger the action using the `Error
 Want to do something every time a flag is toggled, regardless of the status? `Finally` is probably what you are looking for.
 
 ## What Else Does OpenFeature Offer?
+
 Probably lots more than I've covered here. I'm still learning too, but I know conditional and fractional evaluations are possible. For example, you receive `valueA` if the email ends in `@example.com` otherwise `valueB`.
 
 I believe rules can be created like `getColour` where `green` is returned `X%` of the time, `blue` is given `Y%` of the time and so on.
