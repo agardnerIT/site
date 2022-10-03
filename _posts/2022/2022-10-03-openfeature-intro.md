@@ -2,7 +2,7 @@
 layout: post
 title: "OpenFeature: A Primer"
 categories: [openfeature, feature flags]
-header_image: https://raw.githubusercontent.com/open-feature/community/main/assets/logo/horizontal/white/openfeature-horizontal-white.png
+header_image: /images/headerimages/openfeature-horizontal-black.png
 ---
 
 What is OpenFeature and why might you need it?
@@ -50,7 +50,7 @@ open_feature_client.get_string_details(key="foo", default_value="missing_flag")
 
 A provider is the "translation" code between the OpenFeature API (see above) and the vendor specific calls.
 
-The provider is responsible for calling hte vendor and returning the flag in an OpenFeature compliant way.
+The provider is responsible for calling the vendor and returning the flag in an OpenFeature compliant way.
 
 ## Who Writes Providers?
 
