@@ -91,6 +91,12 @@ OpenFeature has a concept called `evaluation context` which means you can pass i
 
 Here is [a list of interested parties](https://github.com/open-feature/community/blob/main/interested-parties.md). If you / your company is interested, you can add your name to the list.
 
+# Does {VendorX} Support OpenFeature?
+
+The best way to find out is to ask them! Most feature vendors are already aware, involved or have built integrations.
+
+If your vendor doesn't yet support OpenFeature yet, it's a great opportunity to start that conversation.
+
 # Where Can I Find Out More?
 
 The [OpenFeature](https://openfeature.dev) website, [GitHub](https://github.com/open-feature) and [#openfeature on CNCF Slack](https://cloud-native.slack.com/archives/C0344AANLA1) are all good starting points.
