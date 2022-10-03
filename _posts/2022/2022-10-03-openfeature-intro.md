@@ -15,7 +15,7 @@ What is OpenFeature and why might you need it?
 
 ## OpenFeature Benefits for Feature Flag End Users
 
-Imagine you wish to integrate with a feature flagging solution from `vendorA`. You code needs to communicate with `vendorA` using their APIs and their specific code. In other words, your code is tightly coupled to that one vendor. If you want to move to a new vendor - it's a lot of work.
+Imagine you wish to integrate with a feature flagging solution from `vendorA`. Your code needs to communicate with `vendorA` using their APIs and their specific code. In other words, your code is tightly coupled to that one vendor. If you want to move to a new vendor - it's a lot of work.
 
 How about different parts of the organisation using different vendors? Scale the above scenario up and you'll understand the issue.
 
@@ -71,9 +71,9 @@ Hooks can fire on one or more of these lifecycle stages:
 
 Need to notify that a flag has been toggled? Use the `After` hook.
 
-Want to potentially prevent a hook if it has been approved? The `Before` hook might be what you're looking for.
+Want to potentially prevent a hook unless it has been approved? The `Before` hook might be what you're looking for.
 
-Need to fix something if a FF toggle errors? trigger the action using the `Error` hook.
+Need to fix something if a FF toggle errors? Trigger the action using the `Error` hook.
 
 Want to do something every time a flag is toggled, regardless of the status? `Finally` is probably what you are looking for.
 
@@ -83,7 +83,7 @@ Probably lots more than I've covered here. I'm still learning too, but I know co
 
 I believe rules can be created like `getColour` where `green` is returned `X%` of the time, `blue` is given `Y%` of the time and so on.
 
-OpenFeature has a concept called `evaluation context` which means you can pass in dynamic data at runtime that can be used by the Provider to evaluate a flag. Imagine traffic on a certain IP range (US-based users) receive one value and and European-based users get a different flag value.
+OpenFeature has a concept called `evaluation context` which means you can pass in dynamic data at runtime that can be used by the Provider to evaluate a flag. Imagine users on a certain IP range (US-based users) receiving one value and European-based users get a different flag value.
 
 # Where Can I Find Out More?
 
