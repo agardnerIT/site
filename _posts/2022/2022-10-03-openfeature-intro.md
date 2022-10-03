@@ -87,6 +87,10 @@ I believe rules can be created like `getColour` where `green` is returned `X%` o
 
 OpenFeature has a concept called `evaluation context` which means you can pass in dynamic data at runtime that can be used by the Provider to evaluate a flag. Imagine users on a certain IP range (US-based users) receiving one value and European-based users get a different flag value.
 
+# Who Is Involved / Interested in OpenFeature?
+
+Here is [a list of interested parties](https://github.com/open-feature/community/blob/main/interested-parties.md). If you / your company is interested, you can add your name to the list.
+
 # Where Can I Find Out More?
 
 The [OpenFeature](https://openfeature.dev) website, [GitHub](https://github.com/open-feature) and [#openfeature on CNCF Slack](https://cloud-native.slack.com/archives/C0344AANLA1) are all good starting points.
