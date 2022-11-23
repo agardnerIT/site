@@ -92,6 +92,6 @@ How can you prevent SQL injections?
 
 More details available via [OWASP](https://owasp.org/Top10/A03_2021-Injection/#how-to-prevent).
 
-_Title image credit: Photo modify by Photo by [Diana Polekhina](https://unsplash.com/@diana_pole) on [Unsplash](https://unsplash.com/s/photos/injection)_
+_Title image credit: Photo modify from original by [Diana Polekhina](https://unsplash.com/@diana_pole) on [Unsplash](https://unsplash.com/s/photos/injection)_
 
 
