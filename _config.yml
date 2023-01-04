@@ -23,6 +23,8 @@ main_menu:
     url: "/contact"
   - name: "Categories"
     url: "/categories"
+  - name: "Project Intros List"
+    url: "/project-intros"
   - name: "Search"
     url: "/search"
 
