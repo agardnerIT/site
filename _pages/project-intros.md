@@ -4,13 +4,20 @@ title: Open Source Project Introduction Series
 permalink: /project-intros
 ---
 
-The aim of this series is you get you started as quickly and easily as possible with high quality, open source software projects from organisations such as the [Cloud Native Computing Foundation](https://www.cncf.io), [Linux Foundation](https://www.linuxfoundation.org), [Continuous Delivery Foundation](https://cd.foundation), [OpenSSF](https://openssf.org) and others.
+The aim of this series is to get you started as quickly and easily as possible with high quality, open source software projects from organisations such as the [Cloud Native Computing Foundation](https://www.cncf.io), [Linux Foundation](https://www.linuxfoundation.org), [Continuous Delivery Foundation](https://cd.foundation), [OpenSSF](https://openssf.org) and others.
+
+<!--
+  Uncomment and replace when video is available
 
 <iframe width="560" height="315" src="https://example.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
 
 ## NATS
 
+<!--
+  Uncomment and replace when video is available
 <iframe width="560" height="315" src="https://www.example.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
 
 - [YouTube Overview](https://example.com)
 - [Online Demo](https://example.com)
