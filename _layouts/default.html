@@ -14,11 +14,9 @@
   <body>
     <div class="wrapper-container">
       <div class="wrapper-masthead">
-        <ul class="social-bar">
-          <li class="social-link"><a href="https://linkedin.com/in{{ site.social_links.linkedin }}"><img class="social-icon" src="{{ site.baseurl }}/images/icon-linkedin-square.svg" /></a></li>
-          <li class="social-link"><a href="https://github.com{{ site.social_links.github }}"><img class="social-icon" src="{{ site.baseurl }}/images/icon-github-square.svg" /></a></li>
-          <li class="social-link"><a href="{{ site.social_links.youtube_channel_url }}"><img class="social-icon" src="{{ site.baseurl }}/images/icon-youtube-square.svg" /></a></li>
-        </ul>
+        
+        {% include socialbar.html %}
+        
         <div class="container">
           <header class="masthead clearfix">
             <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" /></a>
