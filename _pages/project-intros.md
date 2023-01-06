@@ -10,11 +10,8 @@ The aim of this series is to get you started as quickly and easily as possible w
 
 ## NATS
 
-<!--
-  Uncomment and replace when video is available
-<iframe width="560" height="315" src="https://www.example.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
--->
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CWxnb4ap1Z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-- [YouTube Overview](https://example.com)
-- [Online Demo](https://example.com)
+- [YouTube Overview](https://youtu.be/CWxnb4ap1Z4)
+- [Hands-on Online Demo](https://killercoda.com/agardnerit/scenario/nats)
 - [NATS Official Website](https://nats.io)
