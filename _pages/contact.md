@@ -10,7 +10,6 @@ I'm also on Mastodon: `@agardnerit@techhub.social`.
 
 If they don't work for you, contact me below.
 
-
 <label class="label">Name*</label>
 <input id="name" class="input" type="text" required>
 
