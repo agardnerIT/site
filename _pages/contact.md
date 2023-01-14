@@ -4,6 +4,11 @@ title: Contact Me
 permalink: /contact
 ---
 
+I'm most active on [LinkedIn so follow and message me there](https://www.linkedin.com/in/agardner1/).
+
+I'm also on Mastodon: `@agardnerit@techhub.social`.
+
+If they don't work for you, contact me below.
 
 
 <label class="label">Name*</label>
