@@ -11,7 +11,6 @@ I asked ChatGPT to write an article about [Keptn](https://keptn.sh)...
 
 Here is ChatGPT's response:
 
-# 
 The world of software development is constantly evolving, and with it, the tools and processes that teams use to deliver software. One of the most promising developments in recent years has been the rise of cloud-native technologies such as Kubernetes and Istio, which have enabled teams to build, deploy and operate their applications in a more efficient and scalable way. However, as teams adopt these new technologies, they also face new challenges when it comes to automating their software delivery process.
 
 This is where Keptn comes in. Keptn is an open-source project that provides a platform for continuous delivery and automated operations of cloud-native applications. It enables teams to automate their software delivery process, from development to production, by providing a set of automation capabilities that can be integrated with existing tools and processes.
