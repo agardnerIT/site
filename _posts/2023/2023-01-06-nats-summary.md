@@ -30,6 +30,6 @@ message on `names.dog` to show that none of the other consumers receive that mes
 # New Project Each Week
 Each week in 2023 I will pick a new open source project to review. The entire list is [here](https://agardner.net/project-intros).
 
-The series is designed to be interactive - if you have a project you'd like me to review - please do get in contact and suggest a project!
+The series is designed to be interactive - if you have a project you'd like me to review - please do [get in contact](https://agardner.net/contact) and suggest a project!
 
 I hope you enjoy the NATS project!
