@@ -10,7 +10,7 @@ This is a text-based version of [this video](https://youtu.be/lZI_waRi1K0) so if
 Want to jump straight to the [Pyrsia hands-on](http://killercoda.com/pyrsia/scenario/pyrsia)? 
 
 # Pyrsia: Decentralized Package Network
-[Pyrsia](https://pyrsia.io) is the newest CDFoundation project.
+[Pyrsia](https://pyrsia.io) is the newest [CDFoundation](https://cd.foundation) project.
 
 # What is Pyrsia?
 Pyrsia is a decentralized package network. Independant build nodes individually build open source software package (at the time of writing, Docker images and Maven packages).
