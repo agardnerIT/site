@@ -21,7 +21,7 @@ The aim of this series is to get you started as quickly and easily as possible w
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lZI_waRi1K0" title="Pyrsia Intro video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-- [Hands-on Online Demo](https://killercoda.com/agardnerit/scenario/pyrsia)
+- [Hands-on Online Demo](https://killercoda.com/pyrsia/scenario/pyrsia)
 - [Prefer to read rather than watch YouTube? Text-based summary here](https://agardner.net/pyrsia-summary)
 - [YouTube Overview](https://youtu.be/lZI_waRi1K0)
 - [Pyrsia Official Website](https://pyrsia.io)

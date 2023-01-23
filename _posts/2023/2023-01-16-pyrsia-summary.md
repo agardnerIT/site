@@ -7,7 +7,7 @@ header_image: /images/headerimages/pyrsia-header.svg
 
 This is a text-based version of [this video](https://youtu.be/lZI_waRi1K0) so if you prefer reading to watching, read on!
 
-Want to jump straight to the [Pyrsia hands-on](http://killercoda.com/agardnerit/scenario/pyrsia)? 
+Want to jump straight to the [Pyrsia hands-on](http://killercoda.com/pyrsia/scenario/pyrsia)? 
 
 # Pyrsia: Decentralized Package Network
 [Pyrsia](https://pyrsia.io) is the newest CDFoundation project.
@@ -24,7 +24,7 @@ This blockchain (immutable ledger) and consensus approach promises a step up in 
 All actions are committed to the Pyrsia transparency log - which any Pyrsia user can inspect at any time.
 
 # Pyrsia Hands On
-During the [Pyrsia hands-on](http://killercoda.com/agardnerit/scenario/pyrsia) exercise, you will install Pyrsia, connect to the network and pull an image from the network.
+During the [Pyrsia hands-on](http://killercoda.com/pyrsia/scenario/pyrsia) exercise, you will install Pyrsia, connect to the network and pull an image from the network.
 
 You will then retrieve the transparency log for that image to see how the network came to a consensus about that image.
 
