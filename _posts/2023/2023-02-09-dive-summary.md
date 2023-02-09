@@ -2,7 +2,7 @@
 layout: post
 title: "Dive: Explore and Optimise your Container Images"
 categories: [dive, containers, summary]
-header_image: /images/headerimages/dive-header.png
+header_image: /images/headerimages/dive-header.jpg
 ---
 
 This is a text-based version of [this video](https://www.youtube.com/watch?v=giKfx2ScfHM) so if you prefer reading to watching, read on!
