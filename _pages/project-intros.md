@@ -25,3 +25,12 @@ The aim of this series is to get you started as quickly and easily as possible w
 - [Prefer to read rather than watch YouTube? Text-based summary here](https://agardner.net/pyrsia-summary)
 - [YouTube Overview](https://youtu.be/lZI_waRi1K0)
 - [Pyrsia Official Website](https://pyrsia.io)
+
+## Dive
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/giKfx2ScfHM" title="Dive Intro video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+- [Hands-on Online Demo](https://killercoda.com/agardnerit/scenario/dive)
+- [Prefer to read rather than watch YouTube? Text-based summary here](https://agardner.net/dive-summary)
+- [YouTube Overview](https://youtu.be/giKfx2ScfHM)
+- [Dive on GitHub](https://github.com/wagoodman/dive)
