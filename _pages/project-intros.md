@@ -34,3 +34,19 @@ The aim of this series is to get you started as quickly and easily as possible w
 - [Prefer to read rather than watch YouTube? Text-based summary here](https://agardner.net/dive-summary)
 - [YouTube Overview](https://youtu.be/giKfx2ScfHM)
 - [Dive on GitHub](https://github.com/wagoodman/dive)
+
+## 5 Leading Open Standards Reviewed
+
+1. OpenTelemetry
+2. OpenFeature
+3. CloudEvents
+4. Continuous Delivery Events (CDEvents)
+5. Open Cybersecurity Framework (OCSF)
+   
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/D6KqtJIVcts" title="Open Standards video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+- [OpenTelemetry](http://opentelemetry.io)
+- [OpenFeature](https://docs.openfeature.dev)
+- [CloudEvents](https://cloudevents.io)
+- [CDEvents](https://cdevents.dev)
+- [Open Cybersecurity Framework](https://ocsf.io)
