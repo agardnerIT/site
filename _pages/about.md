@@ -4,7 +4,7 @@ title: About Me
 permalink: /about
 ---
 
-<img src="images/me.jpg" alt="Adam Gardner"/>
+<img src="images/me.jpg" alt="Adam Gardner" id="headshot"/>
 
 Travelling and scuba diving are my passions.
 
