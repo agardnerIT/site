@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kubecon North Amertica 2023 Colocated Events"
+title: "Kubecon North America 2023 Colocated Events"
 categories: [kubecon, colocated events]
 header_image: /images/headerimages/kubecon-2023-colo-header.png
 ---
