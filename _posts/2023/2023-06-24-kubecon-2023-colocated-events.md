@@ -5,9 +5,11 @@ categories: [kubecon, colocated events]
 header_image: /images/headerimages/kubecon-2023-colo-header.png
 ---
 
-Kubecon North America 2023 in Chicago! The co-located events have been announced. Registration and call for proposals is open now.
+The co-located events for Kubecon North America 2023 have been announced. Registration and call for proposals is open now.
 
-This year, the colocated events are all November 6th 2023:
+### [View the 50 second teaser](https://youtube.com/shorts/V74R_-SZxQ0?feature=share).
+
+This year, the colocated events are all held on November 6th 2023:
 
 - [App Developer Con 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/appdevelopercon/)
 - [Argo Con](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/)
@@ -23,7 +25,4 @@ This year, the colocated events are all November 6th 2023:
 - [Multi-tenancy Con](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/multi-tenancycon/)
 - [Observability Day](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/observability-day/)
 
-
-View the 50 second teaser: https://youtube.com/shorts/V74R_-SZxQ0?feature=share
-
-Then head over to the [overview page](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cncf-hosted-co-located-events-overview/) to register and submit your papers.
+Furthe information at the CNCF [overview page](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cncf-hosted-co-located-events-overview/) to register and submit your papers.
