@@ -41,7 +41,7 @@ helm foo version
 
 ## What language?
 
-Helm doesn't care what language your plugin is written in. Powershell, shell, Python, Go etc. etc. Helm can run it all.
+Helm doesn't care what language your plugin is written in. Powershell, shell, Python, Go etc. Helm can run it all.
 
 Of course, you need to know that the end user (the person installing the plugin) has that language available on their machine.
 
