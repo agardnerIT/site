@@ -5,7 +5,7 @@ categories: [helm, plugin, development]
 header_image: /images/headerimages/helm-logo.png
 ---
 
-I've just finished creating my first Helm chart and I thought I'd document the process in case it helps others.
+I've just finished creating my first Helm plugin and I thought I'd document the process in case it helps others.
 
 ## Preparation
 
