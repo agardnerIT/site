@@ -9,6 +9,8 @@ I've just finished creating my first Helm chart and I thought I'd document the p
 
 ## Preparation
 
+This plugin will "wrap" a normal helm command, generate an OpenTelemetry trace and use tracepusher to send it to an OpenTelemetry collector.
+
 You'll need the following installed to follow along:
 
 - [helm](https://helm.sh)
