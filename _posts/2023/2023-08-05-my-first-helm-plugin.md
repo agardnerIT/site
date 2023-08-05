@@ -55,9 +55,8 @@ What do you want the plugin to do?
 
 In my case, I want the plugin to:
 
-1. Start a timer
 1. Execute the helm command that the user intended
-1. Stop the timer
+1. Time the amount of time the command took
 1. Call another process that I know is installed on the user machine
 
 I know that this other process is installed because I've listed it in the prerequisites for the plugin.
@@ -156,7 +155,7 @@ If you are in the `trace` folder, you should now have two files:
 
 Install your plugin by running:
 
-```
+```shell
 helm plugin install .
 ```
 
@@ -170,13 +169,13 @@ Installed plugin: trace
 
 Run a helm command:
 
-```
+```shell
 helm trace version
 ```
 
 If you have an OpenTelemetry collector running on `http://localhost:4318` you should see:
 
-```
+```shell
 % helm trace version
 version.BuildInfo{Version:"v3.11.2", GitCommit:"912ebc1cd10d38d340f048efaf0abda047c3468e", GitTreeState:"clean", GoVersion:"go1.20.2"}
 <Response [200]>
@@ -184,7 +183,7 @@ version.BuildInfo{Version:"v3.11.2", GitCommit:"912ebc1cd10d38d340f048efaf0abda0
 
 If your collector is running elsewhere, set the `HP_OTELCOL_ENDPOINT` then run the command above:
 
-```
+```shell
 export HP_OTELCOL_ENDPOINT=http://my.collector.somewhere.com:4318
 helm trace version
 ```
