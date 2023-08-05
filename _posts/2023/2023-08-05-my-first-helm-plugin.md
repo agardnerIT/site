@@ -45,7 +45,7 @@ Helm doesn't care what language your plugin is written in. Powershell, shell, Py
 
 Of course, you need to know that the end user (the person installing the plugin) has that language available on their machine.
 
-If you write your plugin in Python and hte user doesn't have Python? Your plugin will fail.
+If you write your plugin in Python and the user doesn't have Python? Your plugin will fail.
 
 So what language does every Mac, Linux, Unix have? Plain old bash. That's what we'll write our plugin in today.
 
