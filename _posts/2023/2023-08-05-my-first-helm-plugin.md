@@ -205,7 +205,7 @@ helm trace version
 
 So there you have it, your first Helm plugin! There aren't many limitations to what helm and the plugin system can achieve, so go forth and integrate.
 
-Also, please make Helm observable with OpenTelemetry by installing
+Also, please make Helm observable with OpenTelemetry by installing [helm trace](https://github.com/agardnerIT/helm-trace).
 
 ## Additional Reading and Links
 
