@@ -159,6 +159,17 @@ Install your plugin by running:
 helm plugin install .
 ```
 
+If you find a helm plugin online you like, the syntax changes `.` to the URL:
+
+```shell
+helm plugin install https://github.com/agardnerit/helm-trace
+```
+
+Before you ask, **yes** the repo must be structured like that: `plugin.yaml` at the root.
+
+
+Back to the locally developed plugin...
+
 You should see:
 
 ```
@@ -190,7 +201,9 @@ helm trace version
 
 ## Summary
 
-So there you have it, your first Helm plugin!
+So there you have it, your first Helm plugin! There aren't many limitations to what helm and the plugin system can achieve, so go forth and integrate.
+
+Also, please make Helm observable with OpenTelemetry by installing
 
 ## Additional Reading and Links
 
