@@ -142,7 +142,7 @@ The `command` parameter tells helm what to do when someone runs the plugin. In t
 
 `platformCommand` allows the plugin author specify different commands based on operating system. Want a shell script for Linux and a Powershell for Windows? That's possible.
 
-Finally, due to Linux's permission requirements, we need the shell script to be executable (have the `x` bit set). So during plugin installation, after `script.sh` is downloaded, we use the `hooks.install` command to run a `chmod +x` command to ensure the script is executable.
+Finally, due to Linux's permission requirements, we need the shell script to be executable (have the `x` bit set). So during plugin installation, after `script.sh` is downloaded, `hooks.install` is used to run a `chmod +x` command to ensure the script is executable.
 
 Save `plugin.yaml`
 
