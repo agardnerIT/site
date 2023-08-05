@@ -7,8 +7,6 @@ header_image: /images/headerimages/kubecon-2023-colo-header.png
 
 The co-located events for Kubecon North America 2023 have been announced. Registration and call for proposals is open now.
 
-### [View the 50 second teaser](https://youtube.com/shorts/V74R_-SZxQ0?feature=share).
-
 This year, the colocated events are all held on November 6th 2023:
 
 - [App Developer Con 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/appdevelopercon/)
