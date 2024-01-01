@@ -28,6 +28,8 @@ main_menu:
   - name: "Search"
     url: "/search"
 
+year: "2024"
+
 #
 # Flags below are optional
 
