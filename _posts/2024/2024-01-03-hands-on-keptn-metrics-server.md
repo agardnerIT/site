@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Retrieve metrics"
+title: "Retrieve metrics from anywhere on Kubernetes"
 categories: [keptn, kubernetes, metrics]
 ---
 
