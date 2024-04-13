@@ -162,4 +162,4 @@ The return value is: 14
 
 🎉 Congratulations! 🎉 That JSON blob is your OpenTelemetry span.
 
-Stay tuned (or subscribe to my YouTube) for the next tutorial where I explain each field and enrich the span with events, metadata and a correct status code. See you then!
+Stay tuned (or [subscribe to my YouTube channel](https://www.youtube.com/@agardnerit?sub_confirmation=1)) for the next tutorial where I explain each field and enrich the span with events, metadata and a correct status code. See you then!
