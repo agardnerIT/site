@@ -111,7 +111,7 @@ tracepusher only emits spans via HTTP, hence why we needed the collector to list
   --duration-type ms
 ```
 
-You should receive: `Response <200>` from the collector. This proves the span got to our collector.
+You should receive: `Response <200>` from the collector. This proves the span got to the collector.
 
 ## Check Jaeger
 
