@@ -69,7 +69,7 @@ service:
       exporters: [otlp/localcollector, logging]
 ```
 
-This configuration takes spans into the collector on either port 6004 (when they're sent via gRPC) or port 6006 (when send via HTTP), does nothing to the spans (nothing in the `processors` block) and sends them back out again to the `http://localhost:4317` endpoint (you will recognise that as the Jaeger gRPC endpoint).
+This configuration takes spans into the collector on either port 6004 (when they're sent via gRPC) or port 6006 (when sent via HTTP), does nothing to the spans (nothing in the `processors` block) and sends them back out again to the `http://localhost:4317` endpoint (you will recognise that as the Jaeger gRPC endpoint).
 
 I've also configured some verbose (detailed) logging output. If anything goes wrong during development, I need to quickly see what's wrong. You would probably remove this `logging` for production.
  
