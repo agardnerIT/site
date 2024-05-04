@@ -168,6 +168,6 @@ Line `19` replaces the old `ConsoleSpanExporter` instead with an `OTLPSpanExport
 
 ## Summary
 
-In this post, and the accompanying video, we have successfully send OpenTelemetry traces from a Python application, via an OpenTelemetry collector, into a span storage backend (Jaeger).
+In this post, and the accompanying video, we have successfully sent OpenTelemetry traces from a Python application, via an OpenTelemetry collector, into a span storage backend (Jaeger).
 
 In the next installment of this series, we will re-write the application to emit a trace which contains multiple spans. So, [subscribe to my channel on Youtube](https://www.youtube.com/@agardnerit) and I'll see you then!
