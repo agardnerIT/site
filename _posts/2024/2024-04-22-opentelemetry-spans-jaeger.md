@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Enriching OpenTelemetry Span Metadata in Python"
-categories: [opentelemetry, python, span, metadata]
+title: "Sending Python Spans to Jaeger via a Collector"
+categories: [opentelemetry, python, jaeger]
 ---
 
 In the third episode of the series, the spans are sent from Python to Jaeger via an OpenTelemetry collector.
