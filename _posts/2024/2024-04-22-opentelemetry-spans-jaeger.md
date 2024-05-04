@@ -82,7 +82,7 @@ I've chosen to use ports `6004` and `6006` for two reasons:
 
 ## Download and Start Collector
 
-Download the collector binary for your platform from the latest releases.
+[Download the collector binary](https://github.com/open-telemetry/opentelemetry-collector/releases/latest) for your platform from the latest releases.
 
 Start the collector, passing your config.yaml file as a parameter:
 
