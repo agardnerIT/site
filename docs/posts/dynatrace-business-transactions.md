@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Dynatrace Basics: Business Transactions'
 header_image: /images/headerimages/basics-business-transactions-header.png
 categories:

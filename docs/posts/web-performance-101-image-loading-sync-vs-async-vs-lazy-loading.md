@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Web Performance 101 - Image Loading (Sync vs. Async vs. Lazy Loading)
 header_image: /images/headerimages/web-perf101-image-loading-header.png
 categories:

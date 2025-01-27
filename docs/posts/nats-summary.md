@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Hands on with NATS in under 4 minutes: Video Summary'
 categories:
 - cncf

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: What Do Sunglasses Have To Do With Software Performance?
 header_image: /images/headerimages/sunglasses-software-performance.jpg
 categories:

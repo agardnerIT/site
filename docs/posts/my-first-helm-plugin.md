@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: My First Helm Plugin
 categories:
 - helm

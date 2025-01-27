@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Kubernetes Cluster on AWS
 categories:
 - kubernetes

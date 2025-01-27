@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Pitometer - Open Source Autonomous Quality Gates
 header_image: /images/headerimages/pitometer-quality-gates-header.jpg
 categories:

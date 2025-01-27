@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: OpenTelemetry Tracing Gitlab Pipelines
 categories:
 - opentelemetry

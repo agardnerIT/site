@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Web Performance 101 - Caching Dynamic Content
 categories:
 - web performance

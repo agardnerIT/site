@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Export Kube Config From Docker Container and Merge
 categories:
 - kubernetes

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Service & Process Group Naming - Autonomous Monitoring
 header_image: /images/headerimages/service-pg-header.png
 categories:

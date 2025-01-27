@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Install Keptn with Helm
 categories:
 - keptn

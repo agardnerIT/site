@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Atlassian Bamboo Automated Install Script
 header_image: /images/headerimages/bamboo.svg
 categories:

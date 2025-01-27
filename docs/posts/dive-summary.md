@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Dive: Explore and Optimise your Container Images'
 categories:
 - dive

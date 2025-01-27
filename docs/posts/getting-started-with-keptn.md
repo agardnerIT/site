@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Getting Started with Keptn
 header_image: /images/headerimages/keptn-logo.jpg
 categories:

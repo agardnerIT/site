@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Create a Keptn Project and Service
 categories:
 - keptn

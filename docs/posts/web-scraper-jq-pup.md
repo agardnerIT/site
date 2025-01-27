@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Build a Web Scraper with jq and pup
 categories:
 - webpage scraper

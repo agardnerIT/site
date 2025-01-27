@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Using Redis with Python for Beginners
 categories:
 - redis

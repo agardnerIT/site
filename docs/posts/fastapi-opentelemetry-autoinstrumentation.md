@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Autoinstrumentation of Python FastAPI with OpenTelemetry
 categories:
 - python

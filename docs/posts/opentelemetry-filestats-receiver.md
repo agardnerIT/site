@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Exploring the OpenTelemetry filestats receiver
 categories:
 - opentelemetry

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Hands on with Pyrsia in under 5 minutes: Video Summary'
 categories:
 - continuous delivery foundation

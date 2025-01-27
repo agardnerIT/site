@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Dynatrace Apache SOLR Monitoring in Minutes
 header_image: /images/headerimages/apache-solr-header.jpg
 categories:

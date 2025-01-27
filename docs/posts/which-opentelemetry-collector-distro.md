@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Everyone has an OpenTelemetry Distribution: Which one should I choose?'
 categories:
 - opentelemetry

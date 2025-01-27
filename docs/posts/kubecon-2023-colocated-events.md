@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Kubecon North America 2023 Colocated Events
 categories:
 - kubecon

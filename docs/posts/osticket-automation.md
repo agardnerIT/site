@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: osTicket Automated Install Script
 header_image: /images/headerimages/osticket.png
 categories:

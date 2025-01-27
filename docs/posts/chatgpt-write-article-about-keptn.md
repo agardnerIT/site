@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'ChatGPT: Write me an Article about Keptn'
 categories:
 - chatgpt

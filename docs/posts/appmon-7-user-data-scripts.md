@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "AppMon 7 \u2013 Automated User Data Scripts"
 header_image: /images/headerimages/user-data-header.jpg
 categories:

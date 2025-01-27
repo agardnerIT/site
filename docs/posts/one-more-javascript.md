@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Just One More JavaScript...
 header_image: /images/headerimages/javascript-header.png
 categories:

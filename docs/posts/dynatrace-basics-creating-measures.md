@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Dynatrace Basics: Creating Measures'
 categories:
 - measures

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: An Introduction to Feature Flagging and OpenFeature
 categories:
 - feature flags

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Keptn Hello World
 categories:
 - keptn

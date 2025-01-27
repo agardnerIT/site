@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: OpenTelemetry Logs using only cURL?
 categories:
 - opentelemetry

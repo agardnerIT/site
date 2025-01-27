@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Ansible 101 - Vault
 header_image: /images/headerimages/ansible-vault-header.png
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Saltstack 101 - Dynatrace Integration
 header_image: /images/headerimages/saltstack-dynatrace-header.png
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Wordpress to Serverless - An Architectural Overview
 categories:
 - wordpress

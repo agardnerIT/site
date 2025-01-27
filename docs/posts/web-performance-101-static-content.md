@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Web Performance 101 - Static Content
 categories:
 - web performance

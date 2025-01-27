@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Saltstack 101 - Webhooks
 header_image: /images/headerimages/saltstack-setup-configuration-header.png
 categories:

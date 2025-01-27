@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: We've Been Building Pipelines Wrong. Here's How to Fix Them!
 categories:
 - pipelines

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: OpenTelemetry for everything
 categories:
 - dev.to

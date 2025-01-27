@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Automatic Management Zones - Autonomous Monitoring
 header_image: /images/headerimages/management-zones-header.png
 categories:

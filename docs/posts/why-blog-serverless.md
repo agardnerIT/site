@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Why This Blog Went Serverless
 categories:
 - github

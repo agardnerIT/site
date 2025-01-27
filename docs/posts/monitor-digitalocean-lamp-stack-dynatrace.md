@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Monitor a DigitalOcean LAMP Stack in Minutes with Dynatrace
 header_image: /images/headerimages/digitalocean-lamp-stack-header.png
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Lifecycle of a Keptn Task
 categories:
 - keptn

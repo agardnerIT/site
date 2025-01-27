@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Apache Reverse Proxy Setup
 header_image: /images/headerimages/apache-reverse-proxy-header.jpg
 categories:

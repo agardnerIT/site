@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Tomcat 9 on AWS CentOS
 header_image: /images/headerimages/tomcat-aws-header.png
 categories:

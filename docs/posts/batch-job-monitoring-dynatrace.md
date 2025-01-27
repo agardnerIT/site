@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Batch Job Monitoring with Dynatrace
 categories:
 - appmon

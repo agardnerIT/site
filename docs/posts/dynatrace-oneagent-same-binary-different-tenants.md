@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Dynatrace OneAgent - Same Binary, Different Tenants
 header_image: /images/headerimages/oneagent-same-binary-different-tenants-header.png
 categories:

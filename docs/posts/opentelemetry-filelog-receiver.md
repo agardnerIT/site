@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'OpenTelemetry filelog receiver: Hands on'
 categories:
 - redis

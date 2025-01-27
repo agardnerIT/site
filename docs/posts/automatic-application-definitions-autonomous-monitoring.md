@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Automatic Application Definitions - Autonomous Monitoring
 header_image: /images/headerimages/app-definitions-header.png
 categories:

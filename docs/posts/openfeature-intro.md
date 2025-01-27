@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'OpenFeature: A Primer'
 categories:
 - openfeature

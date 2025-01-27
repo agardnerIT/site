@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: OpenTelemetry Instrumented Python FastAPI
 categories:
 - opentelemetry

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Dynatrace Host Groups
 categories:
 - dynatrace

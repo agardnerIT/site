@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Security Quality Gates with Aquasec Trivy and Keptn
 header_image: /images/headerimages/keptn_trivy.jpg
 categories:

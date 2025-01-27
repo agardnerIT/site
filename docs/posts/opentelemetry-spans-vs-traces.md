@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: OpenTelemetry Spans vs. Traces
 categories:
 - opentelemetry

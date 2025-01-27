@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Implications of Going Serverless
 categories:
 - web performance

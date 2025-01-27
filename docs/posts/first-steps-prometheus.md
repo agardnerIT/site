@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Take your first steps with Prometheus
 categories:
 - prometheus

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ansible 101 - Playbooks
 categories:
 - ansible

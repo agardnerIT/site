@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Keptn: Running Infracost with the Job Executor Service'
 categories:
 - keptn

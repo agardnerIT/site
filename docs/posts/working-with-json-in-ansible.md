@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Working With JSON in Ansible
 categories:
 - ansible

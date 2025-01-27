@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Sending Python Spans to Jaeger via a Collector
 categories:
 - opentelemetry

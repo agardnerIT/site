@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'SQL Injection: Security Basics'
 categories:
 - sql

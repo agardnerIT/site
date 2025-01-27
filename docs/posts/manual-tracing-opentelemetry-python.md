@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Manual OpenTelemetry Tracing in Python: Beginners Guide'
 categories:
 - opentelemetry

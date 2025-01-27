@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Automatic Tag Rules - Autonomous Monitoring
 header_image: /images/headerimages/automatic-tag-rules-header.png
 categories:

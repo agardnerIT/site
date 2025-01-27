@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Invalid dylib load Python Error
 categories:
 - python

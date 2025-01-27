@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Hands On With Pitometer
 categories:
 - automation

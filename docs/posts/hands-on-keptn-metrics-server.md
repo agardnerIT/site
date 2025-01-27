@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Retrieve metrics from anywhere on Kubernetes
 categories:
 - keptn

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Assured Host Groups - Autonomous Monitoring
 header_image: /images/headerimages/assured-host-groups-header.png
 categories:

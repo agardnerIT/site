@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Everything you need to know (to get started) with the OpenTelemetry Collector
 categories:
 - opentelemetry

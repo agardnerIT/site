@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Enriching OpenTelemetry Span Metadata in Python
 categories:
 - opentelemetry

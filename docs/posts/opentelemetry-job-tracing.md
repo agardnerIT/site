@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Tracing Kubernetes Jobs with OpenTelemetry and Tracepusher
 categories:
 - tracepusher

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Trigger a Keptn Sequence
 categories:
 - keptn

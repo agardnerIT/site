@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Get Started with Fluent Bit in 2 Minutes
 categories:
 - fluent bit

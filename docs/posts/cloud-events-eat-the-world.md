@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Why CloudEvents will Eat The World
 categories:
 - cloudevents

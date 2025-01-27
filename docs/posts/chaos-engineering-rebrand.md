@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: A New Name for Chaos Engineering?
 categories:
 - chaos engineering

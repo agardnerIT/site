@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: AppMon 7.0 - Web Dashboards and Javascript
 header_image: /images/headerimages/appmon7-web-dashboards-js-header.gif
 categories:

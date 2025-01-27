@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: My First API with Python FastAPI
 categories:
 - python

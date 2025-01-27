@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Migrate a DigitalOcean Wordpress Droplet in Under 5 Minutes
 header_image: /images/headerimages/migrate-wordpress-header.png
 categories:

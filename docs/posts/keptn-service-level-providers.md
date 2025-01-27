@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Keptn: Service Level Providers, SLIs and SLOs'
 categories:
 - keptn

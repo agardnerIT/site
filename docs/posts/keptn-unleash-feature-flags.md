@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Keptn + Unleash = Automated Feature Flag Self Healing for Non Kubernetes Environments
 header_image: /images/headerimages/unleash_keptn.png
 categories:

@@ -1,8 +1,4 @@
----
-layout: page
-title: About Me
-permalink: /about
----
+# About Me
 
 <img src="/images/me.jpg" alt="Adam Gardner" id="headshot"/>
 

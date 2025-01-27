@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 'Keptn: Integrate Tools using Webhooks'
 categories:
 - keptn

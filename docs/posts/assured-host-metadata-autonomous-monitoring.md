@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Assured Host Metadata - Autonomous Monitoring
 header_image: /images/headerimages/assured-host-metadata-header.png
 categories:
