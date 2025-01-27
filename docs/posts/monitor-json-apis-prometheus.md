@@ -8,7 +8,7 @@ date:
 
 This video explains how to gather values (scrape) from a JSON endpoint and get the metrics into Prometheus.
 
-If you want to do this securely, I have a second video which walks through the secure setup.
+If you want to do this securely, I have a [second video](https://youtu.be/P4VJkKdoSVU) which walks through the secure setup.
 
 <!-- more -->
 
