@@ -1,0 +1,59 @@
+# Logo font: noto sans
+# Logo colour: #30CBFF
+site_name: "Adam Gardner | @agardnerit"
+nav:
+  - Home: "index.md"
+  - About: "about.md"
+  - Contact: "contact.md"
+
+theme:
+  name: material
+  logo: "images/logo.png"
+  features:
+    - content.code.copy
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: light blue
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      post_url_format: "{file}"
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/agardner1
+    - icon: fontawesome/brands/youtube 
+      link: https://youtube.com/@agardnerit
+    - icon: fontawesome/brands/mastodon
+      link: https://techhub.social/@agardnerit
+    - icon: fontawesome/brands/github
+      link: https://github.com/agardnerit
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
