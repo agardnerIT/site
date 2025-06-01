@@ -25,11 +25,15 @@ number_of_people_detected 1.0
 
 Next week I'll be attending the AWS Summit in Sydney. The weather was also atrocious this weekend, which gave me time to pose myself a hypothetical question:
 
-> How could we leverage AI & open source standards to track demand at the Dynatrace booth?
+!!! example "The Question"
+    How could we leverage AI & open source standards to track demand at the Dynatrace booth?
 
 For this exercise I envisioned a camera on the booth facing downwards and tracking the current number of individuals at the Dynatrace booth. The task would be to track the number of people in frame - not individual people. The output of this would be somehow fed into Dynatrace and therefore we could track, in realtime, the demand at the booth throughout the day.
 
 I am happy to say: **It works!** and here's a link to the source code: [Realtime video recognition in Python](https://github.com/agardnerIT/video-recognition-prometheus).
+
+!!! info "Theory Only"
+    This is a theoretical exercise only. We will not be doing this at AWS Summit in Sydney.
 
 ## Privacy Concerns
 
