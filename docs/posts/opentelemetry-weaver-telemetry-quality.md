@@ -66,13 +66,29 @@ As you've probably guessed by now, Weaver, from the OpenTelemetry project, is to
 
 Weaver acts as an endpoint. Telemetry is sent to Weaver and Weaver produces an output report.
 
-### Step 1: Download Weaver
-
-[Download weaver](https://github.com/open-telemetry/weaver/releases) and extract the binary.
-
-### Step 2: Start Weaver
+### Step 1: Start Weaver
 
 Start Weaver, informing it to wait for `60` seconds without receiving telemetry before shutting down. The command below also sets the output format to `JSON`, creates a new folder called `weaver-output` and saves a new file in there called `live_check.json` when Weaver closes.
+
+* Port `4317` is used to receive telemetry data (on the gRPC port).
+* Port `4320` is optional and should be included if you wish to stop Weaver via the `curl` command (see later).
+
+!!! info "Weaver Binary"
+    There is also a [standalone Weaver binary available on GitHub](https://github.com/open-telemetry/weaver/releases)
+
+```shell
+docker run --rm \
+  -p 4317:4317 \
+  -p 4320:4320 \
+  -u $(id -u ${USER}):$(id -g ${USER}) \
+  --env HOME=/tmp/weaver \
+  otel/weaver:v0.15.2 registry live-check \
+  --inactivity-timeout=60 \
+  --output=weaver-output \
+  --format=json
+```
+
+or (for standalone binary):
 
 ```shell
 ./weaver registry live-check \
