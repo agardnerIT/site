@@ -20,7 +20,7 @@ date:
 
 I regularly get asked a variation of: "is my telemetry any good?" and "what can we do to improve our telemetry data to better assist us during incidents?"
 
-Assuming the asked actually _has_ the correct telemetry to assist them, then what these questions usually boil down to, is the fact that their telemetry does not carry the correct amount of metadata.
+Assuming the asked actually _has_ the correct telemetry to assist them, then what these questions usually boil down to, is the fact that their telemetry does not carry the correct metadata.
 
 When telemetry signals (metrics, logs, events, traces, profiles etc.) are used during an incident, you need to quickly identify the issue, who is affected, who those entities belong to and thus you can quickly notify and begin the remediation process.
 
