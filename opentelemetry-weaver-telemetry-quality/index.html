@@ -3761,18 +3761,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#step-1-download-weaver" class="md-nav__link">
+  <a href="#step-1-start-weaver" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 1: Download Weaver
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-start-weaver" class="md-nav__link">
-    <span class="md-ellipsis">
-      Step 2: Start Weaver
+      Step 1: Start Weaver
     </span>
   </a>
   
@@ -3879,7 +3870,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              5 min read
+                              6 min read
                             
                           </span>
                         </div>
@@ -3942,10 +3933,27 @@
 <h2 id="weaver">Weaver</h2>
 <p>As you've probably guessed by now, Weaver, from the OpenTelemetry project, is tool which allows you to evaluate your live realtime telemetry against the semantic conventions you choose.</p>
 <p>Weaver acts as an endpoint. Telemetry is sent to Weaver and Weaver produces an output report.</p>
-<h3 id="step-1-download-weaver">Step 1: Download Weaver</h3>
-<p><a href="https://github.com/open-telemetry/weaver/releases">Download weaver</a> and extract the binary.</p>
-<h3 id="step-2-start-weaver">Step 2: Start Weaver</h3>
+<h3 id="step-1-start-weaver">Step 1: Start Weaver</h3>
 <p>Start Weaver, informing it to wait for <code>60</code> seconds without receiving telemetry before shutting down. The command below also sets the output format to <code>JSON</code>, creates a new folder called <code>weaver-output</code> and saves a new file in there called <code>live_check.json</code> when Weaver closes.</p>
+<ul>
+<li>Port <code>4317</code> is used to receive telemetry data (on the gRPC port).</li>
+<li>Port <code>4320</code> is optional and should be included if you wish to stop Weaver via the <code>curl</code> command (see later).</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Weaver Binary</p>
+<p>There is also a <a href="https://github.com/open-telemetry/weaver/releases">standalone Weaver binary available on GitHub</a></p>
+</div>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-p<span class="w"> </span><span class="m">4317</span>:4317<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-p<span class="w"> </span><span class="m">4320</span>:4320<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-u<span class="w"> </span><span class="k">$(</span>id<span class="w"> </span>-u<span class="w"> </span><span class="si">${</span><span class="nv">USER</span><span class="si">}</span><span class="k">)</span>:<span class="k">$(</span>id<span class="w"> </span>-g<span class="w"> </span><span class="si">${</span><span class="nv">USER</span><span class="si">}</span><span class="k">)</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--env<span class="w"> </span><span class="nv">HOME</span><span class="o">=</span>/tmp/weaver<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>otel/weaver:v0.15.2<span class="w"> </span>registry<span class="w"> </span>live-check<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--inactivity-timeout<span class="o">=</span><span class="m">60</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--output<span class="o">=</span>weaver-output<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--format<span class="o">=</span>json
+</code></pre></div>
+<p>or (for standalone binary):</p>
 <div class="highlight"><pre><span></span><code>./weaver<span class="w"> </span>registry<span class="w"> </span>live-check<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--inactivity-timeout<span class="o">=</span><span class="m">60</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--output<span class="o">=</span>weaver-output<span class="w"> </span><span class="se">\</span>
