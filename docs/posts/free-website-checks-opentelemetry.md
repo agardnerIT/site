@@ -53,3 +53,4 @@ service:
 The `collection_interval` defines how often the collector will check each endpoint. Note: 10 seconds is far too frequent for production. Probably once a minute is good enough (`1m`).
 
 That's it, start the collector and as long as you've configured the `exporters` section correctly for your backend, you should see metrics in your Observability tool.
+How Green is your Observability? How the OpenTelemetry collector can help
