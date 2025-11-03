@@ -4,7 +4,7 @@ categories:
 - opentelemetry
 - collector
 date:
-  created: 2025-08-24
+  created: 2025-08-17
 ---
 
 In this video I show how to convert any input signal type (metrics, logs, distributed traces or profiles) into metrics using the signaltometric connector in the OpenTelemetry collector.
