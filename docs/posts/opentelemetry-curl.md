@@ -13,4 +13,4 @@ Another video where I show how to get started ridiculously easy with OpenTelemet
 
 <!-- more -->
 
-[![OpenTelemetry logs using nothing more than cURL: YouTube](https://img.youtube.com/vi/FdY4PY8JEnU/0.jpg)](https://www.youtube.com/watch?v=FdY4PY8JEnU)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FdY4PY8JEnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

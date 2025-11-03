@@ -12,4 +12,4 @@ In this 5 minute video, I explain the OpenTelemetry filestats receiver.
 
 <!-- more -->
 
-[![OpenTelemetry filestats receiver in 5 minutes: YouTube](https://img.youtube.com/vi/3z0i_A5FPaw/0.jpg)](https://www.youtube.com/watch?v=3z0i_A5FPaw)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3z0i_A5FPaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

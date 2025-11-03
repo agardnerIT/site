@@ -14,4 +14,4 @@ A lot of OpenTelemetry collector distributions exist. Many from the OpenTelemetr
 
 In this video I discuss the options available to you, what you should consider when choosing and perhaps when to switch. My aim is to help you make a more informed decision.
 
-[![Everything you need to know (to get started) with the OpenTelemetry Collector: YouTube](https://img.youtube.com/vi/FMZQlHSE2CQ/0.jpg)](https://www.youtube.com/watch?v=FMZQlHSE2CQ)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FMZQlHSE2CQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

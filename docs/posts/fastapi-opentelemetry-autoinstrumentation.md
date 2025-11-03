@@ -14,4 +14,4 @@ In this video I demonstrate how to autoinstrument a Python-based FastAPI applica
 
 <!-- more -->
 
-[![FastAPI OpenTelemetry autoinstrumentation: YouTube](https://img.youtube.com/vi/xOmyeb3Ee10/0.jpg)](https://www.youtube.com/watch?v=xOmyeb3Ee10)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xOmyeb3Ee10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

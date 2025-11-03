@@ -12,4 +12,4 @@ In this video I deep dive into the OpenTelemetry collector components and explai
 
 <!-- more -->
 
-[![Everything you need to know (to get started) with the OpenTelemetry Collector: YouTube](https://img.youtube.com/vi/_CJrFW_yjRo/0.jpg)](https://www.youtube.com/watch?v=_CJrFW_yjRo)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_CJrFW_yjRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

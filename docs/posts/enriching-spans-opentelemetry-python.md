@@ -16,7 +16,7 @@ In the second of the series, the spans are enriched with useful metadata: Settin
 
 This is the text version for those who prefer to read instead. If you got here and want to watch, just click the image below.
 
-[![Manually Enrich a Python span with OpenTelemetry: YouTube](https://img.youtube.com/vi/jEbArKXtd0Y/0.jpg)](https://www.youtube.com/watch?v=jEbArKXtd0Y)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jEbArKXtd0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Understanding span_id and trace_id
 

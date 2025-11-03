@@ -12,4 +12,4 @@ In this video I get hands-on with the OpenTelemetry filelog receiver and send th
 
 <!-- more -->
 
-[![Hands on with the OpenTelemetry filelog receivers: YouTube](https://img.youtube.com/vi/Jqocv1UYn6Y/0.jpg)](https://www.youtube.com/watch?v=Jqocv1UYn6Y)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jqocv1UYn6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

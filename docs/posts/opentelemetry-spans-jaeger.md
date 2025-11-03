@@ -15,7 +15,7 @@ In the third episode of the series, the spans are sent from Python to Jaeger via
 
 This is the text version for those who prefer to read instead. If you got here and want to watch, just click the image below.
 
-[![OpenTelemetry Send Spans to Jaeger: YouTube](https://img.youtube.com/vi/tnml6Zd58gs/0.jpg)](https://www.youtube.com/watch?v=tnml6Zd58gs)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tnml6Zd58gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Building the System: A Place to Send Spans
 
