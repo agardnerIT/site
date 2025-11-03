@@ -4185,7 +4185,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              3 min read
+                              2 min read
                             
                           </span>
                         </div>
@@ -4215,7 +4215,8 @@
 <!-- more -->
 
 <p>This is the text version for those who prefer to read instead. If you got here and want to watch, just click the image below.</p>
-<p><a href="https://www.youtube.com/watch?v=jEbArKXtd0Y"><img alt="Manually Enrich a Python span with OpenTelemetry: YouTube" src="https://img.youtube.com/vi/jEbArKXtd0Y/0.jpg" /></a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jEbArKXtd0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h2 id="understanding-span_id-and-trace_id">Understanding span_id and trace_id</h2>
 <p>Each span has a name, which you defined in the decorator on line 19. Each span has a unique <code>span_id</code> and a (possibly non unique) <code>trace_id</code>. The difference between these two fields is that the <code>span_id</code> provides an ID for the small unit of work (the <code>add</code> method).</p>
 <p>Realise though that in a realistic program, you will have multiple functions and many microservices. Ie. you will have many spans. The <code>trace_id</code>.</p>
