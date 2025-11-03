@@ -12,6 +12,8 @@
         <link rel="prev" href="../free-website-checks-opentelemetry/">
       
       
+        <link rel="next" href="../prometheus-service-discovery-otel-target-allocator/">
+      
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
@@ -1174,31 +1176,6 @@
   
   <span class="md-ellipsis">
     centos
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../category/chaos-engineering/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    chaos engineering
     
   </span>
   
@@ -4173,14 +4150,14 @@
 
 
 
-<p><img alt="crewai observability" src="/images/headerimages/crewai-observability.png" /></p>
+<p><img alt="crewai observability" src="../images/headerimages/crewai-observability.png" /></p>
 <p>In this post &amp; video I'll demonstrate how to get full end-to-end Observability of your multi-agent CrewAI crews using Traceloop OpenLLMetry and the OpenTelemetry collector.</p>
 <!-- more -->
 
 <div class="admonition info">
 <p class="admonition-title">Watch</p>
 <p>If you'd prefer to watch rather than read, I have the following content as a YouTube video:</p>
-<p><a href="https://youtu.be/Jc7sltedVpo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15 5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73"/></svg></span> CrewAI Observability</a></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Jc7sltedVpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 </div>
 <p><a href="https://github.com/crewAIInc/crewAI">CrewAI</a> bills itself as a multi agent framework and orchestration tool.</p>
 <p>There are two main concepts:</p>
@@ -4345,7 +4322,7 @@ Attributes:
 </code></pre></div>
 <p>This is the textual representation of a single span. It is a single "task" being done and, as you can see, you have all of the information about this task. The inputs, parameters, attributes and outputs.</p>
 <p>This span represents one of the blue bars in the diagram below.</p>
-<p><img alt="" src="/images/headerimages/crewai-observability.png" /></p>
+<p><img alt="" src="../images/headerimages/crewai-observability.png" /></p>
 <p>Look more closely at the collector output. Notice that all spans share the same trace ID. This is how the Observability system understands that all of these spans are part of the same "unit of work" and thus visualise them together as you see above.</p>
 <div class="highlight"><pre><span></span><code>Span #0
     Trace ID       : e838675910b9a2a2ba5b0506220fe163

@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../opentelemetry-filestats-receiver/">
+        <link rel="prev" href="../crewai-observability/">
       
-      
-        <link rel="next" href="../first-steps-prometheus/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>A New Name for Chaos Engineering? - Adam Gardner | @agardnerit</title>
+        <title>Prometheus Service Discovery and OpenTelemetry Target Allocator - Adam Gardner | @agardnerit</title>
       
     
     
@@ -102,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              A New Name for Chaos Engineering?
+              Prometheus Service Discovery and OpenTelemetry Target Allocator
             
           </span>
         </div>
@@ -1171,31 +1169,6 @@
   
   <span class="md-ellipsis">
     centos
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="../category/chaos-engineering/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    chaos engineering
     
   </span>
   
@@ -4118,7 +4091,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2024-12-29 00:00:00+00:00" class="md-ellipsis">December 29, 2024</time>
+                        <time datetime="2025-07-30 00:00:00+00:00" class="md-ellipsis">July 30, 2025</time>
                       </div>
                     </li>
                     
@@ -4129,7 +4102,8 @@
                           <span class="md-ellipsis">
                             in
                             
-                              <a href="../category/chaos-engineering/">chaos engineering</a></span>
+                              <a href="../category/opentelemetry/">opentelemetry</a>, 
+                              <a href="../category/prometheus/">prometheus</a></span>
                         </div>
                       </li>
                     
@@ -4164,12 +4138,16 @@
 
 
 
-  <h1>A New Name for Chaos Engineering?</h1>
+  <h1>Prometheus Service Discovery and OpenTelemetry Target Allocator</h1>
 
-<p>In this video I discuss why I believe the discipline of Chaos Engineering is  hurt by its own name and is overdue a rebrand.</p>
+<p>In this post &amp; video I'll explain how to get metrics from a Kubernetes cluster the easy way. Starting with service discovery and <code>http_sd_config</code> then using the OpenTelemetry Target Allocator.</p>
 <!-- more -->
 
-<p><a href="https://www.youtube.com/watch?v=IimQocQBErI"><img alt="Chaos Engineering Needs a Rebrand: YouTube" src="https://img.youtube.com/vi/IimQocQBErI/0.jpg" /></a></p>
+<p>Here's how to get Prometheus metrics from your Kubernetes applications easily. First I show the "basic" way for a single cluster using the service discovery mechanisms in the OpenTelemetry collector http_sd_config.</p>
+<p>Then I extend the usecase to cover a more realistic multi-cluster, production ready setup using the OpenTelemetry Operator and Target Allocator.</p>
+<p>GitHub repo: <a href="https://github.com/agardnerIT/k8s-target-allocator">https://github.com/agardnerIT/k8s-target-allocator</a></p>
+<p><a href="https://youtu.be/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 15 5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73"/></svg></span> CrewAI Observability</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jc7sltedVpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
