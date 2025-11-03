@@ -12,4 +12,4 @@ If you want to do this securely, I have a [second video](https://youtu.be/P4VJkK
 
 <!-- more -->
 
-[![Monitor JSON with Prometheus: YouTube](https://img.youtube.com/vi/I4172tNcr_Y/0.jpg)](https://www.youtube.com/watch?v=I4172tNcr_Y)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I4172tNcr_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -14,7 +14,7 @@ date:
 !!! info "Watch"
     If you'd prefer to watch rather than read, I have the following content as a YouTube video:
 
-    [:material-youtube: Judging Telemetry Quality using OpenTelemetry Weaver](https://youtu.be/ReZzjR8Anrs)
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ReZzjR8Anrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Overview
 

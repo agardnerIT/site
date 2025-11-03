@@ -13,4 +13,4 @@ Here's how to use Python in Redis in under 4 minutes. This video will get you st
 
 This video is meant for beginners to get you up and running as quickly as possible.
 
-[![Redis in Python in under 4 minutes for beginners: YouTube](https://img.youtube.com/vi/8rFc3gymkto/0.jpg)](https://www.youtube.com/watch?v=8rFc3gymkto)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8rFc3gymkto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

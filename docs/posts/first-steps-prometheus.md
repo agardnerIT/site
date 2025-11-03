@@ -11,4 +11,4 @@ If you are brand new to Prometheus, this video will guide you through your first
 
 <!-- more -->
 
-[![Your First Steps with Prometheus: YouTube](https://img.youtube.com/vi/RwsSZ9DZvrg/0.jpg)](https://www.youtube.com/watch?v=RwsSZ9DZvrg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RwsSZ9DZvrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

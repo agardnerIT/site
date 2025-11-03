@@ -10,4 +10,4 @@ In this video, I respond to a Reddit thread where a user was asking for feedback
 
 <!-- more -->
 
-[![OpenTelemetry Semantic Conventions Best Practices on YouTube](https://img.youtube.com/vi/4DO48EcseeQ/0.jpg)](https://www.youtube.com/watch?v=4DO48EcseeQ)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4DO48EcseeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

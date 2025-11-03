@@ -14,4 +14,4 @@ In this video, I demonstrate how you can use the CNCF project ORAS to do exactly
 
 <!-- more -->
 
-[![CNCF ORAS](https://img.youtube.com/vi/pGFA0lngQnQ/0.jpg)](https://www.youtube.com/watch?v=pGFA0lngQnQ)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pGFA0lngQnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

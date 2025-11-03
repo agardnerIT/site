@@ -14,4 +14,4 @@ This video explains how it all works, with a live demo - of course.
 
 <!-- more -->
 
-[![Prometheus Service Discovery](https://img.youtube.com/vi/wNCuojBXwiM/0.jpg)](https://www.youtube.com/watch?v=wNCuojBXwiM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wNCuojBXwiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

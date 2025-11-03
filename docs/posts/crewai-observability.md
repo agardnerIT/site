@@ -11,7 +11,7 @@ date:
 header_image: /images/headerimages/crewai-observability.png
 ---
 
-![crewai observability](/images/headerimages/crewai-observability.png)
+![crewai observability](../images/headerimages/crewai-observability.png)
 
 In this post & video I'll demonstrate how to get full end-to-end Observability of your multi-agent CrewAI crews using Traceloop OpenLLMetry and the OpenTelemetry collector.
 
@@ -20,7 +20,7 @@ In this post & video I'll demonstrate how to get full end-to-end Observability o
 !!! info "Watch"
     If you'd prefer to watch rather than read, I have the following content as a YouTube video:
 
-    [:material-youtube: CrewAI Observability](https://youtu.be/Jc7sltedVpo)
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jc7sltedVpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [CrewAI](https://github.com/crewAIInc/crewAI) bills itself as a multi agent framework and orchestration tool.
 
@@ -224,7 +224,7 @@ This is the textual representation of a single span. It is a single "task" being
 
 This span represents one of the blue bars in the diagram below.
 
-![](/images/headerimages/crewai-observability.png)
+![](../images/headerimages/crewai-observability.png)
 
 Look more closely at the collector output. Notice that all spans share the same trace ID. This is how the Observability system understands that all of these spans are part of the same "unit of work" and thus visualise them together as you see above.
 
