@@ -9,28 +9,26 @@
       
       
       
-        <link rel="prev" href="../openssl/">
+        <link rel="prev" href="../agents-md-ignored/">
       
-      
-        <link rel="next" href="../oras/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
     
     
       
-        <title>opentelemetry - Adam Gardner | @agardnerit</title>
+        <title>Automatically instrument everything. Hands on with the OpenTelemetry injector - Adam Gardner | @agardnerit</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +47,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,11 +71,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#opentelemetry" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -90,9 +83,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Adam Gardner | @agardnerit" class="md-header__button md-logo" aria-label="Adam Gardner | @agardnerit" data-md-component="logo">
+    <a href=".." title="Adam Gardner | @agardnerit" class="md-header__button md-logo" aria-label="Adam Gardner | @agardnerit" data-md-component="logo">
       
-  <img src="../../images/logo.png" alt="logo">
+  <img src="../images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              opentelemetry
+              Automatically instrument everything. Hands on with the OpenTelemetry injector
             
           </span>
         </div>
@@ -214,7 +207,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -223,9 +218,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Adam Gardner | @agardnerit" class="md-nav__button md-logo" aria-label="Adam Gardner | @agardnerit" data-md-component="logo">
+    <a href=".." title="Adam Gardner | @agardnerit" class="md-nav__button md-logo" aria-label="Adam Gardner | @agardnerit" data-md-component="logo">
       
-  <img src="../../images/logo.png" alt="logo">
+  <img src="../images/logo.png" alt="logo">
 
     </a>
     Adam Gardner | @agardnerit
@@ -237,12 +232,14 @@
       
   
   
+    
+  
   
     
   
   
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+    <li class="md-nav__item md-nav__item--active">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -269,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../about/" class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         
   
   
@@ -296,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contact/" class="md-nav__link">
+      <a href="../contact/" class="md-nav__link">
         
   
   
@@ -372,7 +369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2026/" class="md-nav__link">
+      <a href="../archive/2026/" class="md-nav__link">
         
   
   
@@ -402,7 +399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2025/" class="md-nav__link">
+      <a href="../archive/2025/" class="md-nav__link">
         
   
   
@@ -432,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/" class="md-nav__link">
+      <a href="../archive/2024/" class="md-nav__link">
         
   
   
@@ -462,7 +459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2023/" class="md-nav__link">
+      <a href="../archive/2023/" class="md-nav__link">
         
   
   
@@ -492,7 +489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/" class="md-nav__link">
+      <a href="../archive/2022/" class="md-nav__link">
         
   
   
@@ -522,7 +519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2021/" class="md-nav__link">
+      <a href="../archive/2021/" class="md-nav__link">
         
   
   
@@ -552,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2020/" class="md-nav__link">
+      <a href="../archive/2020/" class="md-nav__link">
         
   
   
@@ -582,7 +579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2019/" class="md-nav__link">
+      <a href="../archive/2019/" class="md-nav__link">
         
   
   
@@ -612,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2018/" class="md-nav__link">
+      <a href="../archive/2018/" class="md-nav__link">
         
   
   
@@ -642,7 +639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2017/" class="md-nav__link">
+      <a href="../archive/2017/" class="md-nav__link">
         
   
   
@@ -674,20 +671,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -708,7 +703,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -728,7 +723,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../acm/" class="md-nav__link">
+      <a href="../category/acm/" class="md-nav__link">
         
   
   
@@ -758,7 +753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/" class="md-nav__link">
+      <a href="../category/agents/" class="md-nav__link">
         
   
   
@@ -788,7 +783,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ai/" class="md-nav__link">
+      <a href="../category/ai/" class="md-nav__link">
         
   
   
@@ -818,7 +813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ansible/" class="md-nav__link">
+      <a href="../category/ansible/" class="md-nav__link">
         
   
   
@@ -848,7 +843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apache/" class="md-nav__link">
+      <a href="../category/apache/" class="md-nav__link">
         
   
   
@@ -878,7 +873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apache-solr/" class="md-nav__link">
+      <a href="../category/apache-solr/" class="md-nav__link">
         
   
   
@@ -908,7 +903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../applications/" class="md-nav__link">
+      <a href="../category/applications/" class="md-nav__link">
         
   
   
@@ -938,7 +933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../appmon/" class="md-nav__link">
+      <a href="../category/appmon/" class="md-nav__link">
         
   
   
@@ -968,7 +963,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aquasec-trivy/" class="md-nav__link">
+      <a href="../category/aquasec-trivy/" class="md-nav__link">
         
   
   
@@ -998,7 +993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../architecture/" class="md-nav__link">
+      <a href="../category/architecture/" class="md-nav__link">
         
   
   
@@ -1028,7 +1023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../atlassian/" class="md-nav__link">
+      <a href="../category/atlassian/" class="md-nav__link">
         
   
   
@@ -1058,7 +1053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../autoinstrumentation/" class="md-nav__link">
+      <a href="../category/autoinstrumentation/" class="md-nav__link">
         
   
   
@@ -1088,7 +1083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../automation/" class="md-nav__link">
+      <a href="../category/automation/" class="md-nav__link">
         
   
   
@@ -1118,7 +1113,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../autonomous-monitoring/" class="md-nav__link">
+      <a href="../category/autonomous-monitoring/" class="md-nav__link">
         
   
   
@@ -1148,7 +1143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../aws/" class="md-nav__link">
+      <a href="../category/aws/" class="md-nav__link">
         
   
   
@@ -1178,7 +1173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../awx/" class="md-nav__link">
+      <a href="../category/awx/" class="md-nav__link">
         
   
   
@@ -1208,7 +1203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../backup/" class="md-nav__link">
+      <a href="../category/backup/" class="md-nav__link">
         
   
   
@@ -1238,7 +1233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bamboo/" class="md-nav__link">
+      <a href="../category/bamboo/" class="md-nav__link">
         
   
   
@@ -1268,7 +1263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../batch-job/" class="md-nav__link">
+      <a href="../category/batch-job/" class="md-nav__link">
         
   
   
@@ -1298,7 +1293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../business-transactions/" class="md-nav__link">
+      <a href="../category/business-transactions/" class="md-nav__link">
         
   
   
@@ -1328,7 +1323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../caching/" class="md-nav__link">
+      <a href="../category/caching/" class="md-nav__link">
         
   
   
@@ -1358,7 +1353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../canary/" class="md-nav__link">
+      <a href="../category/canary/" class="md-nav__link">
         
   
   
@@ -1388,7 +1383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cdfoundation/" class="md-nav__link">
+      <a href="../category/cdfoundation/" class="md-nav__link">
         
   
   
@@ -1418,7 +1413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../centos/" class="md-nav__link">
+      <a href="../category/centos/" class="md-nav__link">
         
   
   
@@ -1448,7 +1443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chatgpt/" class="md-nav__link">
+      <a href="../category/chatgpt/" class="md-nav__link">
         
   
   
@@ -1478,7 +1473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cicd/" class="md-nav__link">
+      <a href="../category/cicd/" class="md-nav__link">
         
   
   
@@ -1508,7 +1503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cloudevents/" class="md-nav__link">
+      <a href="../category/cloudevents/" class="md-nav__link">
         
   
   
@@ -1538,7 +1533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cncf/" class="md-nav__link">
+      <a href="../category/cncf/" class="md-nav__link">
         
   
   
@@ -1568,7 +1563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../collector/" class="md-nav__link">
+      <a href="../category/collector/" class="md-nav__link">
         
   
   
@@ -1598,7 +1593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../colocated-events/" class="md-nav__link">
+      <a href="../category/colocated-events/" class="md-nav__link">
         
   
   
@@ -1628,7 +1623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../containers/" class="md-nav__link">
+      <a href="../category/containers/" class="md-nav__link">
         
   
   
@@ -1658,7 +1653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../continuous-delivery-foundation/" class="md-nav__link">
+      <a href="../category/continuous-delivery-foundation/" class="md-nav__link">
         
   
   
@@ -1688,7 +1683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../crewai/" class="md-nav__link">
+      <a href="../category/crewai/" class="md-nav__link">
         
   
   
@@ -1718,7 +1713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../csv/" class="md-nav__link">
+      <a href="../category/csv/" class="md-nav__link">
         
   
   
@@ -1748,7 +1743,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../curl/" class="md-nav__link">
+      <a href="../category/curl/" class="md-nav__link">
         
   
   
@@ -1778,7 +1773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../databaseless/" class="md-nav__link">
+      <a href="../category/databaseless/" class="md-nav__link">
         
   
   
@@ -1808,7 +1803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../devto/" class="md-nav__link">
+      <a href="../category/devto/" class="md-nav__link">
         
   
   
@@ -1838,7 +1833,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../development/" class="md-nav__link">
+      <a href="../category/development/" class="md-nav__link">
         
   
   
@@ -1868,7 +1863,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../devops/" class="md-nav__link">
+      <a href="../category/devops/" class="md-nav__link">
         
   
   
@@ -1898,7 +1893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../digitalocean/" class="md-nav__link">
+      <a href="../category/digitalocean/" class="md-nav__link">
         
   
   
@@ -1928,7 +1923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dive/" class="md-nav__link">
+      <a href="../category/dive/" class="md-nav__link">
         
   
   
@@ -1958,7 +1953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dns/" class="md-nav__link">
+      <a href="../category/dns/" class="md-nav__link">
         
   
   
@@ -1988,7 +1983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dockerhub/" class="md-nav__link">
+      <a href="../category/dockerhub/" class="md-nav__link">
         
   
   
@@ -2018,7 +2013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dynatrace/" class="md-nav__link">
+      <a href="../category/dynatrace/" class="md-nav__link">
         
   
   
@@ -2048,7 +2043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../enrichment/" class="md-nav__link">
+      <a href="../category/enrichment/" class="md-nav__link">
         
   
   
@@ -2078,7 +2073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fastapi/" class="md-nav__link">
+      <a href="../category/fastapi/" class="md-nav__link">
         
   
   
@@ -2108,7 +2103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../feature-flag/" class="md-nav__link">
+      <a href="../category/feature-flag/" class="md-nav__link">
         
   
   
@@ -2138,7 +2133,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../feature-flags/" class="md-nav__link">
+      <a href="../category/feature-flags/" class="md-nav__link">
         
   
   
@@ -2168,7 +2163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../finops/" class="md-nav__link">
+      <a href="../category/finops/" class="md-nav__link">
         
   
   
@@ -2198,7 +2193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flask/" class="md-nav__link">
+      <a href="../category/flask/" class="md-nav__link">
         
   
   
@@ -2228,7 +2223,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fluent-bit/" class="md-nav__link">
+      <a href="../category/fluent-bit/" class="md-nav__link">
         
   
   
@@ -2258,7 +2253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fluentbit/" class="md-nav__link">
+      <a href="../category/fluentbit/" class="md-nav__link">
         
   
   
@@ -2288,7 +2283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gemini/" class="md-nav__link">
+      <a href="../category/gemini/" class="md-nav__link">
         
   
   
@@ -2318,7 +2313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../geolocation/" class="md-nav__link">
+      <a href="../category/geolocation/" class="md-nav__link">
         
   
   
@@ -2348,7 +2343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../github/" class="md-nav__link">
+      <a href="../category/github/" class="md-nav__link">
         
   
   
@@ -2378,7 +2373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../github-pages/" class="md-nav__link">
+      <a href="../category/github-pages/" class="md-nav__link">
         
   
   
@@ -2408,7 +2403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gitlab/" class="md-nav__link">
+      <a href="../category/gitlab/" class="md-nav__link">
         
   
   
@@ -2438,7 +2433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../headlamp/" class="md-nav__link">
+      <a href="../category/headlamp/" class="md-nav__link">
         
   
   
@@ -2468,7 +2463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../helm/" class="md-nav__link">
+      <a href="../category/helm/" class="md-nav__link">
         
   
   
@@ -2498,7 +2493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../host-groups/" class="md-nav__link">
+      <a href="../category/host-groups/" class="md-nav__link">
         
   
   
@@ -2528,7 +2523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../host-metadata/" class="md-nav__link">
+      <a href="../category/host-metadata/" class="md-nav__link">
         
   
   
@@ -2558,7 +2553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../infracost/" class="md-nav__link">
+      <a href="../category/infracost/" class="md-nav__link">
         
   
   
@@ -2588,7 +2583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../instrumentation/" class="md-nav__link">
+      <a href="../category/instrumentation/" class="md-nav__link">
         
   
   
@@ -2618,7 +2613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../istio/" class="md-nav__link">
+      <a href="../category/istio/" class="md-nav__link">
         
   
   
@@ -2648,7 +2643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../jaeger/" class="md-nav__link">
+      <a href="../category/jaeger/" class="md-nav__link">
         
   
   
@@ -2678,7 +2673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../javascript/" class="md-nav__link">
+      <a href="../category/javascript/" class="md-nav__link">
         
   
   
@@ -2708,7 +2703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../jq/" class="md-nav__link">
+      <a href="../category/jq/" class="md-nav__link">
         
   
   
@@ -2738,7 +2733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../json/" class="md-nav__link">
+      <a href="../category/json/" class="md-nav__link">
         
   
   
@@ -2768,7 +2763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../json_exporter/" class="md-nav__link">
+      <a href="../category/json_exporter/" class="md-nav__link">
         
   
   
@@ -2798,7 +2793,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../keptn/" class="md-nav__link">
+      <a href="../category/keptn/" class="md-nav__link">
         
   
   
@@ -2828,7 +2823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kubecon/" class="md-nav__link">
+      <a href="../category/kubecon/" class="md-nav__link">
         
   
   
@@ -2858,7 +2853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kubernetes/" class="md-nav__link">
+      <a href="../category/kubernetes/" class="md-nav__link">
         
   
   
@@ -2888,7 +2883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lambda/" class="md-nav__link">
+      <a href="../category/lambda/" class="md-nav__link">
         
   
   
@@ -2918,7 +2913,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../linux/" class="md-nav__link">
+      <a href="../category/linux/" class="md-nav__link">
         
   
   
@@ -2948,7 +2943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../log-monitoring/" class="md-nav__link">
+      <a href="../category/log-monitoring/" class="md-nav__link">
         
   
   
@@ -2978,7 +2973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../logging/" class="md-nav__link">
+      <a href="../category/logging/" class="md-nav__link">
         
   
   
@@ -3008,7 +3003,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../logs/" class="md-nav__link">
+      <a href="../category/logs/" class="md-nav__link">
         
   
   
@@ -3038,7 +3033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../management-zones/" class="md-nav__link">
+      <a href="../category/management-zones/" class="md-nav__link">
         
   
   
@@ -3068,7 +3063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../measures/" class="md-nav__link">
+      <a href="../category/measures/" class="md-nav__link">
         
   
   
@@ -3098,7 +3093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../metadata/" class="md-nav__link">
+      <a href="../category/metadata/" class="md-nav__link">
         
   
   
@@ -3128,7 +3123,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../metrics/" class="md-nav__link">
+      <a href="../category/metrics/" class="md-nav__link">
         
   
   
@@ -3158,7 +3153,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitoring/" class="md-nav__link">
+      <a href="../category/monitoring/" class="md-nav__link">
         
   
   
@@ -3188,7 +3183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../multigitter/" class="md-nav__link">
+      <a href="../category/multigitter/" class="md-nav__link">
         
   
   
@@ -3218,7 +3213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../nats/" class="md-nav__link">
+      <a href="../category/nats/" class="md-nav__link">
         
   
   
@@ -3248,7 +3243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../oneagent/" class="md-nav__link">
+      <a href="../category/oneagent/" class="md-nav__link">
         
   
   
@@ -3278,7 +3273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../open-source/" class="md-nav__link">
+      <a href="../category/open-source/" class="md-nav__link">
         
   
   
@@ -3308,7 +3303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../opencv/" class="md-nav__link">
+      <a href="../category/opencv/" class="md-nav__link">
         
   
   
@@ -3338,7 +3333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../openfeature/" class="md-nav__link">
+      <a href="../category/openfeature/" class="md-nav__link">
         
   
   
@@ -3368,7 +3363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../openllmetry/" class="md-nav__link">
+      <a href="../category/openllmetry/" class="md-nav__link">
         
   
   
@@ -3398,7 +3393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../openssl/" class="md-nav__link">
+      <a href="../category/openssl/" class="md-nav__link">
         
   
   
@@ -3423,23 +3418,12 @@
                 
   
   
-    
-  
   
     
-      
-    
   
   
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../category/opentelemetry/" class="md-nav__link">
         
   
   
@@ -3455,7 +3439,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -3470,7 +3453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../oras/" class="md-nav__link">
+      <a href="../category/oras/" class="md-nav__link">
         
   
   
@@ -3500,7 +3483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../osquery/" class="md-nav__link">
+      <a href="../category/osquery/" class="md-nav__link">
         
   
   
@@ -3530,7 +3513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../osticket/" class="md-nav__link">
+      <a href="../category/osticket/" class="md-nav__link">
         
   
   
@@ -3560,7 +3543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../otterize/" class="md-nav__link">
+      <a href="../category/otterize/" class="md-nav__link">
         
   
   
@@ -3590,7 +3573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pipeline/" class="md-nav__link">
+      <a href="../category/pipeline/" class="md-nav__link">
         
   
   
@@ -3620,7 +3603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pipelines/" class="md-nav__link">
+      <a href="../category/pipelines/" class="md-nav__link">
         
   
   
@@ -3650,7 +3633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pitometer/" class="md-nav__link">
+      <a href="../category/pitometer/" class="md-nav__link">
         
   
   
@@ -3680,7 +3663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../plugin/" class="md-nav__link">
+      <a href="../category/plugin/" class="md-nav__link">
         
   
   
@@ -3710,7 +3693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../process-group-naming/" class="md-nav__link">
+      <a href="../category/process-group-naming/" class="md-nav__link">
         
   
   
@@ -3740,7 +3723,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prometheus/" class="md-nav__link">
+      <a href="../category/prometheus/" class="md-nav__link">
         
   
   
@@ -3770,7 +3753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pup/" class="md-nav__link">
+      <a href="../category/pup/" class="md-nav__link">
         
   
   
@@ -3800,7 +3783,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pyrsia/" class="md-nav__link">
+      <a href="../category/pyrsia/" class="md-nav__link">
         
   
   
@@ -3830,7 +3813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../python/" class="md-nav__link">
+      <a href="../category/python/" class="md-nav__link">
         
   
   
@@ -3860,7 +3843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../quality-gates/" class="md-nav__link">
+      <a href="../category/quality-gates/" class="md-nav__link">
         
   
   
@@ -3890,7 +3873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../quick-tip/" class="md-nav__link">
+      <a href="../category/quick-tip/" class="md-nav__link">
         
   
   
@@ -3920,7 +3903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../redis/" class="md-nav__link">
+      <a href="../category/redis/" class="md-nav__link">
         
   
   
@@ -3950,7 +3933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../release-management/" class="md-nav__link">
+      <a href="../category/release-management/" class="md-nav__link">
         
   
   
@@ -3980,7 +3963,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../restore/" class="md-nav__link">
+      <a href="../category/restore/" class="md-nav__link">
         
   
   
@@ -4010,7 +3993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reverse-proxy/" class="md-nav__link">
+      <a href="../category/reverse-proxy/" class="md-nav__link">
         
   
   
@@ -4040,7 +4023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../salt/" class="md-nav__link">
+      <a href="../category/salt/" class="md-nav__link">
         
   
   
@@ -4070,7 +4053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../saltstack/" class="md-nav__link">
+      <a href="../category/saltstack/" class="md-nav__link">
         
   
   
@@ -4100,7 +4083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security/" class="md-nav__link">
+      <a href="../category/security/" class="md-nav__link">
         
   
   
@@ -4130,7 +4113,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../self-healing/" class="md-nav__link">
+      <a href="../category/self-healing/" class="md-nav__link">
         
   
   
@@ -4160,7 +4143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../serverless/" class="md-nav__link">
+      <a href="../category/serverless/" class="md-nav__link">
         
   
   
@@ -4190,7 +4173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../service-level-agreement/" class="md-nav__link">
+      <a href="../category/service-level-agreement/" class="md-nav__link">
         
   
   
@@ -4220,7 +4203,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../service-level-providers/" class="md-nav__link">
+      <a href="../category/service-level-providers/" class="md-nav__link">
         
   
   
@@ -4250,7 +4233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../service-naming/" class="md-nav__link">
+      <a href="../category/service-naming/" class="md-nav__link">
         
   
   
@@ -4280,7 +4263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../shell-script/" class="md-nav__link">
+      <a href="../category/shell-script/" class="md-nav__link">
         
   
   
@@ -4310,7 +4293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sli/" class="md-nav__link">
+      <a href="../category/sli/" class="md-nav__link">
         
   
   
@@ -4340,7 +4323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../slo/" class="md-nav__link">
+      <a href="../category/slo/" class="md-nav__link">
         
   
   
@@ -4370,7 +4353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../software-performance/" class="md-nav__link">
+      <a href="../category/software-performance/" class="md-nav__link">
         
   
   
@@ -4400,7 +4383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../span/" class="md-nav__link">
+      <a href="../category/span/" class="md-nav__link">
         
   
   
@@ -4430,7 +4413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../spans/" class="md-nav__link">
+      <a href="../category/spans/" class="md-nav__link">
         
   
   
@@ -4460,7 +4443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sql/" class="md-nav__link">
+      <a href="../category/sql/" class="md-nav__link">
         
   
   
@@ -4490,7 +4473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sql-injection/" class="md-nav__link">
+      <a href="../category/sql-injection/" class="md-nav__link">
         
   
   
@@ -4520,7 +4503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sre/" class="md-nav__link">
+      <a href="../category/sre/" class="md-nav__link">
         
   
   
@@ -4550,7 +4533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../summary/" class="md-nav__link">
+      <a href="../category/summary/" class="md-nav__link">
         
   
   
@@ -4580,7 +4563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../synthetic/" class="md-nav__link">
+      <a href="../category/synthetic/" class="md-nav__link">
         
   
   
@@ -4610,7 +4593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tagging/" class="md-nav__link">
+      <a href="../category/tagging/" class="md-nav__link">
         
   
   
@@ -4640,7 +4623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../traceloop/" class="md-nav__link">
+      <a href="../category/traceloop/" class="md-nav__link">
         
   
   
@@ -4670,7 +4653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tracepusher/" class="md-nav__link">
+      <a href="../category/tracepusher/" class="md-nav__link">
         
   
   
@@ -4700,7 +4683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../traces/" class="md-nav__link">
+      <a href="../category/traces/" class="md-nav__link">
         
   
   
@@ -4730,7 +4713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tracing/" class="md-nav__link">
+      <a href="../category/tracing/" class="md-nav__link">
         
   
   
@@ -4760,7 +4743,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tutorial/" class="md-nav__link">
+      <a href="../category/tutorial/" class="md-nav__link">
         
   
   
@@ -4790,7 +4773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tutorials/" class="md-nav__link">
+      <a href="../category/tutorials/" class="md-nav__link">
         
   
   
@@ -4820,7 +4803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ultralytics/" class="md-nav__link">
+      <a href="../category/ultralytics/" class="md-nav__link">
         
   
   
@@ -4850,7 +4833,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../unleash/" class="md-nav__link">
+      <a href="../category/unleash/" class="md-nav__link">
         
   
   
@@ -4880,7 +4863,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vault/" class="md-nav__link">
+      <a href="../category/vault/" class="md-nav__link">
         
   
   
@@ -4910,7 +4893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../voting/" class="md-nav__link">
+      <a href="../category/voting/" class="md-nav__link">
         
   
   
@@ -4940,7 +4923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../weaver/" class="md-nav__link">
+      <a href="../category/weaver/" class="md-nav__link">
         
   
   
@@ -4970,7 +4953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../web-dashboards/" class="md-nav__link">
+      <a href="../category/web-dashboards/" class="md-nav__link">
         
   
   
@@ -5000,7 +4983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../web-performance/" class="md-nav__link">
+      <a href="../category/web-performance/" class="md-nav__link">
         
   
   
@@ -5030,7 +5013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../webpage-parser/" class="md-nav__link">
+      <a href="../category/webpage-parser/" class="md-nav__link">
         
   
   
@@ -5060,7 +5043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../webpage-scraper/" class="md-nav__link">
+      <a href="../category/webpage-scraper/" class="md-nav__link">
         
   
   
@@ -5090,7 +5073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../wordpress/" class="md-nav__link">
+      <a href="../category/wordpress/" class="md-nav__link">
         
   
   
@@ -5120,7 +5103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../yolo/" class="md-nav__link">
+      <a href="../category/yolo/" class="md-nav__link">
         
   
   
@@ -5156,6 +5139,8 @@
             
             
               
+                
+              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -5165,8 +5150,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -5175,450 +5158,108 @@
             
           
           
-  <div class="md-content" data-md-component="content">
-    <div class="md-content__inner">
-      <header class="md-typeset">
-        <h1 id="opentelemetry">opentelemetry</h1>
-      </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2026-02-25 00:00:00+00:00">February 25, 2026</time></li>
-        
-          <li class="md-meta__item">
-            in
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href=".." class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Back to index
+                  </span>
+                </a>
+              </div>
+            </div>
             
-              <a href="./" class="md-meta__link">opentelemetry</a></li>
-        
-        
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadata
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                        <time datetime="2026-02-25 00:00:00+00:00" class="md-ellipsis">February 25, 2026</time>
+                      </div>
+                    </li>
+                    
+                    
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3zm3 2 4 13 3-1-4-13zM5 5v13h3V5zM3 19v2h18v-2z"/></svg>
+                          <span class="md-ellipsis">
+                            in
+                            
+                              <a href="../category/opentelemetry/">opentelemetry</a></span>
+                        </div>
+                      </li>
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              1 min read
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+            
+          </nav>
           
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
+        </div>
+      </div>
     </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="automatically-instrument-everything-hands-on-with-the-opentelemetry-injector"><a class="toclink" href="../../opentelemetry-injector/">Automatically instrument everything. Hands on with the OpenTelemetry injector</a></h2>
+    <article class="md-content__inner md-typeset">
+      
+        
+  
+
+
+
+
+  <h1>Automatically instrument everything. Hands on with the OpenTelemetry injector</h1>
+
 <p>In this video I demonstrate the new OpenTelemetry injector. It's a mechanism to automatically inject OTEL into your code with zero code or startup script changes. It's potentially a great way to gain Observability of non Kubernetes workloads like VMs.</p>
+<!-- more -->
 
-    
-      <nav class="md-post__action">
-        <a href="../../opentelemetry-injector/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2026-02-16 00:00:00+00:00">February 16, 2026</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="./" class="md-meta__link">opentelemetry</a>, 
-              <a href="../collector/" class="md-meta__link">collector</a>, 
-              <a href="../security/" class="md-meta__link">security</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="block-api-tokens-and-sensitive-data-using-the-opentelemetry-collector"><a class="toclink" href="../../block-sensitive-data-opentelemetry/">Block API Tokens and Sensitive Data using the OpenTelemetry Collector</a></h2>
-<p>In this video I use mazen160's fantastic secrets regex list to build filter and transform processors rules for the OpenTelemetry collector. This configuration blocks 883 different API tokens, keys and sensitive strings from ever reaching your observability backend systems.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../block-sensitive-data-opentelemetry/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-12-28 00:00:00+00:00">December 28, 2025</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="./" class="md-meta__link">opentelemetry</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="distributed-tracing-works-like-the-childrens-game-pass-the-parcel"><a class="toclink" href="../../distributed-tracing-pass-the-parcel/">Distributed Tracing works like the childrens game "pass the parcel"</a></h2>
-<p>Distributed tracing works like the childrens game "pass the parcel". That statement seems like a little bit of Christmas fun (it is <em>also</em> that), but it turns out it's actually quite a good analogy for how distributed tracing in OpenTelemetry work under the hood.</p>
-<p>Let's take a look!</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../distributed-tracing-pass-the-parcel/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-11-14 00:00:00+00:00">November 14, 2025</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="./" class="md-meta__link">opentelemetry</a>, 
-              <a href="../osquery/" class="md-meta__link">osquery</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="bringing-osquery-together-with-opentelemetry"><a class="toclink" href="../../osquery-opentelemetry/">Bringing osquery together with OpenTelemetry</a></h2>
-<p>osquery is a fantastic little tool, typically used in security setups, which turns your endpoints into a queryable SQL database (eg. <code>SELECT * from processes</code>).</p>
-<p>In this video I show you how to grab that data and send it to your Observability system so that now, both Observability (APM) data and security data can co-exist in a single place.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../osquery-opentelemetry/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-10-27 00:00:00+00:00">October 27, 2025</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="./" class="md-meta__link">opentelemetry</a>, 
-              <a href="../tracing/" class="md-meta__link">tracing</a>, 
-              <a href="../ai/" class="md-meta__link">ai</a>, 
-              <a href="../gemini/" class="md-meta__link">gemini</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="how-to-monitor-googles-gemini-cli-using-opentelemetry"><a class="toclink" href="../../gemini-cli-monitoring/">How to monitor Google's Gemini CLI using OpenTelemetry</a></h2>
-<p>Track token counts, model usage, tool usage and "developer idle time" (the time you sit waiting for an answer when using Google's Gemini CLI and the OpenTelemetry collector. In this video, I show you how...</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../gemini-cli-monitoring/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-09-20 00:00:00+00:00">September 20, 2025</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="./" class="md-meta__link">opentelemetry</a>, 
-              <a href="../tracing/" class="md-meta__link">tracing</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="how-opentelemetry-tracing-really-works"><a class="toclink" href="../../how-distributed-tracing-really-works/">How OpenTelemetry tracing really works</a></h2>
-<p>A technical deep dive explanation of how OpenTelemetry distributed tracing really works under the hood with examples using Python, FastAPI and the requests module and Jaeger. I discuss the traceparent header and its importance in correctly stitching a trace together end-to-end.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../how-distributed-tracing-really-works/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-09-05 00:00:00+00:00">September 5, 2025</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="./" class="md-meta__link">opentelemetry</a>, 
-              <a href="../collector/" class="md-meta__link">collector</a>, 
-              <a href="../logs/" class="md-meta__link">logs</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="log-processing-top-10-with-the-opentelemetry-collector"><a class="toclink" href="../../log-processing-top-10/">Log Processing Top 10 with the OpenTelemetry Collector</a></h2>
-<p>In this video I cover the top 10 ways and methods that I find myself using at customers to process their log files using the OpenTelemetry collector.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../log-processing-top-10/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-08-22 00:00:00+00:00">August 22, 2025</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="./" class="md-meta__link">opentelemetry</a>, 
-              <a href="../collector/" class="md-meta__link">collector</a>, 
-              <a href="../csv/" class="md-meta__link">csv</a>, 
-              <a href="../enrichment/" class="md-meta__link">enrichment</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="enrich-logs-using-csv-files-and-the-opentelemetry-collector"><a class="toclink" href="../../csv-log-enrichment/">Enrich Logs using CSV Files and the OpenTelemetry Collector</a></h2>
-<p>You can enrich your metrics, logs and traces in REALTIME using CSV data and the OpenTelemetry collector. This video shows you how to build a custom collector using the OpenTelemetry Collector Builder (ocb) and how to process, match and enrich log lines with CSV data.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../csv-log-enrichment/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-08-17 00:00:00+00:00">August 17, 2025</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="./" class="md-meta__link">opentelemetry</a>, 
-              <a href="../collector/" class="md-meta__link">collector</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="convert-anything-to-a-metric-with-the-opentelemetry-signal-to-metric-signaltometric-connector"><a class="toclink" href="../../opentelemetry-signaltometric/">Convert anything to a metric with the OpenTelemetry Signal to Metric (signaltometric) connector</a></h2>
-<p>In this video I show how to convert any input signal type (metrics, logs, distributed traces or profiles) into metrics using the signaltometric connector in the OpenTelemetry collector.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../opentelemetry-signaltometric/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-07-30 00:00:00+00:00">July 30, 2025</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="./" class="md-meta__link">opentelemetry</a>, 
-              <a href="../prometheus/" class="md-meta__link">prometheus</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="prometheus-service-discovery-and-opentelemetry-target-allocator"><a class="toclink" href="../../prometheus-service-discovery-otel-target-allocator/">Prometheus Service Discovery and OpenTelemetry Target Allocator</a></h2>
-<p>In this post &amp; video I'll explain how to get metrics from a Kubernetes cluster the easy way. Starting with service discovery and <code>http_sd_config</code> then using the OpenTelemetry Target Allocator.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../prometheus-service-discovery-otel-target-allocator/">
-          Continue reading
-        </a>
-      </nav>
-    
-    
-  </div>
-</article>
-      
-      
-        
-          
+<p>It leverages <code>LD_PRELOAD</code>. You add the <code>LD_PRELOAD</code> instruction to your VM at startup and the rest happens automatically.</p>
+<p>Do heed the warnings towards the end of the video though since it's still early days for this tool!</p>
+<p>GitHub Repo: <a href="https://github.com/agardnerIT/opentelemetry-injector-tutorial">https://github.com/agardnerIT/opentelemetry-injector-tutorial</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AFHbhcciASQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
-<nav class="md-pagination">
-  <span class="md-pagination__current">1</span> <a class="md-pagination__link" href="page/2/">2</a> <a class="md-pagination__link" href="page/3/">3</a>
-</nav>
-        
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
       
-    </div>
+    </article>
   </div>
 
           
@@ -5705,10 +5346,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
