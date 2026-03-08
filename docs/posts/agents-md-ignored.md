@@ -1,5 +1,5 @@
 ---
-title: Your Agents.md file might be being ignored. Here's why it may not matter.
+title: Your Agents.md file might be being ignored. Here's why it may not matter
 categories:
 - agents
 - ai
