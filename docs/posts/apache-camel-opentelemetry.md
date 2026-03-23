@@ -150,7 +150,7 @@ public void configure() {
 }
 ```
 
-## Step 3: Create Python caller
+## Create Python caller
 
 Time to create the Python script that will start the end-to-end flow and actually call Apache.
 
