@@ -9,6 +9,8 @@ date:
 
 # Tracing Python, FastAPI and requests through Apache Camel 4 using OpenTelemetry
 
+![camel end-to-end traced with OpenTelemetry](../images/postimages/camel-e2e-opentelemetry.png)
+
 In this post I'm going to walk you through how to trace from Python through Apache Camel to another Python process. End to end using OpenTelemetry - and it's really not as hard as it sounds!
 
 ```
