@@ -1,5 +1,5 @@
 ---
-title: Semgrep Observability using the OpenTelemetry Collector
+title: Observability of Semgrep output using the OpenTelemetry Collector
 categories:
 - opentelemetry
 - security
@@ -9,7 +9,7 @@ date:
 ---
 
 
-This video demonstrates how to process and parse semgrep output using the OpenTelemetry Collector. First the JSON reports are saved to disk, read by the collector and parsed. Then we dynamically enrich the report with new key value pairs, drop log attributes to save money and finally create metrics from the log JSON data.
+This video demonstrates how to process and parse [semgrep](https://github.com/semgrep/semgrep) output using the OpenTelemetry Collector. First the JSON reports are saved to disk, read by the collector and parsed. Then we dynamically enrich the report with new key value pairs, drop log attributes to save money and finally create metrics from the log JSON data.
 
 <!-- more -->
 
